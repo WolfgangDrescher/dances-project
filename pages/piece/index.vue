@@ -22,7 +22,7 @@ const columns = [
             class: '-mx-2.5',
             onClick: () => column.toggleSorting(column.getIsSorted() === 'asc'),
         });
-    }, cell: ({ row }) => `${row.original.meta.body.op} / ${row.original.meta.body.nr}` },
+    }, cell: ({ row }) => `${row.original.op} / ${row.original.nr}` },
     { accessorKey: 'largerWorkTitle', header: t('title') },
     { accessorKey: 'key', header: ({ column }) => {
         const isSorted = column.getIsSorted();
