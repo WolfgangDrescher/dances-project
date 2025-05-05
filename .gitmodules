@@ -1,0 +1,3 @@
+[submodule "schubert-dances"]
+	path = schubert-dances
+	url = https://github.com/WolfgangDrescher/schubert-dances.git
