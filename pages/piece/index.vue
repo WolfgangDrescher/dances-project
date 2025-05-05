@@ -68,7 +68,6 @@ const sorting = ref([
 
 <template>
     <UContainer>
-        {{ data }}
         <div class="flex flex-col gap-8">
             <Heading>Stücke</Heading>
             <UTable v-model:sorting="sorting" :data="data" :columns="columns" class="mt-8">
