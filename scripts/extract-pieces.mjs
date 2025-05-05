@@ -60,7 +60,7 @@ getFiles(pathToKernScores).forEach(file => {
     const key = kern.match(/\*([a-hA-H][\#\-]*):/)?.[1] ?? null;
     const meter = kern.match(/\*M(\d+\/\d+)/)?.[1] ?? null;
     const config = Object.assign({
-        id: `schubert-${id}`,
+        slug: `schubert-${id}`,
         filename: id,
         title: referenceRecords.OTL,
         urlScan: referenceRecords['URL-scan'],

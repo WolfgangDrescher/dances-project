@@ -1,6 +1,5 @@
 composer: Franz Schubert
 filename: 969-03
-id: schubert-969-03
 key: C
 largerWorkTitle: 12 Valses nobles
 localRawFile: /kern/schubert-dances/969-03.krn
@@ -8,3 +7,4 @@ majorMinor: major
 meter: 3/4
 nr: 3
 op: 77
+slug: schubert-969-03

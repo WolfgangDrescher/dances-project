@@ -77,8 +77,8 @@ const sorting = ref([
                 </template>
                 <template #actions-cell="{ row }">
                     <div class="flex gap-1 justify-end">
-                        <UButton size="sm" color="primary" variant="solid" :label="t('vhv')" :to="`https://verovio.humdrum.org/?file=${encodeURIComponent(`https://github.com/WolfgangDrescher/schubert-dances/blob/master/kern/${row.original.meta.body.filename}.krn`)}`" target="_blank" />
-                        <UButton size="sm" color="primary" variant="solid" :label="t('view')" :to="localePath({ name: 'piece-id', params: { id: row.original.meta.body.id } })" />
+                        <UButton size="sm" color="primary" variant="solid" :label="t('vhv')" :to="`https://verovio.humdrum.org/?file=${encodeURIComponent(`https://github.com/WolfgangDrescher/schubert-dances/blob/master/kern/${row.original.filename}.krn`)}`" target="_blank" />
+                        <UButton size="sm" color="primary" variant="solid" :label="t('view')" :to="localePath({ name: 'piece-id', params: { id: row.original.slug } })" />
                     </div>
                 </template>
             </UTable>
