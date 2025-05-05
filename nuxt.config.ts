@@ -9,7 +9,7 @@ export default defineNuxtConfig({
         '@nuxt/fonts',
         '@nuxtjs/i18n',
         '@pinia/nuxt',
-        '@nuxt/content'
+        '@nuxt/content',
     ],
     css: ['~/assets/main.css'],
     i18n: {
