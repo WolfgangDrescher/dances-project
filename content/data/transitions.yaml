@@ -1,0 +1,229 @@
+transitions:
+    -
+        count: 1
+        currentDeg: V
+        items:
+            -
+                beat: 12
+                id: schubert-779-04
+                lineNumber: 44
+        nextDeg: I
+    -
+        count: 1
+        currentDeg: I
+        items:
+            -
+                beat: 54
+                id: schubert-779-13
+                lineNumber: 111
+        nextDeg: III
+    -
+        count: 4
+        currentDeg: I
+        items:
+            -
+                beat: 24
+                id: schubert-969-01
+                lineNumber: 56
+            -
+                beat: 24
+                id: schubert-969-06
+                lineNumber: 69
+            -
+                beat: 7
+                id: schubert-969-11
+                lineNumber: 30
+            -
+                beat: 24
+                id: schubert-969-12
+                lineNumber: 62
+        nextDeg: ii
+    -
+        count: 1
+        currentDeg: I
+        items:
+            -
+                beat: 91
+                id: schubert-969-03
+                lineNumber: 156
+        nextDeg: vi
+    -
+        count: 1
+        currentDeg: I
+        items:
+            -
+                beat: 24
+                id: schubert-969-07
+                lineNumber: 74
+        nextDeg: VI♭
+    -
+        count: 1
+        currentDeg: III
+        items:
+            -
+                beat: 84
+                id: schubert-779-13
+                lineNumber: 158
+        nextDeg: IV
+    -
+        count: 1
+        currentDeg: III
+        items:
+            -
+                beat: 13
+                id: schubert-969-05
+                lineNumber: 41
+        nextDeg: v
+    -
+        count: 2
+        currentDeg: III
+        items:
+            -
+                beat: 48
+                id: schubert-969-05
+                lineNumber: 102
+            -
+                beat: 85
+                id: schubert-969-05
+                lineNumber: 164
+        nextDeg: iv
+    -
+        count: 3
+        currentDeg: III
+        items:
+            -
+                beat: 13
+                id: schubert-969-09
+                lineNumber: 38
+            -
+                beat: 37
+                id: schubert-969-09
+                lineNumber: 76
+            -
+                beat: 70
+                id: schubert-969-09
+                lineNumber: 133
+        nextDeg: i
+    -
+        count: 1
+        currentDeg: IV
+        items:
+            -
+                beat: 90
+                id: schubert-779-13
+                lineNumber: 171
+        nextDeg: I
+    -
+        count: 3
+        currentDeg: ii
+        items:
+            -
+                beat: 30
+                id: schubert-969-01
+                lineNumber: 67
+            -
+                beat: 31
+                id: schubert-969-06
+                lineNumber: 87
+            -
+                beat: 13
+                id: schubert-969-11
+                lineNumber: 42
+        nextDeg: I
+    -
+        count: 1
+        currentDeg: ii
+        items:
+            -
+                beat: 37
+                id: schubert-969-12
+                lineNumber: 86
+        nextDeg: VII♭
+    -
+        count: 1
+        currentDeg: vi
+        items:
+            -
+                beat: 97
+                id: schubert-969-03
+                lineNumber: 166
+        nextDeg: VI
+    -
+        count: 1
+        currentDeg: VI
+        items:
+            -
+                beat: 127
+                id: schubert-969-03
+                lineNumber: 212
+        nextDeg: I
+    -
+        count: 4
+        currentDeg: i
+        items:
+            -
+                beat: 7
+                id: schubert-969-05
+                lineNumber: 30
+            -
+                beat: 7
+                id: schubert-969-09
+                lineNumber: 29
+            -
+                beat: 31
+                id: schubert-969-09
+                lineNumber: 67
+            -
+                beat: 61
+                id: schubert-969-09
+                lineNumber: 118
+        nextDeg: III
+    -
+        count: 1
+        currentDeg: i
+        items:
+            -
+                beat: 48
+                id: schubert-969-07
+                lineNumber: 124
+        nextDeg: I
+    -
+        count: 1
+        currentDeg: v
+        items:
+            -
+                beat: 24
+                id: schubert-969-05
+                lineNumber: 59
+        nextDeg: III
+    -
+        count: 2
+        currentDeg: iv
+        items:
+            -
+                beat: 61
+                id: schubert-969-05
+                lineNumber: 125
+            -
+                beat: 91
+                id: schubert-969-05
+                lineNumber: 175
+        nextDeg: III
+    -
+        count: 1
+        currentDeg: VI♭
+        items:
+            -
+                beat: 37
+                id: schubert-969-07
+                lineNumber: 103
+        nextDeg: i
+    -
+        count: 1
+        currentDeg: VII♭
+        items:
+            -
+                beat: 61
+                id: schubert-969-12
+                lineNumber: 131
+        nextDeg: I
