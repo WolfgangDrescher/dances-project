@@ -1,3 +1,75 @@
+schubert-779-01:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 108
+        key: C
+        startBeat: 0
+        startLine: 16
+schubert-779-02:
+    -
+        deg: I
+        endBeat: 7.25
+        endLine: 34
+        key: C
+        startBeat: 0
+        startLine: 17
+    -
+        deg: V
+        endBeat: 13.25
+        endLine: 49
+        key: G
+        startBeat: 7.25
+        startLine: 34
+    -
+        deg: I
+        endBeat: 24
+        endLine: 72
+        key: C
+        startBeat: 13.25
+        startLine: 49
+    -
+        deg: III♭
+        endBeat: 37.25
+        endLine: 105
+        key: E-
+        startBeat: 24
+        startLine: 72
+    -
+        deg: VI♭
+        endBeat: 43.25
+        endLine: 119
+        key: A-
+        startBeat: 37.25
+        startLine: 105
+    -
+        deg: III♭
+        endBeat: 49.25
+        endLine: 137
+        key: E-
+        startBeat: 43.25
+        startLine: 119
+    -
+        deg: I
+        endBeat: 61.25
+        endLine: 162
+        key: C
+        startBeat: 49.25
+        startLine: 137
+    -
+        deg: IV
+        endBeat: 67.25
+        endLine: 176
+        key: F
+        startBeat: 61.25
+        startLine: 162
+    -
+        deg: V
+        endBeat: 72
+        endLine: 184
+        key: G
+        startBeat: 67.25
+        startLine: 176
 schubert-779-04:
     -
         deg: V
