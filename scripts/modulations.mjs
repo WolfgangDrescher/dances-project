@@ -49,8 +49,6 @@ getFiles(pathToKernScores).forEach(file => {
         return [parseInt(lineNumber, 10), parseFloat(beatDur), parseFloat(beat), parseFloat(beatDurAttacksNull)];
     });
 
-    console.log(keys)
-
     const indexMap = {
         lineNumber: 0,
         beatDur: 1,
