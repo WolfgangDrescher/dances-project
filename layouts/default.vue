@@ -7,14 +7,16 @@ useHead({
 </script>
 
 <template>
-    <div class="flex flex-col min-h-screen">
-        <TheHeader />
-        <TheNavigation />
-        <main class="py-8">
-            <slot></slot>
-        </main>
-        <TheFooter class="mt-auto" />
-    </div>
+    <UApp>
+        <div class="flex flex-col min-h-screen">
+            <TheHeader />
+            <TheNavigation />
+            <main class="py-8">
+                <slot></slot>
+            </main>
+            <TheFooter class="mt-auto" />
+        </div>
+    </UApp>
 </template>
 
 <style>
