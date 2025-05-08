@@ -1,11 +1,32 @@
 schubert-779-01:
     -
         deg: I
-        endBeat: 48
-        endLine: 108
+        endBeat: 24.25
+        endLine: 67
         key: C
         startBeat: 0
         startLine: 16
+    -
+        deg: vi
+        endBeat: 31.25
+        endLine: 82
+        key: a
+        startBeat: 24.25
+        startLine: 67
+    -
+        deg: IV
+        endBeat: 37.25
+        endLine: 94
+        key: F
+        startBeat: 31.25
+        startLine: 82
+    -
+        deg: I
+        endBeat: 48
+        endLine: 111
+        key: C
+        startBeat: 37.25
+        startLine: 94
 schubert-779-02:
     -
         deg: I
