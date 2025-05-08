@@ -1,6 +1,7 @@
 <script setup>
 const { data } = await useAsyncData('pieces', () => queryCollection('pieces').all())
 const { data: modulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
+const { data: transitionsData } = await useAsyncData(`transitions`, () => queryCollection('data').path('/data/transitions').first(), {deep: false });
 const localePath = useLocalePath();
 
 const { t } = useI18n();
@@ -26,6 +27,41 @@ const openScore = ref(null);
 function toggleScore(value) {
     openScore.value = openScore.value === value ? null : value;
 }
+
+const separator = ' → ';
+const transitionsConfig = computed(() => ({
+    type: 'bar',
+    data: {
+        datasets: [{
+            data: transitionsData.value.body.transitions.sort((a, b) => b.count > a.count ? 1 : -1).map(i => ({ x: `${i.currentDeg}${separator}${i.nextDeg}`, y: i.count })),
+        }],
+    },
+    options: {
+        interaction: {
+            mode: 'nearest',
+            axis: 'x',
+            intersect: false,
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                display: false,
+            },
+            tooltip: {
+                yAlign: 'bottom',
+            },
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0,
+                },
+            },
+        },
+    },
+}));
 </script>
 
 <template>
@@ -69,6 +105,12 @@ function toggleScore(value) {
                             <PieceMap :modulations="modulationsData.body[piece.slug]" :show-keys="options.showKeys" />
                         </div>
                     </UCard>
+                </div>
+            </template>
+
+            <template #transitions>
+                <div class="h-[300px]">
+                    <Chart :config="transitionsConfig" />
                 </div>
             </template>
 
