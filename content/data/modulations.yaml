@@ -1,0 +1,320 @@
+schubert-779-04:
+    -
+        deg: V
+        endBeat: 12
+        endLine: 44
+        key: D
+        startBeat: 0
+        startLine: 19
+    -
+        deg: I
+        endBeat: 50
+        endLine: 143
+        key: G
+        startBeat: 12
+        startLine: 44
+schubert-779-13:
+    -
+        deg: I
+        endBeat: 54
+        endLine: 111
+        key: A
+        startBeat: 0
+        startLine: 18
+    -
+        deg: III
+        endBeat: 84
+        endLine: 158
+        key: C#
+        startBeat: 54
+        startLine: 111
+    -
+        deg: IV
+        endBeat: 90
+        endLine: 171
+        key: D
+        startBeat: 84
+        startLine: 158
+    -
+        deg: I
+        endBeat: 119
+        endLine: 218
+        key: A
+        startBeat: 90
+        startLine: 171
+schubert-969-01:
+    -
+        deg: I
+        endBeat: 24
+        endLine: 56
+        key: C
+        startBeat: 0
+        startLine: 17
+    -
+        deg: ii
+        endBeat: 30
+        endLine: 67
+        key: d
+        startBeat: 24
+        startLine: 56
+    -
+        deg: I
+        endBeat: 48
+        endLine: 97
+        key: C
+        startBeat: 30
+        startLine: 67
+schubert-969-03:
+    -
+        deg: I
+        endBeat: 91
+        endLine: 156
+        key: C
+        startBeat: 0
+        startLine: 17
+    -
+        deg: vi
+        endBeat: 97
+        endLine: 166
+        key: a
+        startBeat: 91
+        startLine: 156
+    -
+        deg: VI
+        endBeat: 127
+        endLine: 212
+        key: A
+        startBeat: 97
+        startLine: 166
+    -
+        deg: I
+        endBeat: 175
+        endLine: 292
+        key: C
+        startBeat: 127
+        startLine: 212
+schubert-969-04:
+    -
+        deg: I
+        endBeat: 74
+        endLine: 150
+        key: G
+        startBeat: 0
+        startLine: 17
+schubert-969-05:
+    -
+        deg: i
+        endBeat: 7
+        endLine: 30
+        key: a
+        startBeat: 0
+        startLine: 17
+    -
+        deg: III
+        endBeat: 13
+        endLine: 41
+        key: C
+        startBeat: 7
+        startLine: 30
+    -
+        deg: v
+        endBeat: 24
+        endLine: 59
+        key: e
+        startBeat: 13
+        startLine: 41
+    -
+        deg: III
+        endBeat: 48
+        endLine: 102
+        key: C
+        startBeat: 24
+        startLine: 59
+    -
+        deg: iv
+        endBeat: 61
+        endLine: 125
+        key: d
+        startBeat: 48
+        startLine: 102
+    -
+        deg: III
+        endBeat: 85
+        endLine: 164
+        key: C
+        startBeat: 61
+        startLine: 125
+    -
+        deg: iv
+        endBeat: 91
+        endLine: 175
+        key: d
+        startBeat: 85
+        startLine: 164
+    -
+        deg: III
+        endBeat: 96
+        endLine: 180
+        key: C
+        startBeat: 91
+        startLine: 175
+schubert-969-06:
+    -
+        deg: I
+        endBeat: 24
+        endLine: 69
+        key: C
+        startBeat: 0
+        startLine: 16
+    -
+        deg: ii
+        endBeat: 31
+        endLine: 87
+        key: d
+        startBeat: 24
+        startLine: 69
+    -
+        deg: I
+        endBeat: 49
+        endLine: 124
+        key: C
+        startBeat: 31
+        startLine: 87
+schubert-969-07:
+    -
+        deg: I
+        endBeat: 24
+        endLine: 74
+        key: E
+        startBeat: 0
+        startLine: 16
+    -
+        deg: VI♭
+        endBeat: 37
+        endLine: 103
+        key: C
+        startBeat: 24
+        startLine: 74
+    -
+        deg: i
+        endBeat: 48
+        endLine: 124
+        key: e
+        startBeat: 37
+        startLine: 103
+    -
+        deg: I
+        endBeat: 72
+        endLine: 182
+        key: E
+        startBeat: 48
+        startLine: 124
+schubert-969-09:
+    -
+        deg: i
+        endBeat: 7
+        endLine: 29
+        key: a
+        startBeat: 0
+        startLine: 17
+    -
+        deg: III
+        endBeat: 13
+        endLine: 38
+        key: C
+        startBeat: 7
+        startLine: 29
+    -
+        deg: i
+        endBeat: 31
+        endLine: 67
+        key: a
+        startBeat: 13
+        startLine: 38
+    -
+        deg: III
+        endBeat: 37
+        endLine: 76
+        key: C
+        startBeat: 31
+        startLine: 67
+    -
+        deg: i
+        endBeat: 61
+        endLine: 118
+        key: a
+        startBeat: 37
+        startLine: 76
+    -
+        deg: III
+        endBeat: 70
+        endLine: 133
+        key: C
+        startBeat: 61
+        startLine: 118
+    -
+        deg: i
+        endBeat: 108
+        endLine: 194
+        key: a
+        startBeat: 70
+        startLine: 133
+schubert-969-10:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 105
+        key: F
+        startBeat: 0
+        startLine: 18
+schubert-969-11:
+    -
+        deg: I
+        endBeat: 7
+        endLine: 30
+        key: C
+        startBeat: 0
+        startLine: 17
+    -
+        deg: ii
+        endBeat: 13
+        endLine: 42
+        key: d
+        startBeat: 7
+        startLine: 30
+    -
+        deg: I
+        endBeat: 48
+        endLine: 96
+        key: C
+        startBeat: 13
+        startLine: 42
+schubert-969-12:
+    -
+        deg: I
+        endBeat: 24
+        endLine: 62
+        key: C
+        startBeat: 0
+        startLine: 17
+    -
+        deg: ii
+        endBeat: 37
+        endLine: 86
+        key: d
+        startBeat: 24
+        startLine: 62
+    -
+        deg: VII♭
+        endBeat: 61
+        endLine: 131
+        key: B-
+        startBeat: 37
+        startLine: 86
+    -
+        deg: I
+        endBeat: 108
+        endLine: 207
+        key: C
+        startBeat: 61
+        startLine: 131
