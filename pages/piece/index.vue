@@ -2,6 +2,7 @@
 const UButton = resolveComponent('UButton');
 
 const { data } = await useAsyncData('pieces', () => queryCollection('pieces').all())
+const { data: modulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
 
 const { t } = useI18n();
 const localePath = useLocalePath();
@@ -64,13 +65,43 @@ const sorting = ref([
         desc: false,
     },
 ]);
+
+const defaultFilters = {
+    deg: null,
+};
+
+const filters = reactive({ ...defaultFilters });
+
+const filteredPieces = computed(() => {
+    return data.value.filter(item => {
+        if (filters.deg) {
+            return modulationsData.value.body[item.body.slug].map(i => i.deg).includes(filters.deg);
+        }
+        return true;
+    });
+});
+
+const degItems = [...Object.values(modulationsData.value.body).reduce((acc, modulations) => {
+	modulations.forEach(mod => acc.add(mod.deg));
+	return acc;
+}, new Set())];
+
+function resetFilters() {
+    for (const key in defaultFilters) {
+		filters[key] = defaultFilters[key];
+	}
+}
 </script>
 
 <template>
     <UContainer>
         <div class="flex flex-col gap-8">
             <Heading>Stücke</Heading>
-            <UTable v-model:sorting="sorting" :data="data" :columns="columns" class="mt-8">
+            <div class="grid grid-cols-4 gap-4">
+                <USelect v-model="filters.deg" :items="degItems" class="w-full" />
+                <UButton @click="resetFilters">{{ $t('resetFilters') }}</UButton>
+            </div>
+            <UTable v-model:sorting="sorting" :data="filteredPieces" :columns="columns" class="mt-8">
                 <template #audio-cell="{ row, cell, column }">
                     <MidiPlayer :url="row.original.localRawFile" class="text-2xl"/>
                 </template>
