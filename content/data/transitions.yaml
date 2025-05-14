@@ -49,9 +49,17 @@ transitions:
                 lineNumber: 111
         nextDeg: III
     -
-        count: 4
+        count: 6
         currentDeg: I
         items:
+            -
+                beat: 12.25
+                id: schubert-790-03
+                lineNumber: 47
+            -
+                beat: 39.25
+                id: schubert-790-03
+                lineNumber: 117
             -
                 beat: 24
                 id: schubert-969-01
@@ -69,6 +77,15 @@ transitions:
                 id: schubert-969-12
                 lineNumber: 62
         nextDeg: ii
+    -
+        count: 1
+        currentDeg: I
+        items:
+            -
+                beat: 24
+                id: schubert-790-03
+                lineNumber: 74
+        nextDeg: VI
     -
         count: 1
         currentDeg: I
@@ -119,7 +136,7 @@ transitions:
                 lineNumber: 176
         nextDeg: V
     -
-        count: 2
+        count: 3
         currentDeg: V
         items:
             -
@@ -130,6 +147,10 @@ transitions:
                 beat: 12
                 id: schubert-779-04
                 lineNumber: 44
+            -
+                beat: 33.25
+                id: schubert-790-03
+                lineNumber: 101
         nextDeg: I
     -
         count: 1
@@ -216,9 +237,21 @@ transitions:
                 lineNumber: 133
         nextDeg: i
     -
-        count: 3
+        count: 6
         currentDeg: ii
         items:
+            -
+                beat: 6.25
+                id: schubert-790-03
+                lineNumber: 33
+            -
+                beat: 18.25
+                id: schubert-790-03
+                lineNumber: 61
+            -
+                beat: 44.25
+                id: schubert-790-03
+                lineNumber: 129
             -
                 beat: 30
                 id: schubert-969-01
@@ -237,10 +270,28 @@ transitions:
         currentDeg: ii
         items:
             -
+                beat: 30.25
+                id: schubert-790-03
+                lineNumber: 93
+        nextDeg: V
+    -
+        count: 1
+        currentDeg: ii
+        items:
+            -
                 beat: 37
                 id: schubert-969-12
                 lineNumber: 86
         nextDeg: VII♭
+    -
+        count: 1
+        currentDeg: VI
+        items:
+            -
+                beat: 27.25
+                id: schubert-790-03
+                lineNumber: 85
+        nextDeg: ii
     -
         count: 1
         currentDeg: VI
