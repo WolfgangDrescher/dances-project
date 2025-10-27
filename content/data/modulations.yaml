@@ -138,11 +138,88 @@ schubert-779-13:
 schubert-790-01:
     -
         deg: I
-        endBeat: 159
-        endLine: 309
+        endBeat: 27
+        endLine: 73
         key: D
         startBeat: 0
         startLine: 20
+    -
+        deg: vi
+        endBeat: 33
+        endLine: 87
+        key: b
+        startBeat: 27
+        startLine: 73
+    -
+        deg: V
+        endBeat: 39
+        endLine: 98
+        key: A
+        startBeat: 33
+        startLine: 87
+    -
+        deg: I
+        endBeat: 75
+        endLine: 166
+        key: D
+        startBeat: 39
+        startLine: 98
+    -
+        deg: vi
+        endBeat: 81
+        endLine: 180
+        key: b
+        startBeat: 75
+        startLine: 166
+    -
+        deg: V
+        endBeat: 93
+        endLine: 199
+        key: A
+        startBeat: 81
+        startLine: 180
+    -
+        deg: III♭
+        endBeat: 126
+        endLine: 255
+        key: F
+        startBeat: 93
+        startLine: 199
+    -
+        deg: I
+        endBeat: 138
+        endLine: 286
+        key: D
+        startBeat: 126
+        startLine: 255
+    -
+        deg: vi
+        endBeat: 145
+        endLine: 297
+        key: b
+        startBeat: 138
+        startLine: 286
+    -
+        deg: I
+        endBeat: 149
+        endLine: 303
+        key: D
+        startBeat: 145
+        startLine: 297
+    -
+        deg: II
+        endBeat: 152
+        endLine: 310
+        key: E
+        startBeat: 149
+        startLine: 303
+    -
+        deg: I
+        endBeat: 159
+        endLine: 320
+        key: D
+        startBeat: 152
+        startLine: 310
 schubert-790-02:
     -
         deg: I
@@ -222,6 +299,14 @@ schubert-790-03:
         key: D
         startBeat: 44.25
         startLine: 129
+schubert-790-05:
+    -
+        deg: i
+        endBeat: 72
+        endLine: 127
+        key: b
+        startBeat: 0
+        startLine: 17
 schubert-969-01:
     -
         deg: I
