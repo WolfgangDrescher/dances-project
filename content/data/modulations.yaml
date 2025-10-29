@@ -307,6 +307,14 @@ schubert-790-05:
         key: b
         startBeat: 0
         startLine: 17
+schubert-790-06:
+    -
+        deg: i
+        endBeat: 76
+        endLine: 153
+        key: g#
+        startBeat: 0
+        startLine: 17
 schubert-969-01:
     -
         deg: I
