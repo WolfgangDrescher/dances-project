@@ -1,5 +1,5 @@
 <template>
     <UContainer>
-        Index
+        Schubert Dances-Project
     </UContainer>
 </template>
