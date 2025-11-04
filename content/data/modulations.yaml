@@ -310,11 +310,167 @@ schubert-790-05:
 schubert-790-06:
     -
         deg: i
-        endBeat: 76
-        endLine: 153
+        endBeat: 7
+        endLine: 28
         key: g#
         startBeat: 0
         startLine: 17
+    -
+        deg: iv
+        endBeat: 13
+        endLine: 37
+        key: c#
+        startBeat: 7
+        startLine: 28
+    -
+        deg: i
+        endBeat: 35
+        endLine: 81
+        key: g#
+        startBeat: 13
+        startLine: 37
+    -
+        deg: IV
+        endBeat: 41
+        endLine: 91
+        key: C#
+        startBeat: 35
+        startLine: 81
+    -
+        deg: III
+        endBeat: 48
+        endLine: 102
+        key: B
+        startBeat: 41
+        startLine: 91
+    -
+        deg: i
+        endBeat: 55
+        endLine: 116
+        key: g#
+        startBeat: 48
+        startLine: 102
+    -
+        deg: III
+        endBeat: 64
+        endLine: 137
+        key: B
+        startBeat: 55
+        startLine: 116
+    -
+        deg: i
+        endBeat: 76
+        endLine: 160
+        key: g#
+        startBeat: 64
+        startLine: 137
+schubert-790-07:
+    -
+        deg: I
+        endBeat: 16
+        endLine: 47
+        key: A-
+        startBeat: 0
+        startLine: 19
+    -
+        deg: iv
+        endBeat: 19
+        endLine: 53
+        key: d-
+        startBeat: 16
+        startLine: 47
+    -
+        deg: I
+        endBeat: 40
+        endLine: 94
+        key: A-
+        startBeat: 19
+        startLine: 53
+    -
+        deg: VI
+        endBeat: 55
+        endLine: 124
+        key: F
+        startBeat: 40
+        startLine: 94
+    -
+        deg: iv
+        endBeat: 61
+        endLine: 133
+        key: d-
+        startBeat: 55
+        startLine: 124
+    -
+        deg: I
+        endBeat: 88
+        endLine: 178
+        key: A-
+        startBeat: 61
+        startLine: 133
+    -
+        deg: iv
+        endBeat: 91
+        endLine: 183
+        key: d-
+        startBeat: 88
+        startLine: 178
+    -
+        deg: I
+        endBeat: 96
+        endLine: 188
+        key: A-
+        startBeat: 91
+        startLine: 183
+schubert-790-08:
+    -
+        deg: i
+        endBeat: 76
+        endLine: 158
+        key: a-
+        startBeat: 0
+        startLine: 17
+    -
+        deg: IV
+        endBeat: 82
+        endLine: 169
+        key: D-
+        startBeat: 76
+        startLine: 158
+    -
+        deg: iii
+        endBeat: 88
+        endLine: 181
+        key: c-
+        startBeat: 82
+        startLine: 169
+    -
+        deg: i
+        endBeat: 124
+        endLine: 247
+        key: a-
+        startBeat: 88
+        startLine: 181
+    -
+        deg: iv
+        endBeat: 130
+        endLine: 258
+        key: d-
+        startBeat: 124
+        startLine: 247
+    -
+        deg: iii
+        endBeat: 136
+        endLine: 269
+        key: c-
+        startBeat: 130
+        startLine: 258
+    -
+        deg: i
+        endBeat: 144
+        endLine: 283
+        key: a-
+        startBeat: 136
+        startLine: 269
 schubert-969-01:
     -
         deg: I
