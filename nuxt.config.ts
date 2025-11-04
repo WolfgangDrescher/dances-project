@@ -1,5 +1,15 @@
+import { execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
+function resolveCorelliTrioSonatasSha() {
+    try {
+        return execSync(`git rev-parse --short=7 HEAD:corelli-trio-sonatas`, { encoding: 'utf8' }).toString().trim();
+    } catch {
+        return '';
+    }
+}
+
+const corelliTrioSonatasSha = resolveCorelliTrioSonatasSha();
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     compatibilityDate: '2024-11-01',
@@ -12,6 +22,11 @@ export default defineNuxtConfig({
         '@nuxt/content',
     ],
     css: ['~/assets/main.css'],
+    runtimeConfig: {
+        public: {
+            corelliTrioSonatasSha,
+        },
+    },
     i18n: {
         strategy: 'prefix_except_default',
         locales: [
