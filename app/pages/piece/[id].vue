@@ -2,6 +2,7 @@
 const localePath = useLocalePath();
 const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryCollection('pieces').where('stem', '=', `pieces/${id}`).first());
+const { data: modulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
 
 if (!piece.value) {
     throw createError({
@@ -26,6 +27,10 @@ onMounted(async () => {
 const formattedData = computed(() => {
     const lines = score.value?.trim().split('\n') ?? [];
     return score.value ? `${lines.join('\n')}` : null;
+});
+
+const options = reactive({
+    showKeys: false,
 });
 </script>
 
@@ -78,6 +83,13 @@ const formattedData = computed(() => {
                     pageMarginBottom: 10,
                 }"
             />
+
+            <div>
+                <div class="my-4 flex grow-0 flex-wrap gap-6">
+                    <UCheckbox v-model="options.showKeys" :label="$t('showKeys')" />
+                </div>
+                <PieceMap :modulations="modulationsData.body[piece.slug]" :show-keys="options.showKeys" />
+            </div>
 
         </div>
     </UContainer>
