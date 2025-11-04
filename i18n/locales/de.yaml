@@ -20,3 +20,22 @@ minimap: Minimap
 transitions: Übergänge
 showKeys: Tonarten anzeigen
 resetFilters: Filter zurücksetzen
+scoreCommandPalette: Partitur-Befehlspalette 
+searchCommandsAndScoreOptions: Suche nach Befehlen und Partituroptionen
+highlights: Hervorhebungen
+humdrumFilters: Humdrum Filter
+verovioOptions: Verovio Optionen
+showModulations: Modulationen anzeigen
+showModulationsDegLabel: Modulationen als Stufe anzeigen
+showMeter: Schläge anzeigen
+bassstufen: Bassstufen anzeigen
+hideFiguredbass: Generalbass ausblenden
+showFiguredbassAbove: Generalbassziffern oberhalb anzeigen
+zoomIn: Partitur vergrössern
+zoomOut: Partitur verkleinern
+resetZoom: Partitur Anzeige zurücksetzen
+resetAllVerovioOptions: Alle Verovio Optionen zurücksetzen
+resetAllHumdrumFilters: Alle Humdrum Filter zurücksetzen
+resetAllHighlights: Alle Hervorhebungen zurücksetzen
+resetAll: Alles zurücksetzen
+showOnlyActiveFilters: Nur aktive Filter anzeigen

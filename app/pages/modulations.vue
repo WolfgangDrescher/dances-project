@@ -112,6 +112,19 @@ const transitionsConfig = computed(() => ({
                 <div class="h-[300px]">
                     <Chart :config="transitionsConfig" />
                 </div>
+                <!-- <div v-if="filteredTransition.items" class="flex flex-wrap gap-2 mt-4">
+                    <UButton v-for="(item, index) in filteredTransition.items" :key="`${item.id}-${item.beat}`" @click="loadIndex(index)">
+                        {{ `${item.id}-${item.beat}` }}
+                        <Modal v-if="openModal === `${item.id}-${item.beat}`" @close="closeModal" :title="`${item.id}-${item.beat}`">
+                            <MidiPlayer :url="`/kern/schubert-dances/${item.id}.krn`" class="text-2xl" />
+                            <VerovioCanvas v-if="modalScoreData"  :data="modalScoreData" :scale="35" :page-margin="50" :key="modalScoreData" />
+                            <div class="flex gap-4">
+                                <UButton v-if="filteredTransition.items[index - 1]" @click="loadIndex(index - 1)" class="mr-auto">{{ $t('previous') }}</UButton>
+                                <UButton v-if="filteredTransition.items[index + 1]" @click="loadIndex(index + 1)" class="ml-auto">{{ $t('next') }}</UButton>
+                            </div>
+                        </Modal>
+                    </UButton>
+                </div> -->
             </template>
 
         </UTabs>

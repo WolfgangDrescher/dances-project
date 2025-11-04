@@ -2,6 +2,9 @@
 const localePath = useLocalePath();
 const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryCollection('pieces').where('stem', '=', `pieces/${id}`).first());
+const { data: modulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
+
+const modulations = modulationsData.value.body[id] ?? [];
 
 if (!piece.value) {
     throw createError({
@@ -15,17 +18,17 @@ const { data: surroundData } = await useAsyncData(`pieces/${piece.value.path}/su
 }));
 const [prevPiece, nextPiece] = surroundData.value;
 
-const score = ref();
+const { localScoreUrlGenerator, githubScoreUrlGenerator, vhvScoreUrlGenerator } = useScoreUrlGenerator();
 
-onMounted(async () => {
-    const response = await fetch(piece.value.localRawFile);
-    const kern = await response.text();
-    score.value = kern;
+const scoreOptions = useScoreOptions();
+
+useScoreKeyboardShortcuts({
+    prevPiece,
+    nextPiece,
 });
 
-const formattedData = computed(() => {
-    const lines = score.value?.trim().split('\n') ?? [];
-    return score.value ? `${lines.join('\n')}` : null;
+const options = reactive({
+    showKeys: false,
 });
 </script>
 
@@ -56,27 +59,42 @@ const formattedData = computed(() => {
             </div>
 
             <div class="flex flex-col md:flex-row items-center gap-4">
+                <div>
+                    <ScoreOptionsPalette />
+                </div>
                 <div class="shrink-0 flex gap-2 ml-auto md:order-2">
-                    <MidiPlayer :url="piece.localRawFile" class="text-2xl"/>
-                    <UButton :to="`https://github.com/WolfgangDrescher/schubert-dances/blob/master/kern/${piece.filename}.krn`" target="_blank">
+                    <MidiPlayer :url="localScoreUrlGenerator(piece.slug)" class="text-2xl"/>
+                    <UButton :to="githubScoreUrlGenerator(piece.slug)" target="_blank">
                         {{ $t('github') }}
                     </UButton>
-                    <UButton :to="`https://verovio.humdrum.org/?file=${encodeURIComponent(`https://github.com/WolfgangDrescher/schubert-dances/blob/master/kern/${piece.filename}.krn`)}`" target="_blank">
+                    <UButton :to="vhvScoreUrlGenerator(piece.slug)" target="_blank">
                         {{ $t('vhv') }}
                     </UButton>
                 </div>
             </div>
 
-            <VerovioCanvas
-                v-if="formattedData"
-                :data="formattedData"
-                :options="{
+            <HighlightedScore
+                :piece-id="piece.slug"
+                :verovio-options="{
+                    ...scoreOptions.verovioOptions,
+                    header: true,
                     spacingSystem: 15,
-                    pageMarginLeft: 30,
-                    pageMarginRight: 30,
+                    pageMarginLeft: 50,
+                    pageMarginRight: 0,
                     pageMarginTop: 10,
                     pageMarginBottom: 10,
                 }"
+                :lines="scoreOptions.showModulations ? [{
+                    items: modulations.map(m => ({
+                        lineNumber: m.startLine,
+                        label: {
+                            value: scoreOptions.showModulationsDegLabel ? m.deg : m.key,
+                            position: 'bottom',
+                        },
+                    })),
+                    color: 'rgb(34 197 94 / 0.4)',
+                }] : []"
+                :filters="scoreOptions.humdrumFilters"
             />
 
         </div>
