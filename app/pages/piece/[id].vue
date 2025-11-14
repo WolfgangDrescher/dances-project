@@ -88,7 +88,7 @@ const options = reactive({
                     items: modulations.map(m => ({
                         lineNumber: m.startLine,
                         label: {
-                            value: scoreOptions.showModulationsDegLabel ? m.deg : m.key,
+                            value: scoreOptions.showModulationsDegLabel ?`${m.deg} / ${m.key}` : m.key,
                             position: 'bottom',
                         },
                     })),
