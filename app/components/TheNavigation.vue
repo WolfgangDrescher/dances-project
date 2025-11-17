@@ -19,6 +19,10 @@ const items = [
         label: t('specialChords'),
         to: localePath({name: 'special-chords'}),
     },
+    {
+        label: t('cadences'),
+        to: localePath({name: 'cadences'}),
+    },
 ];
 </script>
 

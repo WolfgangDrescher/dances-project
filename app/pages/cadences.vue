@@ -1,5 +1,5 @@
 <template>
     <UContainer>
-        <Heading>Chords</Heading>
+        <Heading>cadences</Heading>
     </UContainer>
 </template>
