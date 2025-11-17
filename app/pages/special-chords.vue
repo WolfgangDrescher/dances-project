@@ -25,7 +25,7 @@ const filteredPieces = computed(() => {
 
 <template>
     <UContainer>
-        <Heading>{{ $t('Besondere Akkorde') }}</Heading>
+        <Heading>{{ $t('specialChords') }}</Heading>
 
         <div class="grid grid-cols-1 gap-4">
             <UCard v-for="piece in filteredPieces" :key="piece.slug">
