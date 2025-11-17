@@ -1,6 +1,6 @@
 <script setup>
 const { data } = await useAsyncData('pieces', () => queryCollection('pieces').all())
-const { data: specialchordsData } = await useAsyncData(`specialchords`, () => queryCollection('data').path('/data/specialchords').first(), {deep: false });
+const { data: specialchordsData } = await useAsyncData(`special-chords`, () => queryCollection('data').path('/data/special-chords').first(), {deep: false });
 const localePath = useLocalePath();
 
 const { t } = useI18n();
@@ -14,7 +14,7 @@ function toggleScore(value) {
     openScore.value = openScore.value === value ? null : value;
 }
 
-// Only show pieces that have entries in specialchords.yaml
+// Only show pieces that have entries in special-chords.yaml
 const filteredPieces = computed(() => {
     if (!specialchordsData || !specialchordsData.body) return [];
     const slugs = Object.keys(specialchordsData.body).filter(k => specialchordsData.body[k] && specialchordsData.body[k].length);
