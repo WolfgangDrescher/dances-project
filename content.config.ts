@@ -22,5 +22,9 @@ export default defineContentConfig({
             source: 'data/**/*.yaml',
             type: 'page',
         }),
+        rawData: defineCollection({
+            source: 'raw-data/**/*.yaml',
+            type: 'page',
+        }),
     },
 });
