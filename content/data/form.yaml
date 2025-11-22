@@ -1,0 +1,66 @@
+790-02:
+    -
+        name: A
+        start: 1/1
+        end: 8/1
+        children:
+            -
+                name: Aa
+                start: 1/1
+                end: 4/1
+                children:
+                    -
+                        name: Motiv 1
+                        startLine: null
+                        endLine: null
+                        startKey: null
+                        endKey: null
+                    -
+                        name: Motiv 2
+                        startLine: null
+                        endLine: null
+                        startKey: null
+                        endKey: null
+                startLine: 18
+                endLine: 30
+                startKey: A
+                endKey: A
+                startBeat: 0
+                endBeat: 9
+            -
+                name: Aa'
+                start: 5/1
+                end: 8/1
+                startLine: 33
+                endLine: 46
+                startKey: f#
+                endKey: f#
+                startBeat: 12
+                endBeat: 21
+        startLine: 18
+        endLine: 46
+        startKey: A
+        endKey: f#
+        startBeat: 0
+        endBeat: 21
+    -
+        name: sequence
+        sequence: Fonte
+        start: 9/1
+        end: 16/1
+        startLine: 50
+        endLine: 88
+        startKey: c#
+        endKey: B
+        startBeat: 24
+        endBeat: 45
+    -
+        name: T
+        start: 17/1
+        end: 25/1
+        startLine: 96
+        endLine: 147
+        startKey: f#
+        endKey: A
+        startBeat: 48
+        endBeat: 72
