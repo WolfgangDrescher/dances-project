@@ -8,8 +8,7 @@ import { romanize } from '../app/utils/romanize.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pathToKernScores = `${__dirname}/../schubert-dances/kern/`;
-const modulationsYamlPath = `${__dirname}/../content/data/modulations.yaml`;
-const transitionsYamlPath = `${__dirname}/../content/data/transitions.yaml`;
+const formYamlPath = `${__dirname}/../content/raw-data/form.yaml`;
 
 function getIdFromFilename(path) {
     return path.split(/[\\\/]/).pop().replace(/\..+$/, '');
@@ -37,7 +36,7 @@ getFiles(pathToKernScores).forEach(file => {
     const id = 'schubert-' + getIdFromFilename(file);
     console.log(id);
     const stdout = execSync(`awk '{print NR "\t" $0}' ${file} | grep -E '^[0-9]+\t\\*[a-zA-Z][-#]*:'`).toString().trim();
-    const beatStdout = execSync(`cat ${file} | lnnr | beat -cp | beat -dp | beat -da --attacks 0 | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridx -LGTMId`).toString().trim();
+    const beatStdout = execSync(`cat ${file} | beat -cp | beat -dp | beat -da --attacks 0 | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridxx -LGTMId`).toString().trim();
 
     const keys = stdout.trim().split('\n').map(line => {
         let [lineNumber, key] = line.split('\t').slice(0, 2);
@@ -64,7 +63,7 @@ getFiles(pathToKernScores).forEach(file => {
 
     maxBeat += lastBeatDur;
 
-    let modulations = [];
+    let forms = [];
 
     let pieceKey = null;
 
@@ -78,16 +77,15 @@ getFiles(pathToKernScores).forEach(file => {
         if (tokens) {
             const degScore = `**kern
 *${pieceKey}:
-${key.toLowerCase()}`;
+1${key.toLowerCase()}`;
     
             const stdout = execSync(`echo "${degScore}" | degx | extractxx -i deg | ridx -I`).toString().trim();
             let deg = romanize(stdout.replaceAll(/\D/g, ''));
             deg = key === key.toLowerCase() ? deg.toLowerCase() : deg.toUpperCase();
             deg += stdout.replaceAll(/\d/g, '').replaceAll('-', '♭').replaceAll('+', '♯');
     
-            modulations.push({
+            form.push({
                 name,
-                start,
                 startBeat: tokens[indexMap.beat],
                 endBeat: null,
                 startLine: tokens[indexMap.lineNumber],
@@ -97,59 +95,27 @@ ${key.toLowerCase()}`;
 
     });
 
-    modulations.forEach((modulation, index) => {
-        modulation.endBeat = modulations[index + 1]?.startBeat ?? maxBeat;
-        modulation.endLine = modulations[index + 1]?.startLine ?? beatData.at(-1)[indexMap.lineNumber];
+    forms.forEach((form, index) => {
+        form.endBeat = forms[index + 1]?.startBeat ?? maxBeat;
+        form.endLine = forms[index + 1]?.startLine ?? beatData.at(-1)[indexMap.lineNumber];
     });
 
-    modulations = modulations.reduce((accumulator, item) => {
+    forms = forms.reduce((accumulator, item) => {
         if (item.startBeat !== item.endBeat) {
             accumulator.push(item);
         }
         return accumulator;
     }, []);
 
-    pieces[id] = modulations;
+    pieces[id] = forms;
 });
 
-const transitionsMap = {};
 
-for (const piece in pieces) {
-    const degs = pieces[piece];
 
-    for (let i = 0; i < degs.length - 1; i++) {
-        const currentDeg = degs[i].deg;
-        const nextDeg = degs[i + 1].deg;
-        const nextStartBeat = degs[i + 1].startBeat;
-        const nextStartLine = degs[i + 1].startLine;
-
-        transitionsMap[currentDeg] ??= {};
-        transitionsMap[currentDeg][nextDeg] ??= [0, []];
-        transitionsMap[currentDeg][nextDeg][0]++;
-        transitionsMap[currentDeg][nextDeg][1].push([piece, nextStartBeat, nextStartLine])
-    }
-}
-
-const transitions = [];
-for (const currentDeg in transitionsMap) {
-    for (const nextDeg in transitionsMap[currentDeg]) {
-        transitions.push({
-            currentDeg,
-            nextDeg,
-            count: transitionsMap[currentDeg][nextDeg][0],
-            items: transitionsMap[currentDeg][nextDeg][1].map(item => ({id: item[0], beat: item[1], lineNumber: item[2]})),
-        });
-    }
-}
-
-fs.writeFileSync(modulationsYamlPath, yaml.dump(pieces, {
+fs.writeFileSync(formYamlPath, yaml.dump(pieces, {
     indent: 4,
     lineWidth: -1,
     sortKeys: true,
 }));
 
-fs.writeFileSync(transitionsYamlPath, yaml.dump({transitions}, {
-    indent: 4,
-    lineWidth: -1,
-    sortKeys: true,
-}));
+

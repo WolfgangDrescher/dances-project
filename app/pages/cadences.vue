@@ -1,5 +1,5 @@
 <template>
     <UContainer>
-        <Heading>cadences</Heading>
+        <Heading>Kadenzen</Heading>
     </UContainer>
 </template>

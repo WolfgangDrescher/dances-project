@@ -7,6 +7,7 @@ const props = defineProps({
     showKeys: Boolean,
 });
 
+
 const mods = props.modulations || [];
 
 const modulationsGroupedByKey = computed(() => {
