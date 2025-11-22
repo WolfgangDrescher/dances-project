@@ -3,7 +3,7 @@ const localePath = useLocalePath();
 const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryCollection('pieces').where('stem', '=', `pieces/${id}`).first());
 const { data: modulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
-const { data: formData } = await useAsyncData(`raw-form`, () => queryCollection('rawData').path('/raw-data/form').first(), {deep: false });
+const { data: formData } = await useAsyncData(`form`, () => queryCollection('data').path('/data/form').first(), {deep: false });
 
 const modulations = modulationsData.value.body[id] ?? [];
 const form = formData.value.body[id.replace('schubert-', '')] ?? [];
