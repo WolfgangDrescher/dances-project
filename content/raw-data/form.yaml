@@ -1,26 +1,151 @@
-schubert-128-04: []
-schubert-779-01: []
-schubert-779-02: []
-schubert-779-04: []
-schubert-779-13: []
-schubert-790-01: []
-schubert-790-02: []
-schubert-790-03: []
-schubert-790-05: []
-schubert-790-06: []
-schubert-790-07: []
-schubert-790-08: []
-schubert-790-09: []
-schubert-790-10: []
-schubert-790-11: []
-schubert-790-12: []
-schubert-969-01: []
-schubert-969-03: []
-schubert-969-04: []
-schubert-969-05: []
-schubert-969-06: []
-schubert-969-07: []
-schubert-969-09: []
-schubert-969-10: []
-schubert-969-11: []
-schubert-969-12: []
+#1. Teil: A
+#Motive: Aa, Aa', Aa''; Ab, Ab', Ab''; Ac, Ac', Ac''
+#2. Teil: B
+#motive: Ba, Ba', Ba''; Bb, Bb', Bb''; Bc, Bc', Bc''
+#nicht sequenzielle Überleitungen: T
+#Coda: C
+#(Motive: c, c', c'')
+#if Sequence: Daten von sequences.yaml?
+
+
+
+790-02:
+    -
+      name: A
+      start: 1/1
+      end: 8/1
+      children:
+          -
+            name: Aa
+            start: 1/1
+            end: 4/1
+            children:
+                - name: Motiv 1
+                - name: Motiv 2
+          -
+            name: Aa'
+            start: 5/1
+            end: 8/1
+    -
+        name: sequence
+        sequence: Fonte
+        start:
+        end:
+    -
+        name: T
+
+
+365-01:
+    -
+        name: A
+        start: 1/1
+        end: 8/1
+        children: 
+            -
+                name: Aa
+                start: 1/1
+                end: 4/1
+            -
+                name: Ab
+                start: 4/3
+                end: 8/1
+    -
+        name: B
+        start: 8/3
+        end: 16/1
+        children:
+            -
+                name: Ba'
+                start: 8/3
+                end: 12/2
+                sequence: Fonte
+            -
+                name: Ba''
+                start: 12/3
+                end: 16/1
+
+
+365-02:
+    -
+        name: A
+        start: 1/1
+        end: 8/2
+        children:
+            -
+                name: Aa
+                start: 1/1
+                end: 5/1
+                sequence: Monte
+            -
+                name: Ab
+                start: 5/3
+                end: 8/2
+    -
+        name: B
+        start: 8/2.5
+        end: 16/2
+        children:
+            -
+                name: Ba'
+                start: 8/2.5
+                end: 12/3.5
+                sequence: Fonte in Paralleltonart
+
+            -
+                name: Bb'
+                start: 13/1
+                end: 16/2
+
+
+365-03:
+    -             
+        name: A
+        start: 1/1
+        end: 8/1
+        children: 
+            -
+                name: Aa
+                start: 1/1
+                end: 4/3
+                sequence: Monte
+            -
+                name: Ab
+                start: 5/1
+                end: 8/1
+                children:
+                    -
+                        name: Aba'
+                        start: 5/1
+                        end: 5/3
+                    -
+                        name: Abc
+                        start: 6/1
+                        end: 8/1
+          
+    -
+        name: B
+        start: 8/3
+        end: 16/1
+        children:
+            -
+                name: Ba'
+                start: 8/3
+                end: 12/3
+                sequence: Fonte
+            -
+                name: Bb
+                start: 13/1
+                end: 16/1
+                children:
+                    -
+                        name: Bba'
+                        start: 13/1
+                        end: 14/1
+                    -
+                        name: Bbc
+                        start: 15/1
+                        end: 16/1
+
+
+
+          

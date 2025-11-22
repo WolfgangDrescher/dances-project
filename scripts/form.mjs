@@ -9,6 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const pathToKernScores = `${__dirname}/../schubert-dances/kern/`;
 const formYamlPath = `${__dirname}/../content/raw-data/form.yaml`;
+const formContentYamlPath = `${__dirname}/../content/data/form.yaml`;
 
 function getIdFromFilename(path) {
     return path.split(/[\\\/]/).pop().replace(/\..+$/, '');
@@ -32,6 +33,7 @@ function getFiles(directory, fileList) {
 const pieces = {};
 
 getFiles(pathToKernScores).forEach(file => {
+const formData = {};
 
     const id = 'schubert-' + getIdFromFilename(file);
     console.log(id);
@@ -112,10 +114,8 @@ getFiles(pathToKernScores).forEach(file => {
 
 
 
-fs.writeFileSync(formYamlPath, yaml.dump(pieces, {
+fs.writeFileSync(formContentYamlPath, yaml.dump(formData, {
     indent: 4,
     lineWidth: -1,
     sortKeys: true,
 }));
-
-
