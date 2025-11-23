@@ -195,7 +195,7 @@ function addLineNumbersAsSpine(kern) {
     return lines.join('\n');
 }
 
-getFiles(pathToKernScores).splice(6, 1).forEach(file => {
+getFiles(pathToKernScores).forEach(file => {
     const id = getIdFromFilename(file);
     const pieceForm = formYaml[id];
 
