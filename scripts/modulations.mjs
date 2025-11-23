@@ -86,8 +86,8 @@ ${key.toLowerCase()}`;
             deg += stdout.replaceAll(/\d/g, '').replaceAll('-', '♭').replaceAll('+', '♯');
     
             modulations.push({
-                name,
-                start,
+                key,
+                deg,
                 startBeat: tokens[indexMap.beat],
                 endBeat: null,
                 startLine: tokens[indexMap.lineNumber],
