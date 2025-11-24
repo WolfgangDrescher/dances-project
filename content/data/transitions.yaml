@@ -19,7 +19,7 @@ transitions:
             -
                 beat: 25.5
                 id: schubert-365-02
-                lineNumber: 85
+                lineNumber: 83
         nextDeg: i
     -
         count: 8
@@ -28,7 +28,7 @@ transitions:
             -
                 beat: 25
                 id: schubert-365-03
-                lineNumber: 75
+                lineNumber: 73
             -
                 beat: 24.25
                 id: schubert-779-01
@@ -194,7 +194,7 @@ transitions:
             -
                 beat: 37.5
                 id: schubert-365-02
-                lineNumber: 117
+                lineNumber: 115
         nextDeg: I
     -
         count: 1
@@ -251,7 +251,7 @@ transitions:
             -
                 beat: 130
                 id: schubert-790-08
-                lineNumber: 252
+                lineNumber: 250
         nextDeg: iii
     -
         count: 2
@@ -273,7 +273,7 @@ transitions:
             -
                 beat: 31.5
                 id: schubert-365-02
-                lineNumber: 101
+                lineNumber: 99
         nextDeg: VI♭
     -
         count: 2
@@ -286,7 +286,7 @@ transitions:
             -
                 beat: 124
                 id: schubert-790-08
-                lineNumber: 241
+                lineNumber: 239
         nextDeg: iv
     -
         count: 2
@@ -299,7 +299,7 @@ transitions:
             -
                 beat: 76
                 id: schubert-790-08
-                lineNumber: 154
+                lineNumber: 152
         nextDeg: IV
     -
         count: 5
@@ -342,7 +342,7 @@ transitions:
             -
                 beat: 31
                 id: schubert-365-03
-                lineNumber: 87
+                lineNumber: 85
             -
                 beat: 33
                 id: schubert-790-01
@@ -403,7 +403,7 @@ transitions:
             -
                 beat: 37
                 id: schubert-365-03
-                lineNumber: 101
+                lineNumber: 99
             -
                 beat: 13.25
                 id: schubert-779-02
@@ -476,7 +476,7 @@ transitions:
             -
                 beat: 82
                 id: schubert-790-08
-                lineNumber: 165
+                lineNumber: 163
             -
                 beat: 33
                 id: schubert-790-11
@@ -610,11 +610,11 @@ transitions:
             -
                 beat: 88
                 id: schubert-790-08
-                lineNumber: 176
+                lineNumber: 174
             -
                 beat: 136
                 id: schubert-790-08
-                lineNumber: 263
+                lineNumber: 261
         nextDeg: i
     -
         count: 1

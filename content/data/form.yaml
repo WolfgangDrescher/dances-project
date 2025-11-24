@@ -8,8 +8,8 @@
                 name: Aa
                 start: 1/1
                 end: 4/1
-                startLine: 21
-                endLine: 35
+                startLine: 19
+                endLine: 33
                 startKey: A-
                 endKey: A-
                 startBeat: 1
@@ -18,14 +18,14 @@
                 name: Ab
                 start: 4/3
                 end: 8/1
-                startLine: 37
-                endLine: 57
+                startLine: 35
+                endLine: 55
                 startKey: A-
                 endKey: A-
                 startBeat: 12
                 endBeat: 22
-        startLine: 21
-        endLine: 57
+        startLine: 19
+        endLine: 55
         startKey: A-
         endKey: A-
         startBeat: 1
@@ -40,8 +40,8 @@
                 start: 8/3
                 end: 12/2
                 sequence: Fonte
-                startLine: 61
-                endLine: 82
+                startLine: 59
+                endLine: 80
                 startKey: A-
                 endKey: A-
                 startBeat: 24
@@ -50,14 +50,14 @@
                 name: Ba''
                 start: 12/3
                 end: 16/1
-                startLine: 83
-                endLine: 102
+                startLine: 81
+                endLine: 100
                 startKey: A-
                 endKey: A-
                 startBeat: 36
                 endBeat: 46
-        startLine: 61
-        endLine: 102
+        startLine: 59
+        endLine: 100
         startKey: A-
         endKey: A-
         startBeat: 24
@@ -73,8 +73,8 @@
                 start: 1/1
                 end: 5/1
                 sequence: Monte
-                startLine: 22
-                endLine: 55
+                startLine: 20
+                endLine: 53
                 startKey: A-
                 endKey: A-
                 startBeat: 1.5
@@ -83,14 +83,14 @@
                 name: Ab
                 start: 5/3
                 end: 8/2
-                startLine: 59
-                endLine: 78
+                startLine: 57
+                endLine: 76
                 startKey: A-
                 endKey: A-
                 startBeat: 15.5
                 endBeat: 23.5
-        startLine: 22
-        endLine: 78
+        startLine: 20
+        endLine: 76
         startKey: A-
         endKey: A-
         startBeat: 1.5
@@ -105,8 +105,8 @@
                 start: 8/2.5
                 end: 12/3.5
                 sequence: Fonte in Paralleltonart
-                startLine: 80
-                endLine: 113
+                startLine: 78
+                endLine: 111
                 startKey: A-
                 endKey: F-
                 startBeat: 24
@@ -115,14 +115,14 @@
                 name: Bb'
                 start: 13/1
                 end: 16/2
-                startLine: 117
-                endLine: 141
+                startLine: 115
+                endLine: 139
                 startKey: A-
                 endKey: A-
                 startBeat: 37.5
                 endBeat: 47.5
-        startLine: 80
-        endLine: 141
+        startLine: 78
+        endLine: 139
         startKey: A-
         endKey: A-
         startBeat: 24
@@ -138,8 +138,8 @@
                 start: 1/1
                 end: 4/3
                 sequence: Monte
-                startLine: 21
-                endLine: 46
+                startLine: 19
+                endLine: 44
                 startKey: A-
                 endKey: A-
                 startBeat: 1
@@ -153,8 +153,8 @@
                         name: Aba'
                         start: 5/1
                         end: 5/3
-                        startLine: 49
-                        endLine: 53
+                        startLine: 47
+                        endLine: 51
                         startKey: A-
                         endKey: A-
                         startBeat: 13
@@ -163,20 +163,20 @@
                         name: Abc
                         start: 6/1
                         end: 8/1
-                        startLine: 57
-                        endLine: 69
+                        startLine: 55
+                        endLine: 67
                         startKey: A-
                         endKey: A-
                         startBeat: 16
                         endBeat: 22
-                startLine: 49
-                endLine: 69
+                startLine: 47
+                endLine: 67
                 startKey: A-
                 endKey: A-
                 startBeat: 13
                 endBeat: 22
-        startLine: 21
-        endLine: 69
+        startLine: 19
+        endLine: 67
         startKey: A-
         endKey: A-
         startBeat: 1
@@ -191,8 +191,8 @@
                 start: 8/3
                 end: 12/3
                 sequence: Fonte
-                startLine: 71
-                endLine: 97
+                startLine: 69
+                endLine: 95
                 startKey: A-
                 endKey: E-
                 startBeat: 24
@@ -206,8 +206,8 @@
                         name: Bba'
                         start: 13/1
                         end: 14/1
-                        startLine: 101
-                        endLine: 108
+                        startLine: 99
+                        endLine: 106
                         startKey: A-
                         endKey: A-
                         startBeat: 37
@@ -216,20 +216,20 @@
                         name: Bbc
                         start: 15/1
                         end: 16/1
-                        startLine: 112
-                        endLine: 120
+                        startLine: 110
+                        endLine: 118
                         startKey: A-
                         endKey: A-
                         startBeat: 43
                         endBeat: 46
-                startLine: 101
-                endLine: 120
+                startLine: 99
+                endLine: 118
                 startKey: A-
                 endKey: A-
                 startBeat: 37
                 endBeat: 46
-        startLine: 71
-        endLine: 120
+        startLine: 69
+        endLine: 118
         startKey: A-
         endKey: A-
         startBeat: 24
