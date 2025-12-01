@@ -192,6 +192,7 @@ function addLineNumbersAsSpine(kern) {
         }
         lines[i] = line;
     }
+    
     return lines.join('\n');
 }
 
