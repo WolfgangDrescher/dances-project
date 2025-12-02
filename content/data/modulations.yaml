@@ -93,6 +93,67 @@ schubert-365-03:
         key: A-
         startBeat: 37
         startLine: 99
+schubert-365-04:
+    -
+        deg: I
+        endBeat: 25
+        endLine: 62
+        key: A-
+        startBeat: 1
+        startLine: 18
+    -
+        deg: ii
+        endBeat: 31
+        endLine: 73
+        key: b-
+        startBeat: 25
+        startLine: 62
+    -
+        deg: IV
+        endBeat: 37
+        endLine: 85
+        key: D-
+        startBeat: 31
+        startLine: 73
+    -
+        deg: I
+        endBeat: 48
+        endLine: 99
+        key: A-
+        startBeat: 37
+        startLine: 85
+schubert-365-05:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 113
+        key: A-
+        startBeat: 1
+        startLine: 18
+schubert-365-06:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 101
+        key: A-
+        startBeat: 1
+        startLine: 17
+schubert-365-07:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 105
+        key: A-
+        startBeat: 1
+        startLine: 18
+schubert-365-08:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 127
+        key: A-
+        startBeat: 0
+        startLine: 15
 schubert-365-29:
     -
         deg: I
