@@ -97,7 +97,7 @@ schubert-365-29:
     -
         deg: I
         endBeat: 75
-        endLine: 137
+        endLine: 140
         key: D
         startBeat: 0
         startLine: 17
@@ -105,7 +105,7 @@ schubert-365-30:
     -
         deg: I
         endBeat: 51
-        endLine: 109
+        endLine: 112
         key: A
         startBeat: 0
         startLine: 17
@@ -113,7 +113,7 @@ schubert-365-31:
     -
         deg: I
         endBeat: 57
-        endLine: 129
+        endLine: 132
         key: C
         startBeat: 0
         startLine: 18
