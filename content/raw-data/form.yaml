@@ -80,53 +80,42 @@
 
 
 365-03:
-    -             
+    -
         name: A
         start: 1/1
-        end: 8/1
-        children: 
-            -
-                name: Aa
-                start: 1/1
-                end: 4/3
-                sequence: Monte
-            -
-                name: Ab
-                start: 5/1
-                end: 8/1
-                children:
-                    -
-                        name: Aba'
-                        start: 5/1
-                        end: 5/3
-                    -
-                        name: Abc
-                        start: 6/1
-                        end: 8/1
-          
+        end: 4/3
+        sequence: (Monte)
     -
         name: B
+        start: 5/1
+        end: 8/1
+        children:
+            -
+                name: Ba'
+                start: 5/1
+                end: 5/3
+            -
+                name: Ac
+                start: 6/1
+                end: 8/1
+    
+    -
+        name: "Sequence: Fonte"
         start: 8/3
+        end: 12/3
+    -
+        name: B
+        start: 13/1
         end: 16/1
         children:
             -
                 name: Ba'
-                start: 8/3
-                end: 12/3
-                sequence: Fonte
-            -
-                name: Bb
                 start: 13/1
+                end: 14/1
+            -
+                name: Bc
+                start: 15/1
                 end: 16/1
-                children:
-                    -
-                        name: Bba'
-                        start: 13/1
-                        end: 14/1
-                    -
-                        name: Bbc
-                        start: 15/1
-                        end: 16/1
 
 365-04:
 
