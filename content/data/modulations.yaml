@@ -27,6 +27,136 @@ schubert-128-04:
         key: E
         startBeat: 48
         startLine: 104
+schubert-365-01:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 100
+        key: A-
+        startBeat: 0
+        startLine: 15
+schubert-365-02:
+    -
+        deg: I
+        endBeat: 25.5
+        endLine: 83
+        key: A-
+        startBeat: 0
+        startLine: 15
+    -
+        deg: i
+        endBeat: 31.5
+        endLine: 99
+        key: a-
+        startBeat: 25.5
+        startLine: 83
+    -
+        deg: VI♭
+        endBeat: 37.5
+        endLine: 115
+        key: F-/E
+        startBeat: 31.5
+        startLine: 99
+    -
+        deg: I
+        endBeat: 48.5
+        endLine: 140
+        key: A-
+        startBeat: 37.5
+        startLine: 115
+schubert-365-03:
+    -
+        deg: I
+        endBeat: 25
+        endLine: 73
+        key: A-
+        startBeat: 0
+        startLine: 15
+    -
+        deg: vi
+        endBeat: 31
+        endLine: 85
+        key: f
+        startBeat: 25
+        startLine: 73
+    -
+        deg: V
+        endBeat: 37
+        endLine: 99
+        key: E-
+        startBeat: 31
+        startLine: 85
+    -
+        deg: I
+        endBeat: 48
+        endLine: 118
+        key: A-
+        startBeat: 37
+        startLine: 99
+schubert-365-29:
+    -
+        deg: I
+        endBeat: 75
+        endLine: 137
+        key: D
+        startBeat: 0
+        startLine: 17
+schubert-365-30:
+    -
+        deg: I
+        endBeat: 51
+        endLine: 109
+        key: A
+        startBeat: 0
+        startLine: 17
+schubert-365-31:
+    -
+        deg: I
+        endBeat: 57
+        endLine: 129
+        key: C
+        startBeat: 0
+        startLine: 18
+schubert-365-32:
+    -
+        deg: I
+        endBeat: 72
+        endLine: 154
+        key: F
+        startBeat: 0
+        startLine: 15
+schubert-365-33:
+    -
+        deg: I
+        endBeat: 96
+        endLine: 175
+        key: F
+        startBeat: 0
+        startLine: 15
+schubert-365-34:
+    -
+        deg: I
+        endBeat: 54
+        endLine: 139
+        key: F
+        startBeat: 0
+        startLine: 15
+schubert-365-35:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 106
+        key: F
+        startBeat: 0
+        startLine: 15
+schubert-365-36:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 79
+        key: F
+        startBeat: 0
+        startLine: 16
 schubert-779-01:
     -
         deg: I
@@ -489,52 +619,52 @@ schubert-790-08:
     -
         deg: i
         endBeat: 76
-        endLine: 154
+        endLine: 152
         key: a-
         startBeat: 0
-        startLine: 17
+        startLine: 15
     -
         deg: IV
         endBeat: 82
-        endLine: 165
+        endLine: 163
         key: D-
         startBeat: 76
-        startLine: 154
+        startLine: 152
     -
         deg: iii
         endBeat: 88
-        endLine: 176
+        endLine: 174
         key: c-
         startBeat: 82
-        startLine: 165
+        startLine: 163
     -
         deg: i
         endBeat: 124
-        endLine: 241
+        endLine: 239
         key: a-
         startBeat: 88
-        startLine: 176
+        startLine: 174
     -
         deg: iv
         endBeat: 130
-        endLine: 252
+        endLine: 250
         key: d-
         startBeat: 124
-        startLine: 241
+        startLine: 239
     -
         deg: iii
         endBeat: 136
-        endLine: 263
+        endLine: 261
         key: c-
         startBeat: 130
-        startLine: 252
+        startLine: 250
     -
         deg: i
         endBeat: 144
-        endLine: 276
+        endLine: 274
         key: a-
         startBeat: 136
-        startLine: 263
+        startLine: 261
 schubert-790-09:
     -
         deg: I
