@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
-import { romanize } from '../utils/romanize.js';
+import { romanize } from '../app/utils/romanize.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
