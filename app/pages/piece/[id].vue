@@ -97,26 +97,27 @@ form.forEach(formPart => {
                     pageMarginBottom: 10,
                 }"
                 :sections="[
+                    {
+                        items: form.map(formPart => {
+                            return {
+                                startLine: formPart.startLine,
+                                endLine: formPart.endLine,
+                                label: `${formPart.name} ${formPart.sequence ?? ''}`,
+                            }
+                        
+                        }),
+                        // color: '#ff0077',
+                    },
                     // {
-                    //     items: form.map(formPart => {
+                    //     items: ebene2.map(formPart => {
                     //         return {
                     //             startLine: formPart.startLine,
                     //             endLine: formPart.endLine,
                     //             label: `${formPart.name} ${formPart.sequence ?? ''}`,
                     //         }
                     //     }),
-                    //     // color: '#ff0077',
-                    // },
-                    {
-                        items: ebene2.map(formPart => {
-                            return {
-                                startLine: formPart.startLine,
-                                endLine: formPart.endLine,
-                                label: `${formPart.name} ${formPart.sequence ?? ''}`,
-                            }
-                        }),
-                        color: 'rgba(255 0 0 / 0.4)',
-                    }
+                    //     color: 'rgba(255 0 0 / 0.4)',
+                    // }
                 ]"
                 :lines="scoreOptions.showModulations ? [{
                     items: modulations.map(m => ({
@@ -130,8 +131,8 @@ form.forEach(formPart => {
                 }] : []"
                 :filters="scoreOptions.humdrumFilters"
             />
-            <pre v-text="ebene2"></pre>
-            <pre v-text="form"></pre>
+            <!-- <pre v-text="ebene2"></pre>
+            <pre v-text="form"></pre> -->
             <PieceForm :form="form" />
 
         </div>
