@@ -61,11 +61,11 @@
     -
         name: A
         start: 1/1
-        end: 5/1
+        end: 4/3.5
         sequence: (Monte)
     -
         name: B
-        start: 5/3
+        start: 5/1
         end: 8/2
 
     -
@@ -118,6 +118,46 @@
                 end: 16/1
 
 365-04:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+    
+    -
+        name: B
+        start: 4/3
+        end: 8/2
+    
+    -
+        name: "Sequence: Terzversetzte Monte"
+        start: 8/3
+        end: 12/2
+    
+    -
+        name: C
+        start: 12/3
+        end: 16/2
+
+365-05:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+    
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+    
+    -
+        name: B
+        start: 8/3
+        end: 12/3
+    
+    -
+        name: B'
+        start: 13/1
+        end: 16/2
 
 
 

@@ -42,23 +42,23 @@
     -
         name: A
         start: 1/1
-        end: 5/1
+        end: 4/3.5
         sequence: (Monte)
         startLine: 20
-        endLine: 53
+        endLine: 49
         startKey: A-
         endKey: A-
         startBeat: 1.5
-        endBeat: 13.5
+        endBeat: 13
     -
         name: B
-        start: 5/3
+        start: 5/1
         end: 8/2
-        startLine: 57
+        startLine: 53
         endLine: 76
         startKey: A-
         endKey: A-
-        startBeat: 15.5
+        startBeat: 13.5
         endBeat: 23.5
     -
         name: 'Sequence: Fonte in Paralleltonart'
@@ -164,3 +164,83 @@
         endKey: A-
         startBeat: 37
         endBeat: 46
+365-04:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 18
+        endLine: 33
+        startKey: A-
+        endKey: A-
+        startBeat: 1
+        endBeat: 11
+    -
+        name: B
+        start: 4/3
+        end: 8/2
+        startLine: 34
+        endLine: null
+        startKey: A-
+        endKey: null
+        startBeat: 12
+    -
+        name: 'Sequence: Terzversetzte Monte'
+        start: 8/3
+        end: 12/2
+        startLine: 58
+        endLine: 79
+        startKey: A-
+        endKey: D-
+        startBeat: 24
+        endBeat: 35
+    -
+        name: C
+        start: 12/3
+        end: 16/2
+        startLine: 80
+        endLine: null
+        startKey: D-
+        endKey: null
+        startBeat: 36
+365-05:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 18
+        endLine: 36
+        startKey: A-
+        endKey: A-
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 37
+        endLine: 58
+        startKey: A-
+        endKey: A-
+        startBeat: 12
+        endBeat: 23
+    -
+        name: B
+        start: 8/3
+        end: 12/3
+        startLine: 60
+        endLine: 88
+        startKey: A-
+        endKey: A-
+        startBeat: 24
+        endBeat: 36
+    -
+        name: B'
+        start: 13/1
+        end: 16/2
+        startLine: 91
+        endLine: 113
+        startKey: A-
+        endKey: A-
+        startBeat: 37
+        endBeat: 47
