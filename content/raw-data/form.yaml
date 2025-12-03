@@ -1,11 +1,8 @@
-#1. Teil: A
-#Motive: Aa, Aa', Aa''; Ab, Ab', Ab''; Ac, Ac', Ac''
-#2. Teil: B
-#motive: Ba, Ba', Ba''; Bb, Bb', Bb''; Bc, Bc', Bc''
-#nicht sequenzielle Überleitungen: T
-#Coda: C
-#(Motive: c, c', c'')
-#if Sequence: Daten von sequences.yaml?
+#1. Motiv: A
+#2. Motiv: B
+#3. Motiv/Schlussgruppe: C
+#Sequenz: "Sequence: xyz"
+#if A/B/C=Sequence: add children: sequence
 
 
 
@@ -199,6 +196,27 @@
     -
         name: B'
         start: 12/3
+        end: 16/2
+
+365-08:
+    -
+        name: A
+        start: 1/1
+        end: 4/2.5
+
+    -
+        name: B
+        start: 4/3
+        end: 8/2
+
+    -
+        name: "Sequence: Fonte"
+        start: 8/3
+        end: 12/3
+
+    -
+        name: C
+        start: 13/1
         end: 16/2
 
 
