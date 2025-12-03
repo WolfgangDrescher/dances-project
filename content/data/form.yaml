@@ -285,3 +285,44 @@
         endKey: A-
         startBeat: 37
         endBeat: 47
+365-07:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 18
+        endLine: 37
+        startKey: A-
+        endKey: A-
+        startBeat: 1
+        endBeat: 12
+    -
+        name: A'
+        start: 5/1
+        end: 8/2
+        startLine: 42
+        endLine: 60
+        startKey: A-
+        endKey: A-
+        startBeat: 13
+        endBeat: 23
+    -
+        name: B
+        start: 8/3
+        end: 12/2
+        startLine: 63
+        endLine: 83
+        startKey: A-
+        endKey: A-
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 12/3
+        end: 16/2
+        startLine: 85
+        endLine: 105
+        startKey: A-
+        endKey: A-
+        startBeat: 36
+        endBeat: 47
