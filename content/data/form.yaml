@@ -1,12 +1,13 @@
 365-01:
     -
         name: A
-        start: 0/3
+        start: 1/1
         end: 4/2
-        startLine: null
+        startLine: 19
         endLine: 34
-        startKey: null
+        startKey: A-
         endKey: A-
+        startBeat: 1
         endBeat: 11
     -
         name: B
@@ -505,12 +506,13 @@
     -
         name: B
         start: 5/1
-        end: 8/3
+        end: 8/2
         startLine: 43
-        endLine: null
+        endLine: 63
         startKey: A-
-        endKey: null
+        endKey: A-
         startBeat: 12
+        endBeat: 22
     -
         name: C
         start: 9/1
@@ -576,53 +578,53 @@
     -
         name: A
         start: 1/1
-        end: 4/3
+        end: 4/3.5
         startLine: 18
-        endLine: 43
+        endLine: 44
         startKey: A-
         endKey: A-
         startBeat: 1
-        endBeat: 12
+        endBeat: 12.5
     -
         name: B
         start: 5/1
-        end: 8/3
+        end: 8/3.5
         startLine: 47
-        endLine: 73
+        endLine: 74
         startKey: A-
         endKey: A-
         startBeat: 13
-        endBeat: 24
+        endBeat: 24.5
     -
         name: A'
         start: 9/1
-        end: 12/3
+        end: 12/3.5
         startLine: 77
-        endLine: 103
+        endLine: 104
         startKey: A-
         endKey: A-
         startBeat: 25
-        endBeat: 36
+        endBeat: 36.5
     -
         name: Modulation nach A
         start: 13/1
-        end: 16/3
+        end: 16/3.5
         startLine: 106
-        endLine: 134
+        endLine: 135
         startKey: A-
         endKey: A
         startBeat: 37
-        endBeat: 48
+        endBeat: 48.5
     -
         name: A''
         start: 17/1
-        end: 20/3
+        end: 20/3.5
         startLine: 138
-        endLine: 164
+        endLine: 165
         startKey: A
         endKey: A
         startBeat: 49
-        endBeat: 60
+        endBeat: 60.5
     -
         name: Coda???
         start: 21/1
@@ -815,22 +817,21 @@
     -
         name: 'B; Sequence: Fonte'
         start: 8/3
-        end: 12/3
+        end: 12/2.5
         startLine: 58
-        endLine: 83
-        startKey: a
-        endKey: G
-        startBeat: 24
-        endBeat: 36
-    -
-        name: 'B''; Sequence: Fonte'
-        start: 13/1
-        end: 16/2
-        startLine: 89
         endLine: null
         startKey: a
         endKey: null
-        startBeat: 37
+        startBeat: 24
+    -
+        name: 'B''; Sequence: Fonte'
+        start: 12/3
+        end: 16/2
+        startLine: 83
+        endLine: null
+        startKey: G
+        endKey: null
+        startBeat: 36
 365-20:
     -
         name: A
@@ -924,32 +925,33 @@
     -
         name: A'
         start: 5/1
-        end: 8/1
+        end: 9/2
         startLine: 39
-        endLine: 59
+        endLine: 66
         startKey: B
         endKey: B
         startBeat: 12
-        endBeat: 21
+        endBeat: 25
     -
         name: B
-        start: 8/2
-        end: 12/3.5
-        startLine: 60
-        endLine: null
-        startKey: B
-        endKey: null
-        startBeat: 22
-    -
-        name: B'
-        start: 13/1
-        end: 16/2
-        startLine: 94
-        endLine: 118
+        start: 9/3
+        end: 13/3.5
+        startLine: 70
+        endLine: 99
         startKey: g#
         endKey: g#
-        startBeat: 36
-        endBeat: 46
+        startBeat: 26
+        endBeat: 38.5
+    -
+        name: B'
+        start: 14/1
+        end: 17/2
+        startLine: 101
+        endLine: 124
+        startKey: g#
+        endKey: g#
+        startBeat: 39
+        endBeat: 49
 365-23:
     -
         name: A
@@ -973,13 +975,13 @@
         endBeat: 23
     -
         name: 'Sequence: Fonte'
-        start: 8/3
+        start: 9/1
         end: 12/3
-        startLine: 63
+        startLine: 67
         endLine: 96
         startKey: B
         endKey: E
-        startBeat: 23
+        startBeat: 24
         endBeat: 35
     -
         name: Coda
@@ -1025,13 +1027,13 @@
     -
         name: Coda
         start: 13/1
-        end: 16/2
+        end: 16/3
         startLine: 96
-        endLine: 118
+        endLine: 120
         startKey: B
         endKey: B
         startBeat: 36
-        endBeat: 46
+        endBeat: 47
 365-25:
     -
         name: A
@@ -1173,22 +1175,22 @@
     -
         name: B
         start: 8/3
-        end: 12/2
+        end: 12/3
         startLine: 57
-        endLine: 83
+        endLine: 86
         startKey: A
         endKey: A
         startBeat: 24
-        endBeat: 35
+        endBeat: 36
     -
         name: B'
-        start: 12/3
+        start: 13/1
         end: 16/2
-        startLine: 86
+        startLine: 89
         endLine: null
         startKey: A
         endKey: null
-        startBeat: 36
+        startBeat: 37
 365-29:
     -
         name: A
@@ -1238,7 +1240,7 @@
         startBeat: 48
         endBeat: 59.5
     -
-        name: A'''??????????
+        name: A'''???
         start: 20/2.5
         end: 24/2
         startLine: 115
@@ -1280,13 +1282,13 @@
     -
         name: Coda
         start: 13/1
-        end: 16/2
+        end: 17/2
         startLine: 85
-        endLine: 106
+        endLine: 111
         startKey: A
         endKey: A
         startBeat: 36
-        endBeat: 46
+        endBeat: 49
 365-31:
     -
         name: A
@@ -1311,23 +1313,22 @@
     -
         name: B
         start: 9/1
-        end: 12/3
+        end: 14/3
         startLine: 72
-        endLine: 90
+        endLine: 103
         startKey: C
         endKey: C
         startBeat: 24
-        endBeat: 35
+        endBeat: 41
     -
         name: B'?
-        start: 13/1
-        end: 16/3
-        startLine: 94
-        endLine: 116
+        start: 15/1
+        end: 19/3
+        startLine: 107
+        endLine: null
         startKey: C
-        endKey: C
-        startBeat: 36
-        endBeat: 47
+        endKey: null
+        startBeat: 42
 365-32:
     -
         name: A
@@ -1381,12 +1382,13 @@
     -
         name: A'
         start: 21/1
-        end: 24/3
+        end: 24/2
         startLine: 135
-        endLine: null
+        endLine: 153
         startKey: F
-        endKey: null
+        endKey: F
         startBeat: 60
+        endBeat: 70
 365-33:
     -
         name: A
@@ -1552,13 +1554,13 @@
     -
         name: B
         start: 13/1
-        end: 16/2
+        end: 16/3
         startLine: 83
-        endLine: 105
+        endLine: 106
         startKey: F
         endKey: F
         startBeat: 36
-        endBeat: 46
+        endBeat: 47
 365-36:
     -
         name: A

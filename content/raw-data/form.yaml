@@ -37,7 +37,7 @@
 365-01:
      -
         name: A
-        start: 0/3
+        start: 1/1
         end: 4/2
      -
         name: B
@@ -289,7 +289,7 @@
 
     -   name: B
         start: 5/1
-        end: 8/3
+        end: 8/2
 
     -   name: C
         start: 9/1  
@@ -319,23 +319,23 @@
 365-14:
     -   name: A
         start: 1/1
-        end: 4/3
+        end: 4/3.5
 
     -   name: B
         start: 5/1
-        end: 8/3
+        end: 8/3.5
 
     -   name: A'
         start: 9/1
-        end: 12/3
+        end: 12/3.5
 
     -   name: Modulation nach A 
         start: 13/1
-        end: 16/3
+        end: 16/3.5
 
     -   name: A''
         start: 17/1
-        end: 20/3
+        end: 20/3.5
 
     -   name: Coda???
         start: 21/1
@@ -421,10 +421,10 @@
 
     -   name: "B; Sequence: Fonte"
         start: 8/3
-        end: 12/3
+        end: 12/2.5
 
     -   name: "B'; Sequence: Fonte"
-        start: 13/1
+        start: 12/3
         end: 16/2
 
 365-20:
@@ -469,15 +469,15 @@
 
     -   name: A'
         start: 5/1
-        end: 8/1
+        end: 9/2
 
     -   name: B
-        start: 8/2
-        end: 12/3.5
+        start: 9/3
+        end: 13/3.5
 
     -   name: B'
-        start: 13/1
-        end: 16/2
+        start: 14/1
+        end: 17/2
 
 365-23:
     -   name: A
@@ -489,7 +489,7 @@
         end: 8/3
 
     -   name: "Sequence: Fonte"
-        start: 8/3
+        start: 9/1
         end: 12/3
 
     -   name: Coda
@@ -511,7 +511,7 @@
 
     -   name: Coda
         start: 13/1
-        end: 16/2
+        end: 16/3
 
 365-25:
     -   name: A
@@ -554,7 +554,7 @@
 
     -   name: A'
         start: 5/1
-        end: 8/3   
+        end: 8/3
 
     -   name: B
         start: 9/1
@@ -575,10 +575,10 @@
 
     -   name: B 
         start: 8/3
-        end: 12/2
+        end: 12/3
 
     -   name: B'
-        start: 12/3
+        start: 13/1
         end: 16/2
 
 365-29:
@@ -602,7 +602,7 @@
         start: 16/2.5
         end: 20/2
 
-    -   name: A'''??????????
+    -   name: A'''???
         start: 20/2.5
         end: 24/2
 
@@ -621,7 +621,7 @@
 
     -   name: Coda
         start: 13/1  
-        end: 16/2
+        end: 17/2
 
 365-31:
     -   name: A
@@ -634,11 +634,11 @@
 
     -   name: B
         start: 9/1  
-        end: 12/3
+        end: 14/3
 
     -   name: B'?
-        start: 13/1  
-        end: 16/3
+        start: 15/1  
+        end: 19/3
 
 365-32:
     -   name: A     
@@ -663,7 +663,7 @@
 
     -   name: A'
         start: 21/1  
-        end: 24/3
+        end: 24/2
 
 365-33:
     -   name: A    
@@ -734,7 +734,7 @@
 
     -   name: B 
         start: 13/1  
-        end: 16/2
+        end: 16/3
 
 365-36:
     -   name: A     
