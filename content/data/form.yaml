@@ -367,3 +367,412 @@
         endKey: A-
         startBeat: 37
         endBeat: 47
+365-29:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 21
+        endLine: 37
+        startKey: D
+        endKey: D
+        startBeat: 1.5
+        endBeat: 11.5
+    -
+        name: A'
+        start: 4/2.5
+        end: 8/2
+        startLine: 38
+        endLine: null
+        startKey: D
+        endKey: null
+        startBeat: 12
+    -
+        name: B
+        start: 8/2.5
+        end: 12/2
+        startLine: 60
+        endLine: null
+        startKey: D
+        endKey: null
+        startBeat: 24
+    -
+        name: B'
+        start: 12/2.5
+        end: 16/2
+        startLine: 77
+        endLine: null
+        startKey: D
+        endKey: null
+        startBeat: 36
+    -
+        name: A''
+        start: 16/2.5
+        end: 20/2
+        startLine: 94
+        endLine: 114
+        startKey: D
+        endKey: D
+        startBeat: 48
+        endBeat: 59.5
+    -
+        name: A'''??????????
+        start: 20/2.5
+        end: 24/2
+        startLine: 115
+        endLine: null
+        startKey: D
+        endKey: null
+        startBeat: 60
+365-30:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 17
+        endLine: 37
+        startKey: A
+        endKey: A
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 5/1
+        end: 8/3
+        startLine: 39
+        endLine: 59
+        startKey: A
+        endKey: A
+        startBeat: 12
+        endBeat: 23
+    -
+        name: B
+        start: 9/1
+        end: 12/3
+        startLine: 63
+        endLine: 83
+        startKey: A
+        endKey: A
+        startBeat: 24
+        endBeat: 35
+    -
+        name: Coda
+        start: 13/1
+        end: 16/2
+        startLine: 85
+        endLine: 106
+        startKey: A
+        endKey: A
+        startBeat: 36
+        endBeat: 46
+365-31:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 18
+        endLine: 48
+        startKey: C
+        endKey: C
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'????
+        start: 5/1
+        end: 8/3
+        startLine: 50
+        endLine: 70
+        startKey: C
+        endKey: C
+        startBeat: 12
+        endBeat: 23
+    -
+        name: B
+        start: 9/1
+        end: 12/3
+        startLine: 72
+        endLine: 90
+        startKey: C
+        endKey: C
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'?
+        start: 13/1
+        end: 16/3
+        startLine: 94
+        endLine: 116
+        startKey: C
+        endKey: C
+        startBeat: 36
+        endBeat: 47
+365-32:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 15
+        endLine: 37
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 5/1
+        end: 8/3
+        startLine: 40
+        endLine: null
+        startKey: F
+        endKey: null
+        startBeat: 12
+    -
+        name: B
+        start: 9/1
+        end: 12/3
+        startLine: 61
+        endLine: 82
+        startKey: F
+        endKey: F
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 13/1
+        end: 16/3
+        startLine: 85
+        endLine: 107
+        startKey: F
+        endKey: F
+        startBeat: 36
+        endBeat: 47
+    -
+        name: A
+        start: 17/1
+        end: 20/3
+        startLine: 110
+        endLine: 132
+        startKey: F
+        endKey: F
+        startBeat: 48
+        endBeat: 59
+    -
+        name: A'
+        start: 21/1
+        end: 24/3
+        startLine: 135
+        endLine: null
+        startKey: F
+        endKey: null
+        startBeat: 60
+365-33:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 15
+        endLine: 35
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 11
+    -
+        name: B
+        start: 5/1
+        end: 8/3
+        startLine: 37
+        endLine: 54
+        startKey: F
+        endKey: F
+        startBeat: 12
+        endBeat: 23
+    -
+        name: A
+        start: 9/1
+        end: 12/3
+        startLine: 56
+        endLine: 76
+        startKey: F
+        endKey: F
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 13/1
+        end: 16/3
+        startLine: 78
+        endLine: 95
+        startKey: F
+        endKey: F
+        startBeat: 36
+        endBeat: 47
+    -
+        name: C
+        start: 17/1
+        end: 20/3
+        startLine: 97
+        endLine: 115
+        startKey: F
+        endKey: F
+        startBeat: 48
+        endBeat: 59
+    -
+        name: C'
+        start: 21/1
+        end: 24/3
+        startLine: 117
+        endLine: 135
+        startKey: F
+        endKey: F
+        startBeat: 60
+        endBeat: 71
+    -
+        name: D
+        start: 25/1
+        end: 28/3
+        startLine: 137
+        endLine: 155
+        startKey: F
+        endKey: F
+        startBeat: 72
+        endBeat: 83
+    -
+        name: D'
+        start: 29/1
+        end: 32/3
+        startLine: 157
+        endLine: null
+        startKey: F
+        endKey: null
+        startBeat: 84
+365-34:
+    -
+        name: Vorspiel
+        start: 1/1
+        end: 2/3
+        startLine: 15
+        endLine: 24
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 5
+    -
+        name: A
+        start: 3/1
+        end: 6/3
+        startLine: 27
+        endLine: 51
+        startKey: F
+        endKey: F
+        startBeat: 6
+        endBeat: 17
+    -
+        name: B
+        start: 7/1
+        end: 10/3
+        startLine: 53
+        endLine: 73
+        startKey: F
+        endKey: F
+        startBeat: 18
+        endBeat: 29
+    -
+        name: C/B'????
+        start: 11/1
+        end: 14/3
+        startLine: 75
+        endLine: 105
+        startKey: F
+        endKey: F
+        startBeat: 30
+        endBeat: 41
+    -
+        name: D
+        start: 15/1
+        end: 18/3
+        startLine: 108
+        endLine: 139
+        startKey: F
+        endKey: F
+        startBeat: 42
+        endBeat: 53
+365-35:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 15
+        endLine: 35
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 5/1
+        end: 8/3
+        startLine: 37
+        endLine: 59
+        startKey: F
+        endKey: F
+        startBeat: 12
+        endBeat: 23
+    -
+        name: 'Sequenz: Sequence startet in Medianttonart und endet in Grundtonart'
+        start: 9/1
+        end: 12/3
+        startLine: 61
+        endLine: 81
+        startKey: F
+        endKey: F
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B
+        start: 13/1
+        end: 16/2
+        startLine: 83
+        endLine: 105
+        startKey: F
+        endKey: F
+        startBeat: 36
+        endBeat: 46
+365-36:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 16
+        endLine: 30
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 11
+    -
+        name: B
+        start: 5/1
+        end: 8/3
+        startLine: 33
+        endLine: 47
+        startKey: F
+        endKey: F
+        startBeat: 12
+        endBeat: 23
+    -
+        name: C
+        start: 9/1
+        end: 12/3
+        startLine: 50
+        endLine: null
+        startKey: F
+        endKey: null
+        startBeat: 24
+    -
+        name: D
+        start: 13/1
+        end: 16/2 ???????
+        startLine: 65
+        endLine: null
+        startKey: F
+        endKey: null
+        startBeat: 36

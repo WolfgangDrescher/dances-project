@@ -580,3 +580,175 @@
     -   name: B'
         start: 12/3
         end: 16/2
+
+365-29:
+    -   name: A
+        start: 1/1  
+        end: 4/2 
+
+    -   name: A'
+        start: 4/2.5
+        end: 8/2
+
+    -   name: B
+        start: 8/2.5
+        end: 12/2
+
+    -   name: B'
+        start: 12/2.5
+        end: 16/2
+
+    -   name: A''
+        start: 16/2.5
+        end: 20/2
+
+    -   name: A'''??????????
+        start: 20/2.5
+        end: 24/2
+
+365-30:
+    -   name: A
+        start: 1/1  
+        end: 4/3
+
+    -   name: A'
+        start: 5/1  
+        end: 8/3
+
+    -   name: B
+        start: 9/1  
+        end: 12/3
+
+    -   name: Coda
+        start: 13/1  
+        end: 16/2
+
+365-31:
+    -   name: A
+        start: 1/1  
+        end: 4/3
+
+    -   name: A'????
+        start: 5/1  
+        end: 8/3
+
+    -   name: B
+        start: 9/1  
+        end: 12/3
+
+    -   name: B'?
+        start: 13/1  
+        end: 16/3
+
+365-32:
+    -   name: A     
+        start: 1/1  
+        end: 4/3
+
+    -   name: A'
+        start: 5/1  
+        end: 8/3
+
+    -   name: B
+        start: 9/1  
+        end: 12/3   
+
+    -   name: B'
+        start: 13/1  
+        end: 16/3
+
+    -   name: A
+        start: 17/1  
+        end: 20/3
+
+    -   name: A'
+        start: 21/1  
+        end: 24/3
+
+365-33:
+    -   name: A    
+        start: 1/1  
+        end: 4/3
+
+    -   name: B
+        start: 5/1  
+        end: 8/3
+
+    -   name: A  
+        start: 9/1  
+        end: 12/3
+
+    -   name: B'
+        start: 13/1  
+        end: 16/3
+
+    -   name: C
+        start: 17/1  
+        end: 20/3
+
+    -   name: C'
+        start: 21/1  
+        end: 24/3
+
+    -   name: D
+        start: 25/1  
+        end: 28/3
+
+    -   name: D'
+        start: 29/1  
+        end: 32/3
+
+365-34:
+    -   name: Vorspiel
+        start: 1/1  
+        end: 2/3
+
+    -   name: A    
+        start: 3/1  
+        end: 6/3
+
+    -   name: B
+        start: 7/1  
+        end: 10/3   
+
+    -   name: C/B'????
+        start: 11/1  
+        end: 14/3
+
+    -   name: D
+        start: 15/1  
+        end: 18/3
+
+365-35:
+    -   name: A     
+        start: 1/1  
+        end: 4/3
+
+    -   name: A'
+        start: 5/1  
+        end: 8/3
+
+    -   name: "Sequenz: Sequence startet in Medianttonart und endet in Grundtonart"
+        start: 9/1  
+        end: 12/3   
+
+    -   name: B 
+        start: 13/1  
+        end: 16/2
+
+365-36:
+    -   name: A     
+        start: 1/1  
+        end: 4/3
+
+    -   name: B
+        start: 5/1  
+        end: 8/3
+
+    -   name: C 
+        start: 9/1  
+        end: 12/3
+
+    -   name: D
+        start: 13/1  
+        end: 16/2 ???????
