@@ -24,7 +24,7 @@ const items = [
         to: localePath({name: 'cadences'}),
     },
     {
-        label: t('Form'),
+        label: t('form'),
         to: localePath({name: 'form'}),
     },
 ];
