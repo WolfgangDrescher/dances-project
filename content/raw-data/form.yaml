@@ -219,9 +219,65 @@
         start: 13/1
         end: 16/2
 
+365-09:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
 
+    -
+        name: B
+        start: 4/2.5
+        end: 8/2
 
+    -
+        name: C
+        start: 8/2.5
+        end: 12/2
 
+    -
+        name: C'
+        start: 12/2.5
+        end: 16/2
 
+365-10:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
 
-          
+    -
+        name: A'
+        start: 4/3
+        end: 8/2        
+
+    -
+        name: B
+        start: 8/3
+        end: 12/2
+        sequence: (Melodie wird eine Sekunde tiefer wiederholt)
+
+    -
+        name: C
+        start: 12/3
+        end: 16/2
+
+365-11:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+
+    -
+        name: A'
+        start: 5/1
+        end: 8/2
+
+    -
+        name: "Sequence: Fonte in verdurte Paralleltonart"
+        start: 8/3
+        end: 12/3
+
+    -   name: B
+        start: 13/1
+        end: 16/2
