@@ -3,10 +3,11 @@
         name: A
         start: 0/3
         end: 4/2
-        startLine: null
+        startLine: 15
         endLine: 34
-        startKey: null
+        startKey: A-
         endKey: A-
+        startBeat: 0
         endBeat: 11
     -
         name: B
@@ -41,14 +42,14 @@
 365-02:
     -
         name: A
-        start: 1/1
+        start: 0/2.5
         end: 4/3.5
         sequence: (Monte)
-        startLine: 20
+        startLine: 15
         endLine: 49
         startKey: A-
         endKey: A-
-        startBeat: 1.5
+        startBeat: 0
         endBeat: 13
     -
         name: B
@@ -83,14 +84,14 @@
 365-03:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/3
         sequence: (Monte)
-        startLine: 19
+        startLine: 15
         endLine: 44
         startKey: A-
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 12
     -
         name: B
@@ -167,23 +168,24 @@
 365-04:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 18
+        startLine: 14
         endLine: 33
-        startKey: A-
+        startKey: null
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: B
         start: 4/3
-        end: 8/2
+        end: 8/1
         startLine: 34
-        endLine: null
+        endLine: 55
         startKey: A-
-        endKey: null
+        endKey: A-
         startBeat: 12
+        endBeat: 22
     -
         name: 'Sequence: Terzversetzte Monte'
         start: 8/3
@@ -197,22 +199,23 @@
     -
         name: C
         start: 12/3
-        end: 16/2
+        end: 16/1
         startLine: 80
-        endLine: null
+        endLine: 99
         startKey: D-
-        endKey: null
+        endKey: A-
         startBeat: 36
+        endBeat: 46
 365-05:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 18
+        startLine: 14
         endLine: 36
-        startKey: A-
+        startKey: null
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -247,13 +250,13 @@
 365-06:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 17
+        startLine: 14
         endLine: 32
-        startKey: A-
+        startKey: null
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: B
@@ -288,13 +291,13 @@
 365-07:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/3
-        startLine: 18
+        startLine: 14
         endLine: 37
-        startKey: A-
+        startKey: null
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 12
     -
         name: A'
@@ -329,13 +332,13 @@
 365-08:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2.5
-        startLine: 18
+        startLine: 15
         endLine: 42
         startKey: A-
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 11.5
     -
         name: B
@@ -370,13 +373,13 @@
 365-09:
     -
         name: A
-        start: 1/1
+        start: 0/2.5
         end: 4/2
-        startLine: 19
+        startLine: 15
         endLine: 41
         startKey: A-
         endKey: A-
-        startBeat: 1.5
+        startBeat: 0
         endBeat: 11.5
     -
         name: B
@@ -411,13 +414,13 @@
 365-10:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 17
+        startLine: 15
         endLine: 40
         startKey: A-
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -453,13 +456,13 @@
 365-11:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/3
-        startLine: 18
+        startLine: 15
         endLine: 43
         startKey: A-
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 12
     -
         name: A'
@@ -534,13 +537,13 @@
 365-13:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 17
+        startLine: 15
         endLine: 30
         startKey: A-
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -575,13 +578,13 @@
 365-14:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/3
-        startLine: 18
+        startLine: 15
         endLine: 43
         startKey: A-
         endKey: A-
-        startBeat: 1
+        startBeat: 0
         endBeat: 12
     -
         name: B
@@ -635,13 +638,13 @@
 365-15:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 18
+        startLine: 15
         endLine: 36
         startKey: D-
         endKey: D-
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -674,14 +677,14 @@
 365-16:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
         sequence: (Monte)
-        startLine: 19
+        startLine: 15
         endLine: 34
         startKey: A
         endKey: A
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: B
@@ -714,13 +717,13 @@
 365-17:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 18
+        startLine: 15
         endLine: 36
         startKey: A
         endKey: A
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -795,13 +798,13 @@
 365-19:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 18
+        startLine: 15
         endLine: 34
         startKey: G
         endKey: G
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -834,13 +837,13 @@
 365-20:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/3
-        startLine: 18
+        startLine: 15
         endLine: 39
         startKey: G
         endKey: G
-        startBeat: 1
+        startBeat: 0
         endBeat: 12
     -
         name: B
@@ -874,13 +877,13 @@
 365-21:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/3
-        startLine: 18
+        startLine: 15
         endLine: 41
         startKey: G
         endKey: G
-        startBeat: 1
+        startBeat: 0
         endBeat: 12
     -
         name: A'
@@ -1035,13 +1038,13 @@
 365-25:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 17
+        startLine: 15
         endLine: 36
         startKey: E
         endKey: E
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -1074,13 +1077,13 @@
 365-26:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 19
+        startLine: 16
         endLine: 38
         startKey: E
         endKey: E
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -1153,13 +1156,13 @@
 365-28:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
-        startLine: 18
+        startLine: 15
         endLine: 33
         startKey: A
         endKey: A
-        startBeat: 1
+        startBeat: 0
         endBeat: 11
     -
         name: A'
@@ -1192,13 +1195,13 @@
 365-29:
     -
         name: A
-        start: 1/1
+        start: 0/2.5
         end: 4/2
-        startLine: 21
+        startLine: 17
         endLine: 37
         startKey: D
         endKey: D
-        startBeat: 1.5
+        startBeat: 0
         endBeat: 11.5
     -
         name: A'
