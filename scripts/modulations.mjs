@@ -78,7 +78,7 @@ getFiles(pathToKernScores).forEach(file => {
         if (tokens) {
             const degScore = `**kern
 *${pieceKey}:
-1${key.toLowerCase()}`;
+${key.toLowerCase()}`;
     
             const stdout = execSync(`echo "${degScore}" | degx | extractxx -i deg | ridx -I`).toString().trim();
             let deg = romanize(stdout.replaceAll(/\D/g, ''));
