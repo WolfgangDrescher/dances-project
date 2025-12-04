@@ -335,11 +335,11 @@
 
     -   name: A''
         start: 17/1
-        end: 20/3
+        end: 20/3.5
 
     -   name: Coda???
         start: 21/1
-        end: 25/1
+        end: 25/1 # not working
 
 365-15:
     -   name: A
@@ -511,7 +511,7 @@
 
     -   name: Coda
         start: 13/1
-        end: 16/2
+        end: 16/3
 
 365-25:
     -   name: A
@@ -734,7 +734,7 @@
 
     -   name: B 
         start: 13/1  
-        end: 16/2
+        end: 16/3
 
 365-36:
     -   name: A     
