@@ -281,3 +281,188 @@
     -   name: B
         start: 13/1
         end: 16/2
+
+365-12:
+    -   name: A
+        start: 1/1
+        end: 4/3
+
+    -   name: B
+        start: 5/1
+        end: 8/3
+
+    -   name: C
+        start: 9/1  
+        end: 12/3
+
+    -   name: C'
+        start: 13/1
+        end: 16/2
+
+365-13:
+    -   name: A
+        start: 1/1
+        end: 4/2
+
+    -   name: A'
+        start: 4/3
+        end: 8/2
+
+    -   name: B 
+        start: 8/3
+        end: 12/2
+
+    -   name: B'
+        start: 12/2
+        end: 16/2
+
+365-14:
+    -   name: A
+        start: 1/1
+        end: 4/3
+
+    -   name: B
+        start: 5/1
+        end: 8/3
+
+    -   name: A'
+        start: 9/1
+        end: 12/3
+
+    -   name: Modulation nach A 
+        start: 13/1
+        end: 16/3
+
+    -   name: A''
+        start: 17/1
+        end: 20/3
+
+    -   name: Coda???
+        start: 21/1
+        end: 24/2
+
+365-15:
+    -   name: A
+        start: 1/1
+        end: 4/2
+
+    -   name: A'
+        start: 4/3
+        end: 8/2
+
+    -   name: B
+        start: 8/3
+        end: 12/2
+
+    -   name: C
+        start: 12/3
+        end: 16/2
+
+365-16:
+    -   name: A
+        start: 1/1
+        end: 4/2
+        sequence: (Monte)
+
+    -   name: B
+        start: 4/3
+        end: 8/2
+
+    -   name: "Sequence: Fonte in Paralleltonart"
+        start: 8/3
+        end: 12/3
+
+    -   name: C
+        start: 13/1
+        end: 16/2
+
+365-17:
+    -   name: A
+        start: 1/1  
+        end: 4/2
+
+    -   name: A'
+        start: 4/3
+        end: 8/2
+
+    -   name: B
+        start: 8/3
+        end: 12/2
+
+    -   name: B'
+        start: 12/3
+        end: 16/2
+
+365-18:
+    -   name: A
+        start: 1/1  
+        end: 4/3
+
+    -   name: A'
+        start: 5/1
+        end: 9/2
+
+    -   name: B 
+        start: 9/3
+        end: 13/3
+
+    -   name: B'
+        start: 14/1
+        end: 17/2
+
+365-19:
+    -   name: A
+        start: 1/1  
+        end: 4/2
+
+    -   name: A'
+        start: 4/3
+        end: 8/2
+
+    -   name: "B; Sequence: Fonte"
+        start: 8/3
+        end: 12/3
+
+    -   name: "B'; Sequence: Fonte"
+        start: 13/1
+        end: 16/2
+
+365-20:
+    -   name: A
+        start: 1/1  
+        end: 4/3
+
+    -   name: B
+        start: 5/1
+        end: 8/2
+
+    -   name: C
+        start: 8/3
+        end: 12/2
+        sequence: (Quintstieg?)
+
+    -   name: B'
+        start: 12/3
+        end: 16/2
+
+365-21:
+    -   name: A
+        start: 1/1  
+        end: 4/3
+
+    -   name: A'
+        start: 5/1
+        end: 8/2
+
+    -   name: "Sequence: Quintfall"
+        start: 8/3
+        end: 14/3
+
+    -   name: Coda
+        start: 15/1
+        end: 16/2
+
+365-22:
+    -   name: A
+        start: 1/1  
+        end: 4/2
