@@ -339,7 +339,7 @@
 
     -   name: Coda???
         start: 21/1
-        end: 24/2
+        end: 25/1
 
 365-15:
     -   name: A
@@ -348,7 +348,7 @@
 
     -   name: A'
         start: 4/3
-        end: 8/2
+        end: 8/1
 
     -   name: B
         start: 8/3
@@ -356,7 +356,7 @@
 
     -   name: C
         start: 12/3
-        end: 16/2
+        end: 16/1
 
 365-16:
     -   name: A
@@ -366,7 +366,7 @@
 
     -   name: B
         start: 4/3
-        end: 8/2
+        end: 8/1
 
     -   name: "Sequence: Fonte in Paralleltonart"
         start: 8/3
@@ -374,7 +374,7 @@
 
     -   name: C
         start: 13/1
-        end: 16/2
+        end: 16/1
 
 365-17:
     -   name: A
@@ -408,7 +408,7 @@
 
     -   name: B'
         start: 14/1
-        end: 17/2
+        end: 17/1
 
 365-19:
     -   name: A
@@ -417,7 +417,7 @@
 
     -   name: A'
         start: 4/3
-        end: 8/2
+        end: 8/1
 
     -   name: "B; Sequence: Fonte"
         start: 8/3
@@ -425,7 +425,7 @@
 
     -   name: "B'; Sequence: Fonte"
         start: 13/1
-        end: 16/2
+        end: 16/1
 
 365-20:
     -   name: A
@@ -434,7 +434,7 @@
 
     -   name: B
         start: 5/1
-        end: 8/2
+        end: 8/1
 
     -   name: C
         start: 8/3
@@ -443,7 +443,7 @@
 
     -   name: B'
         start: 12/3
-        end: 16/2
+        end: 16/1
 
 365-21:
     -   name: A
@@ -452,7 +452,7 @@
 
     -   name: A'
         start: 5/1
-        end: 8/2
+        end: 8/1
 
     -   name: "Sequence: Quintfall"
         start: 8/3
@@ -460,7 +460,7 @@
 
     -   name: Coda
         start: 15/1
-        end: 16/2
+        end: 16/1
 
 365-22:
     -   name: A
@@ -469,15 +469,15 @@
 
     -   name: A'
         start: 5/1
-        end: 8/1
+        end: 8/2
 
     -   name: B
-        start: 8/2
+        start: 9/3  # should be 8/3
         end: 12/3.5
 
     -   name: B'
         start: 13/1
-        end: 16/2
+        end: 17/2
 
 365-23:
     -   name: A
@@ -489,7 +489,7 @@
         end: 8/3
 
     -   name: "Sequence: Fonte"
-        start: 8/3
+        start: 9/1
         end: 12/3
 
     -   name: Coda
@@ -520,7 +520,7 @@
 
     -   name: A'
         start: 4/3
-        end: 8/2
+        end: 8/1
 
     -   name: B
         start: 8/3
@@ -537,7 +537,7 @@
 
     -   name: A'
         start: 4/3
-        end: 8/2
+        end: 8/1
 
     -   name: B
         start: 8/3
@@ -588,23 +588,23 @@
 
     -   name: A'
         start: 4/2.5
-        end: 8/2
+        end: 8/1
 
     -   name: B
         start: 8/2.5
-        end: 12/2
+        end: 12/1
 
     -   name: B'
         start: 12/2.5
-        end: 16/2
+        end: 16/1
 
     -   name: A''
         start: 16/2.5
-        end: 20/2
+        end: 20/1
 
     -   name: A'''??????????
         start: 20/2.5
-        end: 24/2
+        end: 24/1
 
 365-30:
     -   name: A
@@ -621,7 +621,7 @@
 
     -   name: Coda
         start: 13/1  
-        end: 16/2
+        end: 16/2 # 17/2 or 16b/2
 
 365-31:
     -   name: A
@@ -747,8 +747,8 @@
 
     -   name: C 
         start: 9/1  
-        end: 12/3
+        end: 12/1
 
     -   name: D
         start: 13/1  
-        end: 16/2 ???????
+        end: 16/1
