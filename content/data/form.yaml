@@ -367,6 +367,828 @@
         endKey: A-
         startBeat: 37
         endBeat: 47
+365-09:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 19
+        endLine: 41
+        startKey: A-
+        endKey: A-
+        startBeat: 1.5
+        endBeat: 11.5
+    -
+        name: B
+        start: 4/2.5
+        end: 8/2
+        startLine: 42
+        endLine: 68
+        startKey: A-
+        endKey: A-
+        startBeat: 12
+        endBeat: 23.5
+    -
+        name: C
+        start: 8/2.5
+        end: 12/2
+        startLine: 70
+        endLine: 94
+        startKey: A-
+        endKey: A-
+        startBeat: 24
+        endBeat: 35.5
+    -
+        name: C'
+        start: 12/2.5
+        end: 16/2
+        startLine: 96
+        endLine: 120
+        startKey: A-
+        endKey: A-
+        startBeat: 36
+        endBeat: 47.5
+365-10:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 17
+        endLine: 40
+        startKey: A-
+        endKey: A-
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 42
+        endLine: 69
+        startKey: A-
+        endKey: A-
+        startBeat: 12
+        endBeat: 23
+    -
+        name: B
+        start: 8/3
+        end: 12/2
+        sequence: (Melodie wird eine Sekunde tiefer wiederholt)
+        startLine: 71
+        endLine: 88
+        startKey: A-
+        endKey: A-
+        startBeat: 24
+        endBeat: 35
+    -
+        name: C
+        start: 12/3
+        end: 16/2
+        startLine: 89
+        endLine: 108
+        startKey: A-
+        endKey: A-
+        startBeat: 36
+        endBeat: 47
+365-11:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 18
+        endLine: 43
+        startKey: A-
+        endKey: A-
+        startBeat: 1
+        endBeat: 12
+    -
+        name: A'
+        start: 5/1
+        end: 8/2
+        startLine: 47
+        endLine: 69
+        startKey: A-
+        endKey: A-
+        startBeat: 13
+        endBeat: 23
+    -
+        name: 'Sequence: Fonte in verdurte Paralleltonart'
+        start: 8/3
+        end: 12/3
+        startLine: 72
+        endLine: 103
+        startKey: D-
+        endKey: B-
+        startBeat: 24
+        endBeat: 36
+    -
+        name: B
+        start: 13/1
+        end: 16/2
+        startLine: 107
+        endLine: 131
+        startKey: A-
+        endKey: A-
+        startBeat: 37
+        endBeat: 47
+365-12:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 17
+        endLine: 39
+        startKey: A-
+        endKey: A-
+        startBeat: 0
+        endBeat: 11
+    -
+        name: B
+        start: 5/1
+        end: 8/3
+        startLine: 43
+        endLine: null
+        startKey: A-
+        endKey: null
+        startBeat: 12
+    -
+        name: C
+        start: 9/1
+        end: 12/3
+        startLine: 66
+        endLine: 85
+        startKey: A-
+        endKey: A-
+        startBeat: 24
+        endBeat: 35
+    -
+        name: C'
+        start: 13/1
+        end: 16/2
+        startLine: 88
+        endLine: 108
+        startKey: A-
+        endKey: A-
+        startBeat: 36
+        endBeat: 46
+365-13:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 17
+        endLine: 30
+        startKey: A-
+        endKey: A-
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 31
+        endLine: 47
+        startKey: A-
+        endKey: A-
+        startBeat: 12
+        endBeat: 23
+    -
+        name: B
+        start: 8/3
+        end: 12/2
+        startLine: 49
+        endLine: 70
+        startKey: A-
+        endKey: A-
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 12/2
+        end: 16/2
+        startLine: 70
+        endLine: 93
+        startKey: A-
+        endKey: A-
+        startBeat: 35
+        endBeat: 47
+365-14:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 18
+        endLine: 43
+        startKey: A-
+        endKey: A-
+        startBeat: 1
+        endBeat: 12
+    -
+        name: B
+        start: 5/1
+        end: 8/3
+        startLine: 47
+        endLine: 73
+        startKey: A-
+        endKey: A-
+        startBeat: 13
+        endBeat: 24
+    -
+        name: A'
+        start: 9/1
+        end: 12/3
+        startLine: 77
+        endLine: 103
+        startKey: A-
+        endKey: A-
+        startBeat: 25
+        endBeat: 36
+    -
+        name: Modulation nach A
+        start: 13/1
+        end: 16/3
+        startLine: 106
+        endLine: 134
+        startKey: A-
+        endKey: A
+        startBeat: 37
+        endBeat: 48
+    -
+        name: A''
+        start: 17/1
+        end: 20/3
+        startLine: 138
+        endLine: 164
+        startKey: A
+        endKey: A
+        startBeat: 49
+        endBeat: 60
+    -
+        name: Coda???
+        start: 21/1
+        end: 24/2
+        startLine: 167
+        endLine: null
+        startKey: A
+        endKey: null
+        startBeat: 61
+365-15:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 18
+        endLine: 36
+        startKey: D-
+        endKey: D-
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 37
+        endLine: null
+        startKey: D-
+        endKey: null
+        startBeat: 12
+    -
+        name: B
+        start: 8/3
+        end: 12/2
+        startLine: 61
+        endLine: 84
+        startKey: D-
+        endKey: D-
+        startBeat: 24
+        endBeat: 35
+    -
+        name: C
+        start: 12/3
+        end: 16/2
+        startLine: 86
+        endLine: null
+        startKey: D-
+        endKey: null
+        startBeat: 36
+365-16:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        sequence: (Monte)
+        startLine: 19
+        endLine: 34
+        startKey: A
+        endKey: A
+        startBeat: 1
+        endBeat: 11
+    -
+        name: B
+        start: 4/3
+        end: 8/2
+        startLine: 35
+        endLine: null
+        startKey: A
+        endKey: null
+        startBeat: 12
+    -
+        name: 'Sequence: Fonte in Paralleltonart'
+        start: 8/3
+        end: 12/3
+        startLine: 56
+        endLine: 78
+        startKey: A
+        endKey: B
+        startBeat: 24
+        endBeat: 36
+    -
+        name: C
+        start: 13/1
+        end: 16/2
+        startLine: 82
+        endLine: null
+        startKey: A
+        endKey: null
+        startBeat: 37
+365-17:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 18
+        endLine: 36
+        startKey: A
+        endKey: A
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 38
+        endLine: 59
+        startKey: A
+        endKey: A
+        startBeat: 12
+        endBeat: 23
+    -
+        name: B
+        start: 8/3
+        end: 12/2
+        startLine: 61
+        endLine: 80
+        startKey: A
+        endKey: A
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 12/3
+        end: 16/2
+        startLine: 82
+        endLine: 102
+        startKey: A
+        endKey: A
+        startBeat: 36
+        endBeat: 47
+365-18:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 16
+        endLine: 34
+        startKey: A
+        endKey: A
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 5/1
+        end: 9/2
+        startLine: 36
+        endLine: 58
+        startKey: A
+        endKey: A
+        startBeat: 12
+        endBeat: 25
+    -
+        name: B
+        start: 9/3
+        end: 13/3
+        startLine: 60
+        endLine: 85
+        startKey: A
+        endKey: A
+        startBeat: 26
+        endBeat: 38
+    -
+        name: B'
+        start: 14/1
+        end: 17/2
+        startLine: 88
+        endLine: null
+        startKey: A
+        endKey: null
+        startBeat: 39
+365-19:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 18
+        endLine: 34
+        startKey: G
+        endKey: G
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 35
+        endLine: null
+        startKey: G
+        endKey: null
+        startBeat: 12
+    -
+        name: 'B; Sequence: Fonte'
+        start: 8/3
+        end: 12/3
+        startLine: 58
+        endLine: 83
+        startKey: a
+        endKey: G
+        startBeat: 24
+        endBeat: 36
+    -
+        name: 'B''; Sequence: Fonte'
+        start: 13/1
+        end: 16/2
+        startLine: 89
+        endLine: null
+        startKey: a
+        endKey: null
+        startBeat: 37
+365-20:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 18
+        endLine: 39
+        startKey: G
+        endKey: G
+        startBeat: 1
+        endBeat: 12
+    -
+        name: B
+        start: 5/1
+        end: 8/2
+        startLine: 41
+        endLine: null
+        startKey: G
+        endKey: null
+        startBeat: 13
+    -
+        name: C
+        start: 8/3
+        end: 12/2
+        sequence: (Quintstieg?)
+        startLine: 61
+        endLine: 79
+        startKey: G
+        endKey: G
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 12/3
+        end: 16/2
+        startLine: 81
+        endLine: null
+        startKey: G
+        endKey: null
+        startBeat: 36
+365-21:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 18
+        endLine: 41
+        startKey: G
+        endKey: G
+        startBeat: 1
+        endBeat: 12
+    -
+        name: A'
+        start: 5/1
+        end: 8/2
+        startLine: 43
+        endLine: null
+        startKey: G
+        endKey: null
+        startBeat: 13
+    -
+        name: 'Sequence: Quintfall'
+        start: 8/3
+        end: 14/3
+        startLine: 67
+        endLine: 99
+        startKey: D
+        endKey: C
+        startBeat: 24
+        endBeat: 42
+    -
+        name: Coda
+        start: 15/1
+        end: 16/2
+        startLine: 102
+        endLine: null
+        startKey: G
+        endKey: null
+        startBeat: 43
+365-22:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 15
+        endLine: 37
+        startKey: B
+        endKey: B
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 5/1
+        end: 8/1
+        startLine: 39
+        endLine: 59
+        startKey: B
+        endKey: B
+        startBeat: 12
+        endBeat: 21
+    -
+        name: B
+        start: 8/2
+        end: 12/3.5
+        startLine: 60
+        endLine: null
+        startKey: B
+        endKey: null
+        startBeat: 22
+    -
+        name: B'
+        start: 13/1
+        end: 16/2
+        startLine: 94
+        endLine: 118
+        startKey: g#
+        endKey: g#
+        startBeat: 36
+        endBeat: 46
+365-23:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 15
+        endLine: 38
+        startKey: B
+        endKey: B
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 5/1
+        end: 8/3
+        startLine: 41
+        endLine: 63
+        startKey: B
+        endKey: B
+        startBeat: 12
+        endBeat: 23
+    -
+        name: 'Sequence: Fonte'
+        start: 8/3
+        end: 12/3
+        startLine: 63
+        endLine: 96
+        startKey: B
+        endKey: E
+        startBeat: 23
+        endBeat: 35
+    -
+        name: Coda
+        start: 13/1
+        end: 16/2
+        startLine: 100
+        endLine: 119
+        startKey: B
+        endKey: B
+        startBeat: 36
+        endBeat: 46
+365-24:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 15
+        endLine: 39
+        startKey: B
+        endKey: B
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 5/1
+        end: 8/3
+        startLine: 41
+        endLine: 64
+        startKey: B
+        endKey: B
+        startBeat: 12
+        endBeat: 23
+    -
+        name: 'Sequence: Terzversetzter Quintstieg'
+        start: 9/1
+        end: 12/3
+        startLine: 67
+        endLine: 94
+        startKey: g#
+        endKey: B
+        startBeat: 24
+        endBeat: 35
+    -
+        name: Coda
+        start: 13/1
+        end: 16/2
+        startLine: 96
+        endLine: 118
+        startKey: B
+        endKey: B
+        startBeat: 36
+        endBeat: 46
+365-25:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 17
+        endLine: 36
+        startKey: E
+        endKey: E
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 37
+        endLine: null
+        startKey: E
+        endKey: null
+        startBeat: 12
+    -
+        name: B
+        start: 8/3
+        end: 12/2
+        startLine: 60
+        endLine: 82
+        startKey: E
+        endKey: E
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 12/3
+        end: 16/2
+        startLine: 83
+        endLine: null
+        startKey: E
+        endKey: null
+        startBeat: 36
+365-26:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 19
+        endLine: 38
+        startKey: E
+        endKey: E
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 41
+        endLine: null
+        startKey: E
+        endKey: null
+        startBeat: 12
+    -
+        name: B
+        start: 8/3
+        end: 12/3
+        startLine: 64
+        endLine: 94
+        startKey: E
+        endKey: E
+        startBeat: 24
+        endBeat: 36
+    -
+        name: B'
+        start: 13/1
+        end: 16/2
+        startLine: 98
+        endLine: null
+        startKey: E
+        endKey: null
+        startBeat: 37
+365-27:
+    -
+        name: A
+        start: 1/1
+        end: 4/3
+        startLine: 15
+        endLine: 36
+        startKey: c#
+        endKey: c#
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 5/1
+        end: 8/3
+        startLine: 39
+        endLine: null
+        startKey: c#
+        endKey: null
+        startBeat: 12
+    -
+        name: B
+        start: 9/1
+        end: 12/3
+        startLine: 61
+        endLine: 83
+        startKey: E
+        endKey: E
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 13/1
+        end: 16/2
+        startLine: 86
+        endLine: 104
+        startKey: E
+        endKey: E
+        startBeat: 36
+        endBeat: 46
+365-28:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 18
+        endLine: 33
+        startKey: A
+        endKey: A
+        startBeat: 1
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 34
+        endLine: null
+        startKey: A
+        endKey: null
+        startBeat: 12
+    -
+        name: B
+        start: 8/3
+        end: 12/2
+        startLine: 57
+        endLine: 83
+        startKey: A
+        endKey: A
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 12/3
+        end: 16/2
+        startLine: 86
+        endLine: null
+        startKey: A
+        endKey: null
+        startBeat: 36
 365-29:
     -
         name: A
