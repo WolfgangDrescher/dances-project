@@ -620,13 +620,13 @@
     -
         name: A''
         start: 17/1
-        end: 20/3
+        end: 20/3.5
         startLine: 138
-        endLine: 164
+        endLine: 165
         startKey: A
         endKey: A
         startBeat: 49
-        endBeat: 60
+        endBeat: 60.5
     -
         name: Coda???
         start: 21/1
@@ -1040,13 +1040,13 @@
     -
         name: Coda
         start: 13/1
-        end: 16/2
+        end: 16/3
         startLine: 96
-        endLine: 118
+        endLine: 120
         startKey: B
         endKey: B
         startBeat: 36
-        endBeat: 46
+        endBeat: 47
 365-25:
     -
         name: A
@@ -1581,13 +1581,13 @@
     -
         name: B
         start: 13/1
-        end: 16/2
+        end: 16/3
         startLine: 83
-        endLine: 105
+        endLine: 106
         startKey: F
         endKey: F
         startBeat: 36
-        endBeat: 46
+        endBeat: 47
 365-36:
     -
         name: A
