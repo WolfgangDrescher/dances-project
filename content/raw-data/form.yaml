@@ -37,7 +37,7 @@
 365-01:
      -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
      -
         name: B
@@ -421,10 +421,10 @@
 
     -   name: "B; Sequence: Fonte"
         start: 8/3
-        end: 12/2.5
+        end: 12/2
 
     -   name: "B'; Sequence: Fonte"
-        start: 13/1
+        start: 12/3
         end: 16/1
 
 365-20:
@@ -469,11 +469,11 @@
 
     -   name: A'
         start: 5/1
-        end: 8/2
+        end: 9/2
 
     -   name: B
         start: 9/3  # should be 8/3
-        end: 12/3.5
+        end: 12/3
 
     -   name: B'
         start: 13/1
@@ -600,7 +600,7 @@
 
     -   name: A''
         start: 16/2.5
-        end: 20/1
+        end: 20/2
 
     -   name: A'''???
         start: 20/2.5
@@ -621,7 +621,7 @@
 
     -   name: Coda
         start: 13/1  
-        end: 16/2 # 17/2 or 16b/2
+        end: 17/2 
 
 365-31:
     -   name: A

@@ -1,7 +1,7 @@
 365-01:
     -
         name: A
-        start: 1/1
+        start: 0/3
         end: 4/2
         startLine: 15
         endLine: 34
@@ -510,11 +510,11 @@
         start: 5/1
         end: 8/2
         startLine: 43
-        endLine: 64
+        endLine: 63
         startKey: A-
         endKey: A-
         startBeat: 12
-        endBeat: 23
+        endBeat: 22
     -
         name: C
         start: 9/1
@@ -632,10 +632,11 @@
         start: 21/1
         end: 25/1
         startLine: 167
-        endLine: null
+        endLine: 193
         startKey: A
-        endKey: null
+        endKey: D-
         startBeat: 61
+        endBeat: 73
 365-15:
     -
         name: A
@@ -825,21 +826,22 @@
     -
         name: 'B; Sequence: Fonte'
         start: 8/3
-        end: 12/2.5
+        end: 12/2
         startLine: 58
-        endLine: null
-        startKey: a
-        endKey: null
-        startBeat: 24
-    -
-        name: 'B''; Sequence: Fonte'
-        start: 13/1
-        end: 16/1
-        startLine: 89
-        endLine: 110
+        endLine: 82
         startKey: a
         endKey: G
-        startBeat: 37
+        startBeat: 24
+        endBeat: 35
+    -
+        name: 'B''; Sequence: Fonte'
+        start: 12/3
+        end: 16/1
+        startLine: 83
+        endLine: 110
+        startKey: G
+        endKey: G
+        startBeat: 36
         endBeat: 46
 365-20:
     -
@@ -938,22 +940,23 @@
     -
         name: A'
         start: 5/1
-        end: 8/2
+        end: 9/2
         startLine: 39
-        endLine: 60
+        endLine: 66
         startKey: B
         endKey: B
         startBeat: 12
-        endBeat: 22
+        endBeat: 25
     -
         name: B
         start: 9/3
-        end: 12/3.5
+        end: 12/3
         startLine: 70
-        endLine: null
+        endLine: 92
         startKey: g#
-        endKey: null
+        endKey: g#
         startBeat: 26
+        endBeat: 35
     -
         name: B'
         start: 13/1
@@ -1204,11 +1207,11 @@
         name: B'
         start: 13/1
         end: 16/2
-        startLine: 86
+        startLine: 89
         endLine: 111
         startKey: A
         endKey: A
-        startBeat: 36
+        startBeat: 37
         endBeat: 47
 365-29:
     -
@@ -1254,13 +1257,13 @@
     -
         name: A''
         start: 16/2.5
-        end: 20/1
+        end: 20/2
         startLine: 94
-        endLine: 113
+        endLine: 114
         startKey: D
         endKey: D
         startBeat: 48
-        endBeat: 58.5
+        endBeat: 59.5
     -
         name: A'''???
         start: 20/2.5
@@ -1348,10 +1351,11 @@
         start: 15/1
         end: 19/3
         startLine: 107
-        endLine: null
+        endLine: 132
         startKey: C
-        endKey: null
+        endKey: C
         startBeat: 42
+        endBeat: 56
 365-32:
     -
         name: A
@@ -1408,11 +1412,11 @@
         start: 21/1
         end: 24/2
         startLine: 135
-        endLine: 154
+        endLine: 153
         startKey: F
         endKey: F
         startBeat: 60
-        endBeat: 71
+        endBeat: 70
 365-33:
     -
         name: A
