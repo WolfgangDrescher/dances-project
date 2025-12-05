@@ -20,21 +20,18 @@ function getLeft(startBeat) {
 </script>
 
 <template>
-    HELLOOOOO
-    <div class="flex flex-col gap-2">
-         <div v-for="row in props" class="h-[1.5rem] relative">
-            <div v-for="segment in group[1]" class="absolute h-full" :style="{
-                width: `${getWidth(segment.startBeat, segment.endBeat)}%`,
-                left: `${getLeft(segment.startBeat)}%`,
-            }">
-                <UTooltip :text="segment.key">
-                    <div class="w-full h-full bg-gray-200 rounded px-2 flex items-center hover:bg-primary-400 hover:shadow">
-                        {{ part.name }}
-                    </div>
-                </UTooltip>
-            </div>
+    <div class="relative h-12">
+        <div v-for="part in form" class="absolute h-full" :style="{
+            width: `${getWidth(part.startBeat, part.endBeat)}%`,
+            left: `${getLeft(part.startBeat)}%`,
+        }">
+            <UTooltip :text="part.name">
+                <div class="w-full h-full bg-gray-200 rounded px-2 flex items-center hover:bg-primary-400 hover:shadow">
+                    {{ part.name }}
+                </div>
+            </UTooltip>
         </div>
-  </div>
+    </div>
 </template>
     
 

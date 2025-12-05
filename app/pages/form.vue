@@ -18,8 +18,11 @@ const options = reactive({
 
 const openScore = ref(null);
 function toggleScore(value) {
-    openScore.value = openScore.value === value ? null : value;
+    openScore.value = openScore.value === value ? null : value;0
 }
+
+const forms = formData.value.body;
+
 </script>
 
 
@@ -59,7 +62,7 @@ function toggleScore(value) {
                                     <VerovioCanvas v-if="openScore === piece.slug" view-mode="horizontal" :url="piece.localRawFile" :scale="35" :page-margin="20" />
                                 </div>
                             </div>
-                            <PieceForm v-if="formData?.[piece.slug]" :form="formData[piece.slug]"/>
+                            <PieceForm v-if="forms?.[piece.slug]" :form="forms[piece.slug]"/>
                         </div>
                     </UCard>
                 </div>
