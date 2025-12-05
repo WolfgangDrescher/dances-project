@@ -109,7 +109,7 @@ function getParsedFormPart(formPart, kernLines, data) {
     const end = parseTimepoint(endPoint);
 
     const current = {
-        measure: null,
+        measure: 0,
         key: null,
         meter: null,
         lineNumber: null,
