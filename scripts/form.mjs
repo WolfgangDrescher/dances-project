@@ -211,7 +211,7 @@ getFiles(pathToKernScores).forEach(file => {
     
     const lnnrKernScore = addLineNumbersAsSpine(kernScore);
     
-    const dataAsString = execSync(`beat -cp | beat -dp | beat -da --attacks 0 | meter | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridxx -LGTMId`, {
+    const dataAsString = execSync(`beat -cp | beat -dp | beat -da --attacks 0 | meter -r | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridxx -LGTMId`, {
         input: lnnrKernScore,
     }).toString().trim();
 
@@ -251,8 +251,8 @@ spine 6 = slice (line) duration                      => beat -da --attacks 0
             const obj = {
                 sliceDuration: parseFloat(row[0]),
                 continuousBeat: parseFloat(row[1]),
-                leftHandMeter: row[2],
-                rightHandMeter: row[3],
+                leftHandMeter: row[2].replace('r', ''),
+                rightHandMeter: row[3].replace('r', ''),
                 sliceDurationAttacks0: parseFloat(row[5]),
             };
 
