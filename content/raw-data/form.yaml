@@ -339,7 +339,7 @@ schubert-365-14:
 
     -   name: Coda???
         start: 21/1
-        end: 25/1 # not working
+        end: 24/3 # 25/1 would be correct vut its not working
 
 schubert-365-15:
     -   name: A
