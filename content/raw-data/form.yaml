@@ -318,13 +318,8 @@
 
 365-14:
     -   name: A
-<<<<<<< HEAD
-        start: 1/1
-        end: 4/3.5
-=======
         start: 0/3
         end: 4/3
->>>>>>> origin/develop
 
     -   name: B
         start: 5/1
