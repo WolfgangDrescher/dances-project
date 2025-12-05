@@ -6,7 +6,7 @@
 
 
 
-# 790-02:
+# schubert-790-02:
 #     -
 #       name: A
 #       start: 1/1
@@ -34,7 +34,7 @@
 #         end: 25/1
 
 
-365-01:
+schubert-365-01:
      -
         name: A
         start: 0/3
@@ -54,7 +54,7 @@
         end: 16/1
 
 
-365-02:
+schubert-365-02:
     -
         name: A
         start: 0/2.5
@@ -76,7 +76,7 @@
         end: 16/2
 
 
-365-03:
+schubert-365-03:
     -
         name: A
         start: 0/3
@@ -114,7 +114,7 @@
                 start: 15/1
                 end: 16/1
 
-365-04:
+schubert-365-04:
     -
         name: A
         start: 0/3
@@ -135,7 +135,7 @@
         start: 12/3
         end: 16/1
 
-365-05:
+schubert-365-05:
     -
         name: A
         start: 0/3
@@ -156,7 +156,7 @@
         start: 13/1
         end: 16/2
 
-365-06:
+schubert-365-06:
     -
         name: A
         start: 0/3
@@ -177,7 +177,7 @@
         start: 13/1
         end: 16/2
 
-365-07:
+schubert-365-07:
     -
         name: A
         start: 0/3
@@ -198,7 +198,7 @@
         start: 12/3
         end: 16/2
 
-365-08:
+schubert-365-08:
     -
         name: A
         start: 0/3
@@ -219,7 +219,7 @@
         start: 13/1
         end: 16/2
 
-365-09:
+schubert-365-09:
     -
         name: A
         start: 0/2.5
@@ -240,7 +240,7 @@
         start: 12/2.5
         end: 16/2
 
-365-10:
+schubert-365-10:
     -
         name: A
         start: 0/3
@@ -262,7 +262,7 @@
         start: 12/3
         end: 16/2
 
-365-11:
+schubert-365-11:
     -
         name: A
         start: 0/3
@@ -282,7 +282,7 @@
         start: 13/1
         end: 16/2
 
-365-12:
+schubert-365-12:
     -   name: A
         start: 1/1
         end: 4/3
@@ -299,7 +299,7 @@
         start: 13/1
         end: 16/2
 
-365-13:
+schubert-365-13:
     -   name: A
         start: 0/3
         end: 4/2
@@ -316,7 +316,7 @@
         start: 12/2
         end: 16/2
 
-365-14:
+schubert-365-14:
     -   name: A
         start: 0/3
         end: 4/3
@@ -341,7 +341,7 @@
         start: 21/1
         end: 25/1 # not working
 
-365-15:
+schubert-365-15:
     -   name: A
         start: 0/3
         end: 4/2
@@ -358,7 +358,7 @@
         start: 12/3
         end: 16/1
 
-365-16:
+schubert-365-16:
     -   name: A
         start: 0/3
         end: 4/2
@@ -376,7 +376,7 @@
         start: 13/1
         end: 16/1
 
-365-17:
+schubert-365-17:
     -   name: A
         start: 0/3  
         end: 4/2
@@ -393,7 +393,7 @@
         start: 12/3
         end: 16/2
 
-365-18:
+schubert-365-18:
     -   name: A
         start: 1/1  
         end: 4/3
@@ -410,7 +410,7 @@
         start: 14/1
         end: 17/1
 
-365-19:
+schubert-365-19:
     -   name: A
         start: 0/3  
         end: 4/2
@@ -427,7 +427,7 @@
         start: 12/3
         end: 16/1
 
-365-20:
+schubert-365-20:
     -   name: A
         start: 0/3  
         end: 4/3
@@ -445,7 +445,7 @@
         start: 12/3
         end: 16/1
 
-365-21:
+schubert-365-21:
     -   name: A
         start: 0/3
         end: 4/3
@@ -462,7 +462,7 @@
         start: 15/1
         end: 16/1
 
-365-22:
+schubert-365-22:
     -   name: A
         start: 1/1  
         end: 4/3
@@ -479,7 +479,7 @@
         start: 13/1
         end: 17/2
 
-365-23:
+schubert-365-23:
     -   name: A
         start: 1/1  
         end: 4/3
@@ -496,7 +496,7 @@
         start: 13/1
         end: 16/2   
 
-365-24:
+schubert-365-24:
     -   name: A
         start: 1/1  
         end: 4/3
@@ -513,7 +513,7 @@
         start: 13/1
         end: 16/3
 
-365-25:
+schubert-365-25:
     -   name: A
         start: 0/3  
         end: 4/2
@@ -530,7 +530,7 @@
         start: 12/3
         end: 16/2
 
-365-26:
+schubert-365-26:
     -   name: A
         start: 0/3  
         end: 4/2
@@ -547,7 +547,7 @@
         start: 13/1
         end: 16/2
 
-365-27:
+schubert-365-27:
     -   name: A
         start: 1/1  
         end: 4/3
@@ -564,7 +564,7 @@
         start: 13/1
         end: 16/2
 
-365-28:
+schubert-365-28:
     -   name: A
         start: 0/3  
         end: 4/2
@@ -581,7 +581,7 @@
         start: 13/1
         end: 16/2
 
-365-29:
+schubert-365-29:
     -   name: A
         start: 0/2.5  
         end: 4/2 
@@ -606,7 +606,7 @@
         start: 20/2.5
         end: 24/1
 
-365-30:
+schubert-365-30:
     -   name: A
         start: 1/1  
         end: 4/3
@@ -623,7 +623,7 @@
         start: 13/1  
         end: 17/2 
 
-365-31:
+schubert-365-31:
     -   name: A
         start: 1/1  
         end: 4/3
@@ -640,7 +640,7 @@
         start: 15/1  
         end: 19/3
 
-365-32:
+schubert-365-32:
     -   name: A     
         start: 1/1  
         end: 4/3
@@ -665,7 +665,7 @@
         start: 21/1  
         end: 24/2
 
-365-33:
+schubert-365-33:
     -   name: A    
         start: 1/1  
         end: 4/3
@@ -698,7 +698,7 @@
         start: 29/1  
         end: 32/3
 
-365-34:
+schubert-365-34:
     -   name: Vorspiel
         start: 1/1  
         end: 2/3
@@ -719,7 +719,7 @@
         start: 15/1  
         end: 18/3
 
-365-35:
+schubert-365-35:
     -   name: A     
         start: 1/1  
         end: 4/3
@@ -736,7 +736,7 @@
         start: 13/1  
         end: 16/3
 
-365-36:
+schubert-365-36:
     -   name: A     
         start: 1/1  
         end: 4/3
