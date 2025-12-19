@@ -50,6 +50,11 @@ export default defineNuxtConfig({
                 dir: fileURLToPath(new URL('./schubert-dances/kern', import.meta.url)),
                 maxAge: 3600,
             },
+            {
+                baseURL: 'kern/gonzaga-dances',
+                dir: fileURLToPath(new URL('./gonzaga-dances/kern', import.meta.url)),
+                maxAge: 3600,
+            },
         ],
     },
     colorMode: {
