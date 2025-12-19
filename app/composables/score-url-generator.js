@@ -29,7 +29,7 @@ export function useScoreUrlGenerator() {
     }
 
     function vhvScoreUrlGenerator(id) {
-        const url = `https://verovio.humdrum.org/?file=${encodeURIComponent(githubRawScoreUrlGenerator(normalizeId(id)))}`;
+        const url = `https://verovio.humdrum.org/?file=${encodeURIComponent(githubRawScoreUrlGenerator(id))}`;
         return url;
     }
 
