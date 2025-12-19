@@ -24,7 +24,7 @@ export function useScoreUrlGenerator() {
     }
 
     function githubRawScoreUrlGenerator(id) {
-        const url = `https://raw.githubusercontent.com/${getGithubUser(id)}/${getComposer(id)}-dances/refs/heads/master/kern/${normalizeId(id)}.krn`;
+        const url = `https://raw.githubusercontent.com/${getGithubUser(id)}/${getComposer(id)}-dances/master/kern/${normalizeId(id)}.krn`;
         return url;
     }
 
