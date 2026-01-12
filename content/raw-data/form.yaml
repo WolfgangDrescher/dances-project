@@ -821,6 +821,21 @@ gonzaga-ainda-nao-morreu:
         end: 54/1
 
 gonzaga-alegre-se-viuva:
+    -   name: A
+        start: 0/2.5
+        end: 16/2
+
+    -   name: B
+        start: 16/2
+        end: 32/1.5
+
+    -   name: A
+        start: 32/2.5
+        end: 48/2
+
+    -   name: Trio
+        start: 49/1
+        end: 63/2
 
 gonzaga-anga:
 
