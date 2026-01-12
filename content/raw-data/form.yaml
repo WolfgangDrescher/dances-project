@@ -839,6 +839,17 @@ gonzaga-anga:
         end: 63/2
       
 gonzaga-bijou:
+    -   name: Intro
+        start: 1/1
+        end: 12/2
+
+    -   name: A
+        start: 13/1
+        end: 29/2
+
+    -   name: A
+        start: 30/1
+        end: 62/2
 
 gonzaga-bionne:
 
