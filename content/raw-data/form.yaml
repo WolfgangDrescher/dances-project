@@ -795,7 +795,7 @@ gonzaga-agua-do-vintem:
         start: 33/1
         end: 52/1.5
 
-gonzaga-ainda-nao-morreu:
+gonzaga-alegre-se-viuva:
     -   name: Intro
         start: 0/1.5
         end: 1/1
@@ -820,7 +820,8 @@ gonzaga-ainda-nao-morreu:
         start: 43/2
         end: 54/1
 
-gonzaga-alegre-se-viuva:
+
+gonzaga-anga:
     -   name: A
         start: 0/2.5
         end: 16/2
@@ -836,9 +837,7 @@ gonzaga-alegre-se-viuva:
     -   name: Trio
         start: 49/1
         end: 63/2
-
-gonzaga-anga:
-
+      
 gonzaga-bijou:
 
 gonzaga-bionne:
