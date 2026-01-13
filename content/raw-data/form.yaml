@@ -1095,6 +1095,25 @@ gonzaga-so-na-flauta:
         end: 36/2
 
 gonzaga-so-no-choro:
+    -   name: A
+        start: 0/2.75
+        end: 9/2
+
+    -   name: B
+        start: 9/2.75
+        end: 25/2.25
+
+    -   name: A
+        start: 25/2.75
+        end: 34/2
+
+    -   name: C
+        start: 34/2.75
+        end: 51/2
+
+    -   name: A
+        start: 51/2.75
+        end: 60/2
 
 gonzaga-suspiro:
 
