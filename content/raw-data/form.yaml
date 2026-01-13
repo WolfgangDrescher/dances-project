@@ -1069,8 +1069,30 @@ gonzaga-sao-paolo:
         end: 84/2
         
 gonzaga-sedutor:
+    -   name: Intro
+        start: 0/2.75
+        end: 6/1
+
+    -   name: A
+        start: 6/1.75
+        end: 23/1
+
+    -   name: B
+        start: 23/1.75
+        end: 55/1
 
 gonzaga-so-na-flauta:
+    -   name: Intro
+        start: 1/1
+        end: 3/1
+
+    -   name: A
+        start: 4/1.25
+        end: 20/1
+
+    -   name: B
+        start: 20/1.75
+        end: 36/2
 
 gonzaga-so-no-choro:
 
