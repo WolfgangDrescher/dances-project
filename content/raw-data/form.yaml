@@ -1239,6 +1239,21 @@ gonzaga-tim-tim:
         end: 39/1
 
 gonzaga-tupa:
+    -   name: A
+        start: 1/1
+        end: 17/1
+
+    -   name: B
+        start: 17/1.25
+        end: 33/1
+
+    -   name: A
+        start: 33/1.25
+        end: 49/1
+
+    -   name: C
+        start: 49/1.75
+        end: 65/2
 
 gonzaga-xi:
 
