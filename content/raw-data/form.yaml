@@ -1256,5 +1256,20 @@ gonzaga-tupa:
         end: 65/2
 
 gonzaga-xi:
+    -   name: Intro
+        start: 1/1
+        end: 8/1
+
+    -   name: A
+        start: 9/1    
+        end: 25/1
+
+    -   name: B
+        start: 26/1
+        end: 41/2.5
+
+    -   name: A
+        start: 42/1
+        end: 57/2
 
 gonzaga-yo-te-adoro:
