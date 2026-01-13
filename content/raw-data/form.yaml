@@ -1141,10 +1141,30 @@ gonzaga-suspiro:
         end: 76/2
 
 gonzaga-tambyquerere:
-    -   name: Intro
+    -   name: A
         start: 1/1
-        end: 4/1
-        
+        end: 16/1.5
+
+    -   name: B
+        start: 16/2.25
+        end: 32/1
+
+    -   name: Interlude
+        start: 32/2.5
+        end: 34/2
+
+    -   name: A
+        start: 35/1
+        end: 50/2
+
+    -   name: Trio
+        start: 51/1
+        end: 82/1
+
+    -   name: Interlude
+        start: 82/2.5
+        end: 84/2
+
 gonzaga-tango-alguma:
 
 gonzaga-tango-brasileiro:
