@@ -869,6 +869,17 @@ gonzaga-bionne:
         end: 66/1
 
 gonzaga-carijo:
+    -   name: Intro
+        start: 1/2.5
+        end: 5/2.5
+
+    -   name: A
+        start: 6/1
+        end: 22/2
+
+    -   name: A
+        start: 23/1
+        end: 32/2
 
 gonzaga-choro:
 
