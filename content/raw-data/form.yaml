@@ -1116,9 +1116,35 @@ gonzaga-so-no-choro:
         end: 60/2
 
 gonzaga-suspiro:
+    -   name: intro
+        start: 1/1
+        end: 4/1
+
+    -   name: A
+        start: 5/1
+        end: 20/2.5
+
+    -   name: B
+        start: 21/1
+        end: 36/2.5
+
+    -   name: Interlude
+        start: 37/1
+        end: 44/1
+
+    -   name: Trio
+        start: 44/2
+        end: 60/1
+
+    -   name: A
+        start: 61/2.5
+        end: 76/2
 
 gonzaga-tambyquerere:
-
+    -   name: Intro
+        start: 1/1
+        end: 4/1
+        
 gonzaga-tango-alguma:
 
 gonzaga-tango-brasileiro:
