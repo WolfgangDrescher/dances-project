@@ -1027,20 +1027,47 @@ gonzaga-o-jagunco:
         end: 44/2
 
 gonzaga-saci-perere:
+    -   name: A
+        start: 1/1
+        end: 20/1.5
+
+    -   name: B
+        start: 20/2.25
+        end: 37/2
+
+    -   name: C
+        start: 37/2.25
+        end: 44/2
+
+    -   name: Trio
+        start: 44/2.25
+        end: 60/2
+
+gonzaga-sao-paolo:
     -   name: Intro
         start: 1/1
         end: 8/1
 
     -   name: A
-        start: 9/1.5
-        end: 24/1.5
+        start: 8/2.5
+        end: 25/2
+
+    -   name: B
+        start: 26/1
+        end: 42/2
+
+    -   name: C
+        start: 43/1
+        end: 50/2
 
     -   name: A
-        start: 25/2.5
-        end: 40/1.5
+        start: 50/2.
+        end: 66/2.25
 
-gonzaga-sao-paolo:
-
+    -   name: Trio
+        start: 66/2.5
+        end: 84/2
+        
 gonzaga-sedutor:
 
 gonzaga-so-na-flauta:
