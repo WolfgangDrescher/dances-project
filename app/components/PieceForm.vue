@@ -8,11 +8,15 @@ const props = defineProps({
 
 const form = props.form || [];
 
+//maxbeat: barnumShift + endBeat of last form part
 const maxBeat = form[form.length - 1]?.endBeat ?? 0;
 
+//startbeat=startbeat+barnumShift
 function getWidth(startBeat, endBeat) {
     return (endBeat - startBeat) / maxBeat * 100;
 }
+
+//left=startbeat+barnumShift
 function getLeft(startBeat) {
     return startBeat / maxBeat * 100;
 }
