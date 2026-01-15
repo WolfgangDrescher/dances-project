@@ -1080,6 +1080,16 @@ gonzaga-sedutor:
     -   name: B
         start: 23/1.75
         end: 55/1
+    
+    -   name: A
+        start: 7/1
+        end: 20/2.5
+        barnumShift: 57
+
+    -   name: Coda
+        start: 56/1
+        end: 57/1
+        barnumShift: 71
 
 gonzaga-so-na-flauta:
     -   name: Intro
