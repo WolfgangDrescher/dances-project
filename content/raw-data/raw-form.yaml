@@ -1080,12 +1080,10 @@ gonzaga-sedutor:
     -   name: B
         start: 23/1.75
         end: 55/1
-    
-    -   name: (A)
-        start: 55/1.75
-        end: 55/2.5
 
     -   name: A
+        start: 55/1.75
+        end: 55/2.5
         start: 7/1
         end: 20/2.5
         barnumShift: 57
