@@ -17,7 +17,7 @@ const pathToKernScores = [
         prefix: 'gonzaga-',
     },
 ];
-const formYamlPath = `${__dirname}/../content/raw-data/form.yaml`;
+const formYamlPath = `${__dirname}/../content/raw-data/raw-form.yaml`;
 const formContentYamlPath = `${__dirname}/../content/data/form.yaml`;
 
 function getIdFromFilename(path) {
