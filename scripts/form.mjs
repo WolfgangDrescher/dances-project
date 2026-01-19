@@ -196,7 +196,7 @@ function addLineNumbersAsSpine(kern) {
             line += '\t!';
         } else if (line.startsWith('=')) {
             line += '\t=';
-        } else {
+        } else if (line.trim() !== '') {
             line += `\t${i + 1}`;
         }
         lines[i] = line;
