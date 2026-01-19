@@ -66,10 +66,10 @@ const composerItems = [...new Set(data.value.map(p => p.composer))];
                             <NuxtLink :to="localePath({ name: 'piece-id', params: { id: piece.slug } })">
                                 <div class="flex">
                                     <div>
-                                        {{ `${piece.composer}: ${piece.largerWorkTitle}${piece.nr ? ` №${piece.nr}` : ''}` }}
+                                        {{ piece.op && piece.nr ? `Op. ${piece.op} № ${piece.nr}` : piece.title }}
                                     </div>
                                     <div class="ml-auto">
-                                        {{ piece.op && piece.nr ? `Op. ${piece.op} № ${piece.nr}` : piece.title }}
+                                         {{ `${piece.composer}: ${piece.largerWorkTitle}${piece.nr ? ` №${piece.nr}` : ''}` }}
                                     </div>
                                 </div>
                             </NuxtLink>
