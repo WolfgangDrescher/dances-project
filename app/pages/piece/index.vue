@@ -45,7 +45,7 @@ const columns = [
         return h(UButton, {
             color: 'neutral',
             variant: 'ghost',
-            label: t('key'),
+            label: t('majorMinor'),
             icon: isSorted
             ? isSorted === 'asc'
                 ? 'i-lucide-arrow-up-narrow-wide'
