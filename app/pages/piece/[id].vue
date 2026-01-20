@@ -42,14 +42,31 @@ form.forEach(formPart => {
         });
     }
 });
+
+function getPieceTitle() {
+    // use piece.value.body.title instead of piece.value.title
+    // nuxt content will fill title with a default value
+    let title = `${piece.value.body.largerWorkTitle}`;
+
+    if (piece.value.body.nr || piece.value.body.title) {
+        title = `${title},`;
+    }
+    if (piece.value.body.nr) {
+        title = `${title} №${piece.value.body.nr}`;
+    }
+    if (piece.value.body.title) {
+        title = `${title} ${piece.value.body.title}`;
+    }
+    return title;  
+}          
 </script>
 
 <template>
     <UContainer>
         <div class="flex flex-col gap-8">
-            <div>
+            <div>  
                 <Heading>
-                    {{ `${piece.largerWorkTitle}${piece.largerWorkTitle === 'Tangos' ? ',' : ''} ${piece.nr ? ` №${piece.nr}` : piece.title}` }}
+                      {{ `${piece.nr ? ` ${piece.largerWorkTitle}, №${piece.nr}` : piece.title}` }}
                     <div class="text-base font-normal">
                         {{ piece.composer }}{{ `${piece.op ? `, Op. ${piece.op}` : '' }`}}
                     </div>
