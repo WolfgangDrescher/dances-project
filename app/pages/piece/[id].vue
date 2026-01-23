@@ -1,4 +1,4 @@
-<script setup>
+<script setup> 
 const localePath = useLocalePath();
 const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryCollection('pieces').where('stem', '=', `pieces/${id}`).first());
@@ -58,7 +58,7 @@ function getPieceTitle() {
         title = `${title} ${piece.value.body.title}`;
     }
     return title;  
-}          
+}
 </script>
 
 <template>
@@ -66,7 +66,7 @@ function getPieceTitle() {
         <div class="flex flex-col gap-8">
             <div>  
                 <Heading>
-                      {{ `${piece.nr ? ` ${piece.largerWorkTitle}, №${piece.nr}` : piece.title}` }}
+                      {{ getPieceTitle() }}
                     <div class="text-base font-normal">
                         {{ piece.composer }}{{ `${piece.op ? `, Op. ${piece.op}` : '' }`}}
                     </div>
