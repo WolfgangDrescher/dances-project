@@ -22,7 +22,7 @@ const columns = [
             : 'i-lucide-arrow-up-down',
             class: '-mx-2.5',
             onClick: () => column.toggleSorting(column.getIsSorted() === 'asc'),
-        }); `${piece.nr ? ` №${piece.nr}` : piece.title}` 
+        });
     }, cell: ({ row }) => `${row.original.op ? `${row.original.op} /`: ''}${row.original.nr ? `${row.original.nr}` : ''}`},  { accessorKey: 'largerWorkTitle', header: t('largerWorkTitle') },
     { accessorKey: 'title', header: t('title') },
     { accessorKey: 'key', header: ({ column }) => {
