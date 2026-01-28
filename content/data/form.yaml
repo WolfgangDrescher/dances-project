@@ -1697,10 +1697,11 @@ gonzaga-agua-do-vintem:
         name: A
         start: 0/2.25
         end: 8/1.5
-        startLine: null
+        startLine: 17
         endLine: null
-        startKey: null
+        startKey: F
         endKey: null
+        startBeat: 0
     -
         name: B
         start: 8/2.25
