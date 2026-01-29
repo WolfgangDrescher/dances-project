@@ -82,6 +82,7 @@ pathToKernScores.forEach(repo => {
             meter,
             majorMinor: key === key.toLowerCase() ? 'minor' : 'major',
             genre: referenceRecords.AGN,
+            scholaryCatalogueNumber: referenceRecords.SCT,
         });
 
         const configFilename = `${prefix}-${id}.yaml`;

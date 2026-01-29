@@ -23,8 +23,7 @@ const columns = [
             class: '-mx-2.5',
             onClick: () => column.toggleSorting(column.getIsSorted() === 'asc'),
         });
-    }, cell: ({ row }) => `${row.original.op} / ${row.original.nr}` },
-    { accessorKey: 'largerWorkTitle', header: t('largerWorkTitle') },
+    }, cell: ({ row }) => `${row.original.op ? `${row.original.op} /`: ''}${row.original.nr ? `${row.original.nr}` : ''}`},  { accessorKey: 'largerWorkTitle', header: t('largerWorkTitle') },
     { accessorKey: 'title', header: t('title') },
     { accessorKey: 'key', header: ({ column }) => {
         const isSorted = column.getIsSorted();
@@ -46,7 +45,7 @@ const columns = [
         return h(UButton, {
             color: 'neutral',
             variant: 'ghost',
-            label: t('key'),
+            label: t('majorMinor'),
             icon: isSorted
             ? isSorted === 'asc'
                 ? 'i-lucide-arrow-up-narrow-wide'
