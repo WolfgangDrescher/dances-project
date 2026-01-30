@@ -1787,21 +1787,23 @@ gonzaga-ainda-nao-morreu:
 gonzaga-alegre-se-viuva:
     -
         name: Intro
-        start: 0/1.5
+        start: 0/2.5
         end: 1/1
-        startLine: null
+        startLine: 17
         endLine: 20
-        startKey: null
+        startKey: C
         endKey: C
+        startBeat: 0
         endBeat: 0.5
     -
         name: A
-        start: 1/1.5
+        start: 1/2.5
         end: 12/2.5
-        startLine: null
+        startLine: 22
         endLine: 92
-        startKey: null
+        startKey: C
         endKey: C
+        startBeat: 2
         endBeat: 24
     -
         name: B

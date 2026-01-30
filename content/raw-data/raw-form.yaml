@@ -797,11 +797,11 @@ gonzaga-agua-do-vintem:
 
 gonzaga-alegre-se-viuva:
     -   name: Intro
-        start: 0/1.5
+        start: 0/2.5
         end: 1/1
 
     -   name: A
-        start: 1/1.5
+        start: 1/2.5
         end: 12/2.5
 
     -   name: B
