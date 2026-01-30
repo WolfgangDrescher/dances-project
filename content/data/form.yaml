@@ -2003,21 +2003,34 @@ gonzaga-choro:
     -
         name: A
         start: 8/1.75
-        end: 24/1.5
+        end: 23/1.5
         startLine: 62
-        endLine: null
+        endLine: 183
         startKey: E-
-        endKey: null
+        endKey: E-
         startBeat: 14.75
+        endBeat: 46.5
     -
         name: A
-        start: 24/2.5
-        end: 40/1.5
-        startLine: 196
-        endLine: null
-        startKey: A-
-        endKey: null
-        startBeat: 49.5
+        start: 8/1.75
+        end: 23/1.5
+        barnumShift: 64
+        startLine: 62
+        endLine: 183
+        startKey: E-
+        endKey: E-
+        startBeat: 14.75
+        endBeat: 46.5
+    -
+        name: B
+        start: 23/2.5
+        end: 39/1.5
+        startLine: 187
+        endLine: 308
+        startKey: E-
+        endKey: A-
+        startBeat: 47.5
+        endBeat: 78.5
 gonzaga-evoe:
     -
         name: Intro
@@ -2433,7 +2446,7 @@ gonzaga-sedutor:
         name: A
         start: 7/1
         end: 20/2.5
-        barnumShift: 57
+        barnumShift: 96.25
         startLine: 58
         endLine: 164
         startKey: F
@@ -2444,7 +2457,7 @@ gonzaga-sedutor:
         name: Coda
         start: 56/1
         end: 57/1
-        barnumShift: 71
+        barnumShift: 27.5
         startLine: 443
         endLine: 448
         startKey: F
