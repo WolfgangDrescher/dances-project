@@ -2479,7 +2479,7 @@ gonzaga-saci-perere:
         start: 20/2.25
         end: 36/2
         startLine: 187
-        endLine: 330
+        endLine: 331
         startKey: C
         endKey: C
         startBeat: 39.25
@@ -2488,18 +2488,52 @@ gonzaga-saci-perere:
         name: C
         start: 36/2.25
         end: 44/2
-        startLine: 332
-        endLine: 405
+        startLine: 333
+        endLine: 407
         startKey: C
         endKey: G
         startBeat: 71.25
         endBeat: 87
     -
+        name: B
+        start: 20/2.25
+        end: 36/2
+        barnumShift: 48
+        startLine: 187
+        endLine: 331
+        startKey: C
+        endKey: C
+        startBeat: 39.25
+        endBeat: 71
+    -
+        name: A
+        start: 1/1
+        end: 20/1.5
+        barnumShift: 152
+        startLine: 15
+        endLine: 185
+        startKey: C
+        endKey: C
+        startBeat: 0
+        endBeat: 38.5
+    -
+        name: B
+        start: 20/2.25
+        end: 36/2
+        barnumShift: 152
+        startLine: 187
+        endLine: 331
+        startKey: C
+        endKey: C
+        startBeat: 39.25
+        endBeat: 71
+    -
         name: Trio
         start: 44/2.25
         end: 60/2
-        startLine: 406
-        endLine: 553
+        barnumShift: 32
+        startLine: 408
+        endLine: 556
         startKey: G
         endKey: F
         startBeat: 87.25

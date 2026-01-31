@@ -1119,9 +1119,25 @@ gonzaga-saci-perere:
         start: 36/2.25
         end: 44/2
 
+    -   name: B
+        start: 20/2.25
+        end: 36/2
+        barnumShift: 48
+
+    -   name: A
+        start: 1/1
+        end: 20/1.5
+        barnumShift: 152
+
+    -   name: B
+        start: 20/2.25
+        end: 36/2
+        barnumShift: 152
+
     -   name: Trio
         start: 44/2.25
         end: 60/2
+        barnumShift: 32
 
 gonzaga-sao-paolo:
     -   name: Intro
