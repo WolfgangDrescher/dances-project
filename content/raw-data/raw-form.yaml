@@ -797,11 +797,11 @@ gonzaga-agua-do-vintem:
 
 gonzaga-alegre-se-viuva:
     -   name: Intro
-        start: 0/1.5
+        start: 0/2.5
         end: 1/1
 
     -   name: A
-        start: 1/1.5
+        start: 1/2.5
         end: 12/2.5
 
     -   name: B
@@ -824,31 +824,46 @@ gonzaga-alegre-se-viuva:
 gonzaga-anga:
     -   name: A
         start: 0/2.5
-        end: 15/2
+        end: 16/2
 
     -   name: B
-        start: 16/1
-        end: 31/1.5
+        start: 17/1
+        end: 32/1.5
 
     -   name: A
-        start: 31/2.5
+        start: 32/2.5
         end: 48/2
+
+    -   name: A
+        start: 1/1
+        end: 16/2
+        barnumShift: 128
 
     -   name: Trio
         start: 49/1
-        end: 63/2
+        end: 64/2
       
 gonzaga-bijou:
     -   name: Intro
         start: 1/1
         end: 12/2
 
+    -   name: Intro
+        start: 1/1
+        end: 12/2
+        barnumShift: 124
+
     -   name: A
         start: 13/1
         end: 29/2
 
     -   name: A
-        start: 30/1
+        start: 13/1
+        end: 29/2
+        barnumShift: 124
+
+    -   name: B
+        start: 29/2.75
         end: 62/2
 
 gonzaga-bionne:
@@ -858,15 +873,20 @@ gonzaga-bionne:
 
     -   name: B
         start: 16/2.25
-        end: 31/1.5
+        end: 32/1.5
 
     -   name: A
-        start: 31/2.5
-        end: 47/1.5
+        start: 32/2.25
+        end: 48/1.5
+
+    -   name: A
+        start: 1/1
+        end: 16/1.5
+        barnumShift: 131
 
     -   name: Trio
-        start: 48/1
-        end: 65/1
+        start: 49/1
+        end: 66/1
 
 gonzaga-carijo:
     -   name: Intro
@@ -877,9 +897,19 @@ gonzaga-carijo:
         start: 6/1
         end: 22/2
 
-    -   name: A
+    -   name: B
         start: 23/1
-        end: 32/2
+        end: 31/2
+
+    -   name: A
+        start: 6/1
+        end: 20/2.5
+        barnumShift: 51.5
+
+    -   name: Coda
+        start: 32/1
+        end: 32/2.5
+        barnumShift: 30
 
 gonzaga-choro:
     -   name: Intro
@@ -888,11 +918,16 @@ gonzaga-choro:
 
     -   name: A
         start: 8/1.75
-        end: 24/1.5
+        end: 23/1.5
 
     -   name: A
-        start: 24/2.5
-        end: 40/1.5
+        start: 8/1.75
+        end: 23/1.5
+        barnumShift: 64
+
+    -   name: B
+        start: 23/2.5
+        end: 39/1.5
 
 gonzaga-ainda-nao-morreu:
     -   name: Intro
@@ -918,15 +953,25 @@ gonzaga-ainda-nao-morreu:
 gonzaga-evoe:
     -   name: Intro
         start: 0/2.5
-        end: 12/1
+        end: 13/1
 
     -   name: A
-        start: 12/2.25
-        end: 21/2
+        start: 13/2.25
+        end: 22/2
+
+    -   name: Intro
+        start: 1/1
+        end: 13/1
+        barnumShift: 76
+
+    -   name: A
+        start: 13/2.25
+        end: 22/2
+        barnumShift: 76
 
     -   name: B
-        start: 21/2.5
-        end: 37/2
+        start: 23/2.5
+        end: 39/2
 
 gonzaga-faceiro:
     -   name: A
@@ -941,6 +986,11 @@ gonzaga-faceiro:
         start: 34/1 
         end: 49/2
 
+    -   name: A
+        start: 1/1
+        end: 16/2
+        barnumShift: 130
+
     -   name: Trio
         start: 50/1
         end: 65/2
@@ -949,6 +999,11 @@ gonzaga-gaucho:
     -   name: A
         start: 1/1
         end: 24/2
+
+    -   name: A
+        start: 1/1
+        end: 24/2
+        barnumShift: 88
 
     -   name: B
         start: 25/1
@@ -967,6 +1022,11 @@ gonzaga-julia:
         start: 33/1
         end: 48/2.5
 
+    -   name: A
+        start: 1/1
+        end: 16/2.5
+        barnumShift: 128
+
     -   name: Trio
         start: 49/1
         end: 64/2
@@ -979,6 +1039,11 @@ gonzaga-linda-morena:
     -   name: B
         start: 12/1
         end: 22/2
+
+    -   name: A
+        start: 1/1
+        end: 11/2
+        barnumShift: 80
 
     -   name: Trio
         start: 23/1
@@ -1022,6 +1087,21 @@ gonzaga-o-jagunco:
         start: 20/1.5
         end: 24/2
 
+    -   name: Intro
+        start: 1/1
+        end: 4/1
+        barnumShift: 88
+
+    -   name: A
+        start: 4/2
+        end: 20/1
+        barnumShift: 88
+
+    -   name: Outro
+        start: 20/1.5
+        end: 24/2
+        barnumShift: 88
+
     -   name: A
         start: 25/1
         end: 44/2
@@ -1039,9 +1119,25 @@ gonzaga-saci-perere:
         start: 36/2.25
         end: 44/2
 
+    -   name: B
+        start: 20/2.25
+        end: 36/2
+        barnumShift: 48
+
+    -   name: A
+        start: 1/1
+        end: 20/1.5
+        barnumShift: 152
+
+    -   name: B
+        start: 20/2.25
+        end: 36/2
+        barnumShift: 152
+
     -   name: Trio
         start: 44/2.25
         end: 60/2
+        barnumShift: 32
 
 gonzaga-sao-paolo:
     -   name: Intro
@@ -1062,12 +1158,17 @@ gonzaga-sao-paolo:
 
     -   name: A
         start: 50/2
-        end: 66/2.25
+        end: 67/2
+
+    -   name: A
+        start: 9/1
+        end: 25/2
+        barnumShift: 152
 
     -   name: Trio
         start: 67/2.5
         end: 84/2
-        
+
 gonzaga-sedutor:
     -   name: Intro
         start: 0/2.75
@@ -1084,12 +1185,12 @@ gonzaga-sedutor:
     -   name: A
         start: 7/1
         end: 20/2.5
-        barnumShift: 57
+        barnumShift: 96.25
 
     -   name: Coda
         start: 56/1
         end: 57/1
-        barnumShift: 71
+        barnumShift: 27.5
 
 gonzaga-so-na-flauta:
     -   name: Intro
@@ -1171,6 +1272,11 @@ gonzaga-tambyquerere:
         start: 51/1
         end: 82/1
 
+    -   name: A
+        start: 1/1
+        end: 16/1.5
+        barnumShift: 168
+
     -   name: Interlude
         start: 82/2.5
         end: 84/2
@@ -1181,8 +1287,13 @@ gonzaga-tango-alguma:
         end: 9/1.5
 
     -   name: B
-        start: 9/2
+        start: 9/2.5
         end: 25/2
+
+    -   name: B
+        start: 10/1
+        end: 25/2
+        barnumShift: 49
 
     -   name: A
         start: 26/1
@@ -1218,7 +1329,17 @@ gonzaga-tango-caracteristico:
         start: 35/1
         end: 52/2
 
+    -   name: A
+        start: 1/1
+        end: 18/2
+        barnumShift: 136
+
     -   name: B
+        start: 19/1
+        end: 34/1
+        barnumShift: 136
+
+    -   name: C
         start: 53/1
         end: 68/2
 

@@ -12,8 +12,8 @@ const form = props.form || [];
 const maxBeat = (form[form.length - 1]?.endBeat ?? 0) + (form[form.length - 1]?.barnumShift ?? 0);
 
 //startbeat=startbeat+barnumShift
-function getWidth(startBeat, endBeat, barnumShift) {
-    return (endBeat - startBeat + (barnumShift ?? 0)) / maxBeat * 100;
+function getWidth(startBeat, endBeat) {
+    return (endBeat - startBeat) / maxBeat * 100;
 }
 
 //left=startbeat+barnumShift
@@ -31,7 +31,7 @@ function getLeft(startBeat, barnumShift) {
         }">
             <UTooltip :text="part.name">
                 <div class="w-full h-full bg-gray-200 rounded px-2 flex items-center hover:bg-primary-400 hover:shadow">
-                    {{ part.name }}
+                    {{part.name}}
                 </div>
             </UTooltip>
         </div>
