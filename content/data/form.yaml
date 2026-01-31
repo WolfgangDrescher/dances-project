@@ -2266,6 +2266,17 @@ gonzaga-julia:
         startBeat: 64
         endBeat: 95.5
     -
+        name: A
+        start: 1/1
+        end: 16/2.5
+        barnumShift: 128
+        startLine: 15
+        endLine: 117
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 31.5
+    -
         name: Trio
         start: 49/1
         end: 64/2
