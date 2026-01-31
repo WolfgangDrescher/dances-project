@@ -2993,7 +2993,29 @@ gonzaga-tango-caracteristico:
         startBeat: 68
         endBeat: 103
     -
+        name: A
+        start: 1/1
+        end: 18/2
+        barnumShift: 136
+        startLine: 14
+        endLine: 142
+        startKey: D
+        endKey: D
+        startBeat: 0
+        endBeat: 35
+    -
         name: B
+        start: 19/1
+        end: 34/1
+        barnumShift: 136
+        startLine: 149
+        endLine: 251
+        startKey: G
+        endKey: G
+        startBeat: 36
+        endBeat: 66
+    -
+        name: C
         start: 53/1
         end: 68/2
         startLine: 389

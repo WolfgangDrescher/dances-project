@@ -1329,7 +1329,17 @@ gonzaga-tango-caracteristico:
         start: 35/1
         end: 52/2
 
+    -   name: A
+        start: 1/1
+        end: 18/2
+        barnumShift: 136
+
     -   name: B
+        start: 19/1
+        end: 34/1
+        barnumShift: 136
+
+    -   name: C
         start: 53/1
         end: 68/2
 
