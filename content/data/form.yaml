@@ -1955,36 +1955,47 @@ gonzaga-bionne:
         name: A
         start: 0/2.25
         end: 16/1.5
-        startLine: 26
-        endLine: 160
+        startLine: 15
+        endLine: 148
         startKey: C
-        endKey: F
-        startBeat: 2
-        endBeat: 33.25
+        endKey: C
+        startBeat: 0
+        endBeat: 31.25
     -
         name: B
         start: 16/2.25
-        end: 31/1.5
-        startLine: 163
+        end: 32/1.5
+        startLine: 152
         endLine: 286
-        startKey: F
+        startKey: C
         endKey: F
-        startBeat: 34
+        startBeat: 32
         endBeat: 63.25
     -
         name: A
-        start: 31/2.5
-        end: 47/1.5
-        startLine: 289
+        start: 32/2.25
+        end: 48/1.5
+        startLine: 288
         endLine: 421
         startKey: F
         endKey: C
-        startBeat: 64.25
+        startBeat: 64
         endBeat: 95.25
     -
+        name: A
+        start: 1/1
+        end: 16/1.5
+        barnumShift: 131
+        startLine: 21
+        endLine: 148
+        startKey: C
+        endKey: C
+        startBeat: 0.75
+        endBeat: 31.25
+    -
         name: Trio
-        start: 48/1
-        end: 65/1
+        start: 49/1
+        end: 66/1
         startLine: 427
         endLine: 535
         startKey: F
@@ -2013,15 +2024,37 @@ gonzaga-carijo:
         startBeat: 10
         endBeat: 43
     -
-        name: A
+        name: B
         start: 23/1
-        end: 32/2
+        end: 31/2
         startLine: 167
-        endLine: 244
+        endLine: 234
         startKey: D-
-        endKey: b-
+        endKey: D-
         startBeat: 44
-        endBeat: 63
+        endBeat: 61
+    -
+        name: A
+        start: 6/1
+        end: 20/2.5
+        barnumShift: 51.5
+        startLine: 39
+        endLine: 152
+        startKey: b-
+        endKey: b-
+        startBeat: 10
+        endBeat: 39.5
+    -
+        name: Coda
+        start: 32/1
+        end: 32/2.5
+        barnumShift: 30
+        startLine: 241
+        endLine: 245
+        startKey: b-
+        endKey: b-
+        startBeat: 62
+        endBeat: 63.5
 gonzaga-choro:
     -
         name: Intro

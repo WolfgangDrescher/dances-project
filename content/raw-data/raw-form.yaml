@@ -873,15 +873,20 @@ gonzaga-bionne:
 
     -   name: B
         start: 16/2.25
-        end: 31/1.5
+        end: 32/1.5
 
     -   name: A
-        start: 31/2.5
-        end: 47/1.5
+        start: 32/2.25
+        end: 48/1.5
+
+    -   name: A
+        start: 1/1
+        end: 16/1.5
+        barnumShift: 131
 
     -   name: Trio
-        start: 48/1
-        end: 65/1
+        start: 49/1
+        end: 66/1
 
 gonzaga-carijo:
     -   name: Intro
@@ -892,9 +897,19 @@ gonzaga-carijo:
         start: 6/1
         end: 22/2
 
-    -   name: A
+    -   name: B
         start: 23/1
-        end: 32/2
+        end: 31/2
+
+    -   name: A
+        start: 6/1
+        end: 20/2.5
+        barnumShift: 51.5
+
+    -   name: Coda
+        start: 32/1
+        end: 32/2.5
+        barnumShift: 30
 
 gonzaga-choro:
     -   name: Intro
