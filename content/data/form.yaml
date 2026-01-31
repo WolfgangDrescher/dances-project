@@ -2145,7 +2145,7 @@ gonzaga-evoe:
         start: 23/2.5
         end: 39/2
         startLine: 187
-        endLine: 320
+        endLine: 319
         startKey: F
         endKey: F
         startBeat: 44
@@ -2207,6 +2207,17 @@ gonzaga-gaucho:
         name: A
         start: 1/1
         end: 24/2
+        startLine: 16
+        endLine: 199
+        startKey: d
+        endKey: d
+        startBeat: 0
+        endBeat: 47
+    -
+        name: A
+        start: 1/1
+        end: 24/2
+        barnumShift: 88
         startLine: 16
         endLine: 199
         startKey: d

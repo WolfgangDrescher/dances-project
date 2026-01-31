@@ -1000,6 +1000,11 @@ gonzaga-gaucho:
         start: 1/1
         end: 24/2
 
+    -   name: A
+        start: 1/1
+        end: 24/2
+        barnumShift: 88
+
     -   name: B
         start: 25/1
         end: 44/2
