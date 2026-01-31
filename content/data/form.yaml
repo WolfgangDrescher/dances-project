@@ -2858,6 +2858,17 @@ gonzaga-tambyquerere:
         startBeat: 100
         endBeat: 162
     -
+        name: A
+        start: 1/1
+        end: 16/1.5
+        barnumShift: 168
+        startLine: 15
+        endLine: 131
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 30.5
+    -
         name: Interlude
         start: 82/2.5
         end: 84/2
