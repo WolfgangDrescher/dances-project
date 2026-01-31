@@ -1849,17 +1849,17 @@ gonzaga-anga:
     -
         name: A
         start: 0/2.5
-        end: 15/2
-        startLine: 24
+        end: 16/2
+        startLine: 16
         endLine: 125
         startKey: C
         endKey: C
-        startBeat: 2.5
+        startBeat: 0.5
         endBeat: 32
     -
         name: B
-        start: 16/1
-        end: 31/1.5
+        start: 17/1
+        end: 32/1.5
         startLine: 131
         endLine: 239
         startKey: G
@@ -1868,29 +1868,51 @@ gonzaga-anga:
         endBeat: 63.5
     -
         name: A
-        start: 31/2.5
+        start: 32/2.5
         end: 48/2
         startLine: 241
-        endLine: 358
+        endLine: 350
         startKey: G
-        endKey: F
+        endKey: C
         startBeat: 64.5
-        endBeat: 98
+        endBeat: 96
+    -
+        name: A
+        start: 1/1
+        end: 16/2
+        barnumShift: 128
+        startLine: 20
+        endLine: 125
+        startKey: C
+        endKey: C
+        startBeat: 1
+        endBeat: 32
     -
         name: Trio
         start: 49/1
-        end: 63/2
-        startLine: 361
+        end: 64/2
+        startLine: 355
         endLine: 449
         startKey: F
         endKey: F
-        startBeat: 99
+        startBeat: 97
         endBeat: 128
 gonzaga-bijou:
     -
         name: Intro
         start: 1/1
         end: 12/2
+        startLine: 16
+        endLine: 101
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 23
+    -
+        name: Intro
+        start: 1/1
+        end: 12/2
+        barnumShift: 124
         startLine: 16
         endLine: 101
         startKey: F
@@ -1909,13 +1931,24 @@ gonzaga-bijou:
         endBeat: 57
     -
         name: A
-        start: 30/1
+        start: 13/1
+        end: 29/2
+        barnumShift: 124
+        startLine: 104
+        endLine: 210
+        startKey: F
+        endKey: F
+        startBeat: 24
+        endBeat: 57
+    -
+        name: B
+        start: 29/2.75
         end: 62/2
-        startLine: 217
+        startLine: 212
         endLine: 428
-        startKey: B-
+        startKey: F
         endKey: B-
-        startBeat: 58
+        startBeat: 57.75
         endBeat: 123
 gonzaga-bionne:
     -

@@ -824,31 +824,46 @@ gonzaga-alegre-se-viuva:
 gonzaga-anga:
     -   name: A
         start: 0/2.5
-        end: 15/2
+        end: 16/2
 
     -   name: B
-        start: 16/1
-        end: 31/1.5
+        start: 17/1
+        end: 32/1.5
 
     -   name: A
-        start: 31/2.5
+        start: 32/2.5
         end: 48/2
+
+    -   name: A
+        start: 1/1
+        end: 16/2
+        barnumShift: 128
 
     -   name: Trio
         start: 49/1
-        end: 63/2
+        end: 64/2
       
 gonzaga-bijou:
     -   name: Intro
         start: 1/1
         end: 12/2
 
+    -   name: Intro
+        start: 1/1
+        end: 12/2
+        barnumShift: 124
+
     -   name: A
         start: 13/1
         end: 29/2
 
     -   name: A
-        start: 30/1
+        start: 13/1
+        end: 29/2
+        barnumShift: 124
+
+    -   name: B
+        start: 29/2.75
         end: 62/2
 
 gonzaga-bionne:
