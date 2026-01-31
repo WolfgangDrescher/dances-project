@@ -2308,6 +2308,17 @@ gonzaga-linda-morena:
         startBeat: 22
         endBeat: 43
     -
+        name: A
+        start: 1/1
+        end: 11/2
+        barnumShift: 80
+        startLine: 16
+        endLine: 81
+        startKey: D
+        endKey: D
+        startBeat: 0
+        endBeat: 21
+    -
         name: Trio
         start: 23/1
         end: 40/2
