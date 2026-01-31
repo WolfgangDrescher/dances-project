@@ -2590,6 +2590,17 @@ gonzaga-sao-paolo:
         startBeat: 99
         endBeat: 133
     -
+        name: A
+        start: 9/1
+        end: 25/2
+        barnumShift: 152
+        startLine: 65
+        endLine: 188
+        startKey: F
+        endKey: F
+        startBeat: 16
+        endBeat: 49
+    -
         name: Trio
         start: 67/2.5
         end: 84/2
@@ -2599,17 +2610,6 @@ gonzaga-sao-paolo:
         endKey: B-
         startBeat: 133.5
         endBeat: 167
-    -
-        name: D
-        start: 9/1
-        end: 25/2
-        barnumShift: 100
-        startLine: 65
-        endLine: 188
-        startKey: F
-        endKey: F
-        startBeat: 16
-        endBeat: 49
 gonzaga-sedutor:
     -
         name: Intro

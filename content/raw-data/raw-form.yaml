@@ -1160,14 +1160,14 @@ gonzaga-sao-paolo:
         start: 50/2
         end: 67/2
 
+    -   name: A
+        start: 9/1
+        end: 25/2
+        barnumShift: 152
+
     -   name: Trio
         start: 67/2.5
         end: 84/2
-        
-    -   name: D
-        start: 9/1
-        end: 25/2
-        barnumShift: 100
 
 gonzaga-sedutor:
     -   name: Intro
