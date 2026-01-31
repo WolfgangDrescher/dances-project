@@ -2421,6 +2421,39 @@ gonzaga-o-jagunco:
         startBeat: 38.5
         endBeat: 47
     -
+        name: Intro
+        start: 1/1
+        end: 4/1
+        barnumShift: 88
+        startLine: 17
+        endLine: 38
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 6
+    -
+        name: A
+        start: 4/2
+        end: 20/1
+        barnumShift: 88
+        startLine: 40
+        endLine: 176
+        startKey: F
+        endKey: F
+        startBeat: 7
+        endBeat: 38
+    -
+        name: Outro
+        start: 20/1.5
+        end: 24/2
+        barnumShift: 88
+        startLine: 177
+        endLine: 206
+        startKey: F
+        endKey: F
+        startBeat: 38.5
+        endBeat: 47
+    -
         name: A
         start: 25/1
         end: 44/2
