@@ -953,15 +953,25 @@ gonzaga-ainda-nao-morreu:
 gonzaga-evoe:
     -   name: Intro
         start: 0/2.5
-        end: 12/1
+        end: 13/1
 
     -   name: A
-        start: 12/2.25
-        end: 21/2
+        start: 13/2.25
+        end: 22/2
+
+    -   name: Intro
+        start: 1/1
+        end: 13/1
+        barnumShift: 76
+
+    -   name: A
+        start: 13/2.25
+        end: 22/2
+        barnumShift: 76
 
     -   name: B
-        start: 21/2.5
-        end: 37/2
+        start: 23/2.5
+        end: 39/2
 
 gonzaga-faceiro:
     -   name: A
@@ -975,6 +985,11 @@ gonzaga-faceiro:
     -   name: A
         start: 34/1 
         end: 49/2
+
+    -   name: A
+        start: 1/1
+        end: 16/2
+        barnumShift: 130
 
     -   name: Trio
         start: 50/1

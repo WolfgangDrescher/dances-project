@@ -2101,17 +2101,39 @@ gonzaga-evoe:
     -
         name: Intro
         start: 0/2.5
-        end: 12/1
-        startLine: 24
+        end: 13/1
+        startLine: 15
         endLine: 104
         startKey: C
         endKey: C
-        startBeat: 2
+        startBeat: 0
         endBeat: 24.5
     -
         name: A
-        start: 12/2.25
-        end: 21/2
+        start: 13/2.25
+        end: 22/2
+        startLine: 107
+        endLine: 182
+        startKey: C
+        endKey: C
+        startBeat: 25.75
+        endBeat: 43.5
+    -
+        name: Intro
+        start: 1/1
+        end: 13/1
+        barnumShift: 76
+        startLine: 20
+        endLine: 104
+        startKey: C
+        endKey: C
+        startBeat: 0.5
+        endBeat: 24.5
+    -
+        name: A
+        start: 13/2.25
+        end: 22/2
+        barnumShift: 76
         startLine: 107
         endLine: 182
         startKey: C
@@ -2120,8 +2142,8 @@ gonzaga-evoe:
         endBeat: 43.5
     -
         name: B
-        start: 21/2.5
-        end: 37/2
+        start: 23/2.5
+        end: 39/2
         startLine: 187
         endLine: 320
         startKey: F
@@ -2159,6 +2181,17 @@ gonzaga-faceiro:
         endKey: F
         startBeat: 66
         endBeat: 97
+    -
+        name: A
+        start: 1/1
+        end: 16/2
+        barnumShift: 130
+        startLine: 16
+        endLine: 124
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 31
     -
         name: Trio
         start: 50/1
