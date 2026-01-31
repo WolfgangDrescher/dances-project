@@ -2615,11 +2615,11 @@ gonzaga-sedutor:
         name: Intro
         start: 0/2.75
         end: 6/1
-        startLine: 25
+        startLine: 16
         endLine: 45
         startKey: F
         endKey: F
-        startBeat: 2
+        startBeat: 0
         endBeat: 10.25
     -
         name: A
