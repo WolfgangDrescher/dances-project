@@ -2891,13 +2891,24 @@ gonzaga-tango-alguma:
         endBeat: 16.5
     -
         name: B
-        start: 9/2
+        start: 9/2.5
         end: 25/2
-        startLine: 86
+        startLine: 87
         endLine: 203
         startKey: F
         endKey: f
-        startBeat: 17
+        startBeat: 17.5
+        endBeat: 49
+    -
+        name: B
+        start: 10/1
+        end: 25/2
+        barnumShift: 49
+        startLine: 95
+        endLine: 203
+        startKey: f
+        endKey: f
+        startBeat: 18
         endBeat: 49
     -
         name: A

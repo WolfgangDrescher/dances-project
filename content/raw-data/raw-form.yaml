@@ -1287,8 +1287,13 @@ gonzaga-tango-alguma:
         end: 9/1.5
 
     -   name: B
-        start: 9/2
+        start: 9/2.5
         end: 25/2
+
+    -   name: B
+        start: 10/1
+        end: 25/2
+        barnumShift: 49
 
     -   name: A
         start: 26/1
