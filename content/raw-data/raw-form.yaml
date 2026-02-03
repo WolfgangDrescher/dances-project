@@ -875,7 +875,7 @@ gonzaga-alegre-se-viuva:
     -   name: A
         start: 1/2.5
         end: 12/2.5
-        barnumShift: 104
+        barnumShift: 105
 
     -   name: Trio B
         start: 43/2
