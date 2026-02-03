@@ -7,7 +7,16 @@ import { romanize } from '../app/utils/romanize.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const pathToKernScores = `${__dirname}/../schubert-dances/kern/`;
+const pathToKernScores = [
+    {
+        path: `${__dirname}/../schubert-dances/kern/`,
+        prefix: 'schubert-',
+    },
+    {
+        path: `${__dirname}/../gonzaga-dances/kern/`,
+        prefix: 'gonzaga-',
+    },
+];
 const modulationsYamlPath = `${__dirname}/../content/data/modulations.yaml`;
 const transitionsYamlPath = `${__dirname}/../content/data/transitions.yaml`;
 
@@ -32,48 +41,49 @@ function getFiles(directory, fileList) {
 
 const pieces = {};
 
-getFiles(pathToKernScores).forEach(file => {
+for (const pathToKernScoreObj of pathToKernScores) {
+    getFiles(pathToKernScoreObj.path).forEach(file => {
 
-    const id = 'schubert-' + getIdFromFilename(file);
-    console.log(id);
-    const stdout = execSync(`awk '{print NR "\t" $0}' ${file} | grep -E '^[0-9]+\t\\*[a-zA-Z][-#]*:'`).toString().trim();
-    const beatStdout = execSync(`cat ${file} | lnnr | beat -cp | beat -dp | beat -da --attacks 0 | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridxx -LGTMId`).toString().trim();
+        const id = `${pathToKernScoreObj.prefix}${getIdFromFilename(file)}`;
+        console.log(id);
+        const stdout = execSync(`awk '{print NR "\t" $0}' ${file} | grep -E '^[0-9]+\t\\*[a-zA-Z][-#]*:'`).toString().trim();
+        const beatStdout = execSync(`cat ${file} | lnnr | beat -cp | beat -dp | beat -da --attacks 0 | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridxx -LGTMId`).toString().trim();
 
-    const keys = stdout.trim().split('\n').map(line => {
-        let [lineNumber, key] = line.split('\t').slice(0, 2);
-        return [parseInt(lineNumber, 10), key.replaceAll(/[*:]/g, '')];
-    });
-
-    const beatData = beatStdout.trim().split('\n').map(line => {
-        let [beatDur, beat, lineNumber, beatDurAttacksNull] = line.split('\t');
-        return [parseInt(lineNumber, 10), parseFloat(beatDur), parseFloat(beat), parseFloat(beatDurAttacksNull)];
-    });
-
-    const indexMap = {
-        lineNumber: 0,
-        beatDur: 1,
-        beat: 2,
-        beatDurAttacksNull: 3,
-    };
-
-    let maxBeat = parseFloat(beatData.at(-1)[indexMap.beat]);
-
-    let lastBeatDur = parseFloat(beatData.at(-1)[indexMap.beatDur])
-        || parseFloat(beatData.at(-1)[indexMap.beatDurAttacksNull])
-        || 0;
-
-    maxBeat += lastBeatDur;
-
-    let modulations = [];
-
-    let pieceKey = null;
-
-    keys.forEach(([lineNumber, key], index) => {
-        pieceKey ??= key;
-
-        const tokens = beatData.find((item, index) => {
-            return item[indexMap.lineNumber] > lineNumber;
+        const keys = stdout.trim().split('\n').map(line => {
+            let [lineNumber, key] = line.split('\t').slice(0, 2);
+            return [parseInt(lineNumber, 10), key.replaceAll(/[*:]/g, '')];
         });
+
+        const beatData = beatStdout.trim().split('\n').map(line => {
+            let [beatDur, beat, lineNumber, beatDurAttacksNull] = line.split('\t');
+            return [parseInt(lineNumber, 10), parseFloat(beatDur), parseFloat(beat), parseFloat(beatDurAttacksNull)];
+        });
+
+        const indexMap = {
+            lineNumber: 0,
+            beatDur: 1,
+            beat: 2,
+            beatDurAttacksNull: 3,
+        };
+
+        let maxBeat = parseFloat(beatData.at(-1)[indexMap.beat]);
+
+        let lastBeatDur = parseFloat(beatData.at(-1)[indexMap.beatDur])
+            || parseFloat(beatData.at(-1)[indexMap.beatDurAttacksNull])
+            || 0;
+
+        maxBeat += lastBeatDur;
+
+        let modulations = [];
+
+        let pieceKey = null;
+
+        keys.forEach(([lineNumber, key], index) => {
+            pieceKey ??= key;
+
+            const tokens = beatData.find((item, index) => {
+                return item[indexMap.lineNumber] > lineNumber;
+            });
 
         if (tokens) {
             const degScore = `**kern
@@ -111,6 +121,7 @@ ${key.toLowerCase()}`;
 
     pieces[id] = modulations;
 });
+}
 
 const transitionsMap = {};
 
