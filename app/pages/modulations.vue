@@ -80,10 +80,10 @@ const transitionsConfig = computed(() => ({
                             <NuxtLink :to="localePath({ name: 'piece-id', params: { id: piece.slug } })">
                                 <div class="flex">
                                     <div>
-                                        {{ `${piece.composer}: ${piece.largerWorkTitle} №${piece.nr}` }}
+                                        {{ piece.op && piece.nr ? `Op. ${piece.op} № ${piece.nr}` : piece.title }}
                                     </div>
                                     <div class="ml-auto">
-                                        {{ `Op. ${piece.op} № ${piece.nr}` }}
+                                         {{ `${piece.composer}: ${piece.largerWorkTitle}${piece.nr ? ` №${piece.nr}` : ''}` }}
                                     </div>
                                 </div>
                             </NuxtLink>
