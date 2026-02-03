@@ -1804,6 +1804,47 @@ schubert-779-04:
         startKey: G
         endKey: null
         startBeat: 24
+schubert-779-13:
+    -
+        name: A
+        start: 1/1
+        end: 9/3
+        startLine: 18
+        endLine: 62
+        startKey: A
+        endKey: A
+        startBeat: 0
+        endBeat: 26
+    -
+        name: B
+        start: 10/1
+        end: 18/1
+        startLine: 64
+        endLine: 102
+        startKey: A
+        endKey: A
+        startBeat: 27
+        endBeat: 51
+    -
+        name: A' in Medianttonart
+        start: 18/2
+        end: 28/1
+        startLine: 104
+        endLine: 152
+        startKey: A
+        endKey: C#
+        startBeat: 52
+        endBeat: 81
+    -
+        name: C
+        start: 28/2
+        end: 40/1
+        startLine: 154
+        endLine: 217
+        startKey: C#
+        endKey: A
+        startBeat: 82
+        endBeat: 117
 gonzaga-agua-do-vintem:
     -
         name: A
