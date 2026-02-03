@@ -866,6 +866,32 @@ schubert-969-01:
         start: 12/3
         end: 16/1
 
+schubert-969-03:
+    -
+        name: Intro
+        start: 0/3
+        end: 4/3
+    -
+        name: A
+        start: 5/1
+        end: 12/3
+    -
+        name: B
+        start: 13/1
+        end: 20/3
+
+    -   name: A
+        start: 21/1
+        end: 28/3
+
+    -   name: B'
+        start: 29/1
+        end: 42/3
+
+    -   name: Coda
+        start: 43/1
+        end: 58/1
+
 gonzaga-agua-do-vintem:
     -   name: A
         start: 0/2.25

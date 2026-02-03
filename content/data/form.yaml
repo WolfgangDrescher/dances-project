@@ -1886,6 +1886,67 @@ schubert-969-01:
         endKey: C
         startBeat: 36
         endBeat: 46
+schubert-969-03:
+    -
+        name: Intro
+        start: 0/3
+        end: 4/3
+        startLine: 17
+        endLine: 30
+        startKey: C
+        endKey: C
+        startBeat: 0
+        endBeat: 12
+    -
+        name: A
+        start: 5/1
+        end: 12/3
+        startLine: 33
+        endLine: 67
+        startKey: C
+        endKey: C
+        startBeat: 13
+        endBeat: 36
+    -
+        name: B
+        start: 13/1
+        end: 20/3
+        startLine: 70
+        endLine: 106
+        startKey: C
+        endKey: C
+        startBeat: 37
+        endBeat: 60
+    -
+        name: A
+        start: 21/1
+        end: 28/3
+        startLine: 109
+        endLine: 143
+        startKey: C
+        endKey: C
+        startBeat: 61
+        endBeat: 84
+    -
+        name: B'
+        start: 29/1
+        end: 42/3
+        startLine: 145
+        endLine: 208
+        startKey: C
+        endKey: A
+        startBeat: 85
+        endBeat: 126
+    -
+        name: Coda
+        start: 43/1
+        end: 58/1
+        startLine: 212
+        endLine: 292
+        startKey: C
+        endKey: C
+        startBeat: 127
+        endBeat: 172
 gonzaga-agua-do-vintem:
     -
         name: A
