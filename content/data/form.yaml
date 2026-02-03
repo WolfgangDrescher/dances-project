@@ -1808,6 +1808,50 @@ gonzaga-ainda-nao-morreu:
         startBeat: 65.25
         endBeat: 97
     -
+        name: Intro
+        start: 2/1
+        end: 9/1
+        barnumShift: 114
+        startLine: 25
+        endLine: 84
+        startKey: E-
+        endKey: E-
+        startBeat: 2
+        endBeat: 16
+    -
+        name: A
+        start: 9/2.25
+        end: 25/2
+        barnumShift: 114
+        startLine: 87
+        endLine: 222
+        startKey: E-
+        endKey: E-
+        startBeat: 17.25
+        endBeat: 49
+    -
+        name: B
+        start: 25/2.25
+        end: 33/1
+        barnumShift: 114
+        startLine: 223
+        endLine: 287
+        startKey: E-
+        endKey: E-
+        startBeat: 49.25
+        endBeat: 64
+    -
+        name: A
+        start: 33/2.25
+        end: 49/2
+        barnumShift: 114
+        startLine: 290
+        endLine: 424
+        startKey: E-
+        endKey: E-
+        startBeat: 65.25
+        endBeat: 97
+    -
         name: C
         start: 50/1
         end: 58/2
@@ -1868,6 +1912,17 @@ gonzaga-alegre-se-viuva:
         endKey: F
         startBeat: 70.5
         endBeat: 84.5
+    -
+        name: A
+        start: 1/2.5
+        end: 12/2.5
+        barnumShift: 98
+        startLine: 22
+        endLine: 92
+        startKey: C
+        endKey: C
+        startBeat: 2
+        endBeat: 24
     -
         name: Trio B
         start: 43/2

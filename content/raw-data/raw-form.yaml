@@ -810,6 +810,47 @@ gonzaga-agua-do-vintem:
         start: 33/1
         end: 52/1.5
 
+gonzaga-ainda-nao-morreu:
+    -   name: Intro
+        start: 1/1
+        end: 9/1
+
+    -   name: A
+        start: 9/2.25
+        end: 25/2
+
+    -   name: B
+        start: 25/2.25
+        end: 33/1
+
+    -   name: A
+        start: 33/2.25
+        end: 49/2
+
+    -   name: Intro
+        start: 2/1
+        end: 9/1
+        barnumShift: 114
+
+    -   name: A
+        start: 9/2.25
+        end: 25/2
+        barnumShift: 114
+
+    -   name: B
+        start: 25/2.25
+        end: 33/1
+        barnumShift: 114
+
+    -   name: A
+        start: 33/2.25
+        end: 49/2
+        barnumShift: 114
+
+    -   name: C
+        start: 50/1
+        end: 58/2
+
 gonzaga-alegre-se-viuva:
     -   name: Intro
         start: 0/2.5
@@ -830,6 +871,11 @@ gonzaga-alegre-se-viuva:
     -   name: Trio A
         start: 36/1
         end: 43/1
+
+    -   name: A
+        start: 1/2.5
+        end: 12/2.5
+        barnumShift: 104
 
     -   name: Trio B
         start: 43/2
@@ -943,27 +989,6 @@ gonzaga-choro:
     -   name: B
         start: 23/2.5
         end: 39/1.5
-
-gonzaga-ainda-nao-morreu:
-    -   name: Intro
-        start: 1/1
-        end: 9/1
-
-    -   name: A
-        start: 9/2.25
-        end: 25/2
-
-    -   name: B
-        start: 25/2.25
-        end: 33/1
-
-    -   name: A
-        start: 33/2.25
-        end: 49/2
-
-    -   name: C
-        start: 50/1
-        end: 58/2
 
 gonzaga-evoe:
     -   name: Intro
