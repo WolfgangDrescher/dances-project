@@ -13,16 +13,20 @@ transitions:
                 lineNumber: 74
         nextDeg: VI♭
     -
-        count: 1
+        count: 2
         currentDeg: I
         items:
             -
                 beat: 25.5
                 id: schubert-365-02
                 lineNumber: 83
+            -
+                beat: 18
+                id: gonzaga-tango-alguma
+                lineNumber: 92
         nextDeg: i
     -
-        count: 10
+        count: 19
         currentDeg: I
         items:
             -
@@ -65,6 +69,42 @@ transitions:
                 beat: 91
                 id: schubert-969-03
                 lineNumber: 156
+            -
+                beat: 16.75
+                id: gonzaga-agua-do-vintem
+                lineNumber: 93
+            -
+                beat: 98
+                id: gonzaga-ainda-nao-morreu
+                lineNumber: 431
+            -
+                beat: 24.5
+                id: gonzaga-alegre-se-viuva
+                lineNumber: 97
+            -
+                beat: 32
+                id: gonzaga-julia
+                lineNumber: 122
+            -
+                beat: 48
+                id: gonzaga-julia
+                lineNumber: 172
+            -
+                beat: 44.25
+                id: gonzaga-sedutor
+                lineNumber: 187
+            -
+                beat: 78.25
+                id: gonzaga-sedutor
+                lineNumber: 312
+            -
+                beat: 63.25
+                id: gonzaga-tim-tim
+                lineNumber: 208
+            -
+                beat: 50
+                id: gonzaga-yo-te-adoro
+                lineNumber: 152
         nextDeg: vi
     -
         count: 9
@@ -108,7 +148,7 @@ transitions:
                 lineNumber: 62
         nextDeg: ii
     -
-        count: 5
+        count: 25
         currentDeg: I
         items:
             -
@@ -131,6 +171,86 @@ transitions:
                 beat: 27
                 id: schubert-790-11
                 lineNumber: 68
+            -
+                beat: 64.75
+                id: gonzaga-agua-do-vintem
+                lineNumber: 299
+            -
+                beat: 97
+                id: gonzaga-anga
+                lineNumber: 355
+            -
+                beat: 58
+                id: gonzaga-bijou
+                lineNumber: 217
+            -
+                beat: 32.75
+                id: gonzaga-bionne
+                lineNumber: 158
+            -
+                beat: 96.75
+                id: gonzaga-bionne
+                lineNumber: 427
+            -
+                beat: 48
+                id: gonzaga-choro
+                lineNumber: 191
+            -
+                beat: 44
+                id: gonzaga-evoe
+                lineNumber: 187
+            -
+                beat: 98
+                id: gonzaga-faceiro
+                lineNumber: 365
+            -
+                beat: 96
+                id: gonzaga-julia
+                lineNumber: 329
+            -
+                beat: 44
+                id: gonzaga-linda-morena
+                lineNumber: 164
+            -
+                beat: 36
+                id: gonzaga-o-diabinho
+                lineNumber: 143
+            -
+                beat: 104
+                id: gonzaga-o-diabinho
+                lineNumber: 379
+            -
+                beat: 134
+                id: gonzaga-sao-paolo
+                lineNumber: 491
+            -
+                beat: 40
+                id: gonzaga-so-na-flauta
+                lineNumber: 173
+            -
+                beat: 99
+                id: gonzaga-tambyquerere
+                lineNumber: 397
+            -
+                beat: 36
+                id: gonzaga-tango-caracteristico
+                lineNumber: 147
+            -
+                beat: 104
+                id: gonzaga-tango-caracteristico
+                lineNumber: 389
+            -
+                beat: 32
+                id: gonzaga-tupa
+                lineNumber: 142
+            -
+                beat: 97
+                id: gonzaga-tupa
+                lineNumber: 406
+            -
+                beat: 50
+                id: gonzaga-xi
+                lineNumber: 187
         nextDeg: IV
     -
         count: 1
@@ -163,7 +283,7 @@ transitions:
                 lineNumber: 207
         nextDeg: II
     -
-        count: 4
+        count: 12
         currentDeg: I
         items:
             -
@@ -182,6 +302,38 @@ transitions:
                 beat: 24
                 id: schubert-790-09
                 lineNumber: 72
+            -
+                beat: 33
+                id: gonzaga-anga
+                lineNumber: 131
+            -
+                beat: 32
+                id: gonzaga-faceiro
+                lineNumber: 132
+            -
+                beat: 48
+                id: gonzaga-o-jagunco
+                lineNumber: 213
+            -
+                beat: 72
+                id: gonzaga-saci-perere
+                lineNumber: 340
+            -
+                beat: 50
+                id: gonzaga-sao-paolo
+                lineNumber: 194
+            -
+                beat: 50
+                id: gonzaga-so-no-choro
+                lineNumber: 201
+            -
+                beat: 102.25
+                id: gonzaga-so-no-choro
+                lineNumber: 387
+            -
+                beat: 31
+                id: gonzaga-tambyquerere
+                lineNumber: 134
         nextDeg: V
     -
         count: 2
@@ -219,7 +371,7 @@ transitions:
                 lineNumber: 90
         nextDeg: VI
     -
-        count: 2
+        count: 3
         currentDeg: I
         items:
             -
@@ -230,7 +382,20 @@ transitions:
                 beat: 88
                 id: schubert-790-07
                 lineNumber: 172
+            -
+                beat: 88
+                id: gonzaga-suspiro
+                lineNumber: 278
         nextDeg: iv
+    -
+        count: 1
+        currentDeg: I
+        items:
+            -
+                beat: 28.75
+                id: gonzaga-so-no-choro
+                lineNumber: 129
+        nextDeg: I
     -
         count: 1
         currentDeg: VI♭
@@ -268,7 +433,7 @@ transitions:
                 lineNumber: 103
         nextDeg: i
     -
-        count: 4
+        count: 5
         currentDeg: iv
         items:
             -
@@ -287,15 +452,23 @@ transitions:
                 beat: 91
                 id: schubert-790-07
                 lineNumber: 177
+            -
+                beat: 84
+                id: gonzaga-suspiro
+                lineNumber: 266
         nextDeg: I
     -
-        count: 1
+        count: 2
         currentDeg: iv
         items:
             -
                 beat: 13
                 id: schubert-790-06
                 lineNumber: 37
+            -
+                beat: 120
+                id: gonzaga-suspiro
+                lineNumber: 361
         nextDeg: i
     -
         count: 1
@@ -321,6 +494,15 @@ transitions:
         nextDeg: III
     -
         count: 1
+        currentDeg: iv
+        items:
+            -
+                beat: 64
+                id: gonzaga-suspiro
+                lineNumber: 208
+        nextDeg: VI
+    -
+        count: 1
         currentDeg: i
         items:
             -
@@ -329,7 +511,7 @@ transitions:
                 lineNumber: 99
         nextDeg: VI♭
     -
-        count: 6
+        count: 9
         currentDeg: i
         items:
             -
@@ -356,9 +538,21 @@ transitions:
                 beat: 61
                 id: schubert-969-09
                 lineNumber: 118
+            -
+                beat: 43
+                id: gonzaga-carijo
+                lineNumber: 164
+            -
+                beat: 48
+                id: gonzaga-gaucho
+                lineNumber: 205
+            -
+                beat: 48
+                id: gonzaga-tango-brasileiro
+                lineNumber: 175
         nextDeg: III
     -
-        count: 2
+        count: 3
         currentDeg: i
         items:
             -
@@ -369,6 +563,10 @@ transitions:
                 beat: 124
                 id: schubert-790-08
                 lineNumber: 239
+            -
+                beat: 40
+                id: gonzaga-suspiro
+                lineNumber: 145
         nextDeg: iv
     -
         count: 2
@@ -384,13 +582,17 @@ transitions:
                 lineNumber: 152
         nextDeg: IV
     -
-        count: 1
+        count: 2
         currentDeg: i
         items:
             -
                 beat: 48
                 id: schubert-969-07
                 lineNumber: 124
+            -
+                beat: 50
+                id: gonzaga-tango-alguma
+                lineNumber: 210
         nextDeg: I
     -
         count: 3
@@ -410,7 +612,7 @@ transitions:
                 lineNumber: 180
         nextDeg: V
     -
-        count: 4
+        count: 9
         currentDeg: vi
         items:
             -
@@ -429,15 +631,39 @@ transitions:
                 beat: 27
                 id: schubert-790-10
                 lineNumber: 69
+            -
+                beat: 48
+                id: gonzaga-agua-do-vintem
+                lineNumber: 224
+            -
+                beat: 40
+                id: gonzaga-julia
+                lineNumber: 147
+            -
+                beat: 56
+                id: gonzaga-julia
+                lineNumber: 197
+            -
+                beat: 81.5
+                id: gonzaga-tim-tim
+                lineNumber: 277
+            -
+                beat: 82
+                id: gonzaga-yo-te-adoro
+                lineNumber: 247
         nextDeg: I
     -
-        count: 1
+        count: 2
         currentDeg: vi
         items:
             -
                 beat: 31.25
                 id: schubert-779-01
                 lineNumber: 82
+            -
+                beat: 70.5
+                id: gonzaga-alegre-se-viuva
+                lineNumber: 255
         nextDeg: IV
     -
         count: 1
@@ -458,7 +684,20 @@ transitions:
                 lineNumber: 166
         nextDeg: VI
     -
-        count: 6
+        count: 2
+        currentDeg: vi
+        items:
+            -
+                beat: 54.25
+                id: gonzaga-sedutor
+                lineNumber: 225
+            -
+                beat: 87.75
+                id: gonzaga-sedutor
+                lineNumber: 348
+        nextDeg: ii
+    -
+        count: 11
         currentDeg: V
         items:
             -
@@ -485,6 +724,26 @@ transitions:
                 beat: 33.25
                 id: schubert-790-03
                 lineNumber: 101
+            -
+                beat: 65
+                id: gonzaga-anga
+                lineNumber: 245
+            -
+                beat: 66
+                id: gonzaga-faceiro
+                lineNumber: 252
+            -
+                beat: 84
+                id: gonzaga-sao-paolo
+                lineNumber: 314
+            -
+                beat: 68.5
+                id: gonzaga-so-no-choro
+                lineNumber: 277
+            -
+                beat: 64
+                id: gonzaga-tambyquerere
+                lineNumber: 270
         nextDeg: I
     -
         count: 1
@@ -496,13 +755,17 @@ transitions:
                 lineNumber: 28
         nextDeg: II
     -
-        count: 1
+        count: 2
         currentDeg: V
         items:
             -
                 beat: 37
                 id: schubert-365-21
                 lineNumber: 93
+            -
+                beat: 88
+                id: gonzaga-saci-perere
+                lineNumber: 417
         nextDeg: IV
     -
         count: 2
@@ -527,7 +790,7 @@ transitions:
                 lineNumber: 73
         nextDeg: IV
     -
-        count: 8
+        count: 10
         currentDeg: ii
         items:
             -
@@ -562,6 +825,14 @@ transitions:
                 beat: 13
                 id: schubert-969-11
                 lineNumber: 42
+            -
+                beat: 63.25
+                id: gonzaga-sedutor
+                lineNumber: 261
+            -
+                beat: 96
+                id: gonzaga-sedutor
+                lineNumber: 384
         nextDeg: I
     -
         count: 1
@@ -582,7 +853,7 @@ transitions:
                 lineNumber: 86
         nextDeg: VII♭
     -
-        count: 6
+        count: 11
         currentDeg: IV
         items:
             -
@@ -609,6 +880,26 @@ transitions:
                 beat: 42
                 id: schubert-790-11
                 lineNumber: 101
+            -
+                beat: 64.75
+                id: gonzaga-bionne
+                lineNumber: 294
+            -
+                beat: 68
+                id: gonzaga-o-diabinho
+                lineNumber: 251
+            -
+                beat: 163.5
+                id: gonzaga-tambyquerere
+                lineNumber: 628
+            -
+                beat: 68
+                id: gonzaga-tango-caracteristico
+                lineNumber: 258
+            -
+                beat: 64.5
+                id: gonzaga-tupa
+                lineNumber: 276
         nextDeg: I
     -
         count: 2
@@ -654,6 +945,19 @@ transitions:
                 id: schubert-790-11
                 lineNumber: 81
         nextDeg: iii
+    -
+        count: 2
+        currentDeg: IV
+        items:
+            -
+                beat: 98.5
+                id: gonzaga-alegre-se-viuva
+                lineNumber: 345
+            -
+                beat: 109
+                id: gonzaga-anga
+                lineNumber: 392
+        nextDeg: IV
     -
         count: 6
         currentDeg: II
@@ -750,7 +1054,7 @@ transitions:
                 lineNumber: 158
         nextDeg: IV
     -
-        count: 5
+        count: 7
         currentDeg: III
         items:
             -
@@ -773,6 +1077,14 @@ transitions:
                 beat: 70
                 id: schubert-969-09
                 lineNumber: 133
+            -
+                beat: 62
+                id: gonzaga-carijo
+                lineNumber: 241
+            -
+                beat: 74
+                id: gonzaga-gaucho
+                lineNumber: 296
         nextDeg: i
     -
         count: 1
@@ -837,13 +1149,17 @@ transitions:
                 lineNumber: 85
         nextDeg: ii
     -
-        count: 1
+        count: 2
         currentDeg: VI
         items:
             -
                 beat: 55
                 id: schubert-790-07
                 lineNumber: 119
+            -
+                beat: 72
+                id: gonzaga-suspiro
+                lineNumber: 232
         nextDeg: iv
     -
         count: 1

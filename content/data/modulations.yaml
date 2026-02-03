@@ -1,3 +1,761 @@
+gonzaga-agua-do-vintem:
+    -
+        deg: I
+        endBeat: 16.75
+        endLine: 93
+        key: F
+        startBeat: 0
+        startLine: 17
+    -
+        deg: vi
+        endBeat: 48
+        endLine: 224
+        key: d
+        startBeat: 16.75
+        startLine: 93
+    -
+        deg: I
+        endBeat: 64.75
+        endLine: 299
+        key: F
+        startBeat: 48
+        startLine: 224
+    -
+        deg: IV
+        endBeat: 104.75
+        endLine: 446
+        key: B-
+        startBeat: 64.75
+        startLine: 299
+gonzaga-ainda-nao-morreu:
+    -
+        deg: I
+        endBeat: 98
+        endLine: 431
+        key: E-
+        startBeat: 0
+        startLine: 15
+    -
+        deg: vi
+        endBeat: 116
+        endLine: 486
+        key: c
+        startBeat: 98
+        startLine: 431
+gonzaga-alegre-se-viuva:
+    -
+        deg: I
+        endBeat: 24.5
+        endLine: 97
+        key: C
+        startBeat: 0
+        startLine: 17
+    -
+        deg: vi
+        endBeat: 70.5
+        endLine: 255
+        key: a
+        startBeat: 24.5
+        startLine: 97
+    -
+        deg: IV
+        endBeat: 98.5
+        endLine: 345
+        key: F
+        startBeat: 70.5
+        startLine: 255
+    -
+        deg: IV
+        endBeat: 108.5
+        endLine: 383
+        key: F
+        startBeat: 98.5
+        startLine: 345
+gonzaga-anga:
+    -
+        deg: I
+        endBeat: 33
+        endLine: 131
+        key: C
+        startBeat: 0
+        startLine: 15
+    -
+        deg: V
+        endBeat: 65
+        endLine: 245
+        key: G
+        startBeat: 33
+        startLine: 131
+    -
+        deg: I
+        endBeat: 97
+        endLine: 355
+        key: C
+        startBeat: 65
+        startLine: 245
+    -
+        deg: IV
+        endBeat: 109
+        endLine: 392
+        key: F
+        startBeat: 97
+        startLine: 355
+    -
+        deg: IV
+        endBeat: 129
+        endLine: 450
+        key: F
+        startBeat: 109
+        startLine: 392
+gonzaga-bijou:
+    -
+        deg: I
+        endBeat: 58
+        endLine: 217
+        key: F
+        startBeat: 0
+        startLine: 16
+    -
+        deg: IV
+        endBeat: 124
+        endLine: 428
+        key: B-
+        startBeat: 58
+        startLine: 217
+gonzaga-bionne:
+    -
+        deg: I
+        endBeat: 32.75
+        endLine: 158
+        key: C
+        startBeat: 0
+        startLine: 15
+    -
+        deg: IV
+        endBeat: 64.75
+        endLine: 294
+        key: F
+        startBeat: 32.75
+        startLine: 158
+    -
+        deg: I
+        endBeat: 96.75
+        endLine: 427
+        key: C
+        startBeat: 64.75
+        startLine: 294
+    -
+        deg: IV
+        endBeat: 132.75
+        endLine: 539
+        key: F
+        startBeat: 96.75
+        startLine: 427
+gonzaga-carijo:
+    -
+        deg: i
+        endBeat: 43
+        endLine: 164
+        key: b-
+        startBeat: 0
+        startLine: 15
+    -
+        deg: III
+        endBeat: 62
+        endLine: 241
+        key: D-
+        startBeat: 43
+        startLine: 164
+    -
+        deg: i
+        endBeat: 64
+        endLine: 245
+        key: b-
+        startBeat: 62
+        startLine: 241
+gonzaga-choro:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 191
+        key: E-
+        startBeat: 0
+        startLine: 15
+    -
+        deg: IV
+        endBeat: 80
+        endLine: 310
+        key: A-
+        startBeat: 48
+        startLine: 191
+gonzaga-evoe:
+    -
+        deg: I
+        endBeat: 44
+        endLine: 187
+        key: C
+        startBeat: 0
+        startLine: 15
+    -
+        deg: IV
+        endBeat: 76.5
+        endLine: 320
+        key: F
+        startBeat: 44
+        startLine: 187
+gonzaga-faceiro:
+    -
+        deg: I
+        endBeat: 32
+        endLine: 132
+        key: F
+        startBeat: 0
+        startLine: 16
+    -
+        deg: V
+        endBeat: 66
+        endLine: 252
+        key: C
+        startBeat: 32
+        startLine: 132
+    -
+        deg: I
+        endBeat: 98
+        endLine: 365
+        key: F
+        startBeat: 66
+        startLine: 252
+    -
+        deg: IV
+        endBeat: 130
+        endLine: 458
+        key: B-
+        startBeat: 98
+        startLine: 365
+gonzaga-gaucho:
+    -
+        deg: i
+        endBeat: 48
+        endLine: 205
+        key: d
+        startBeat: 0
+        startLine: 16
+    -
+        deg: III
+        endBeat: 74
+        endLine: 296
+        key: F
+        startBeat: 48
+        startLine: 205
+    -
+        deg: i
+        endBeat: 88
+        endLine: 338
+        key: d
+        startBeat: 74
+        startLine: 296
+gonzaga-julia:
+    -
+        deg: I
+        endBeat: 32
+        endLine: 122
+        key: F
+        startBeat: 0
+        startLine: 15
+    -
+        deg: vi
+        endBeat: 40
+        endLine: 147
+        key: d
+        startBeat: 32
+        startLine: 122
+    -
+        deg: I
+        endBeat: 48
+        endLine: 172
+        key: F
+        startBeat: 40
+        startLine: 147
+    -
+        deg: vi
+        endBeat: 56
+        endLine: 197
+        key: d
+        startBeat: 48
+        startLine: 172
+    -
+        deg: I
+        endBeat: 96
+        endLine: 329
+        key: F
+        startBeat: 56
+        startLine: 197
+    -
+        deg: IV
+        endBeat: 128
+        endLine: 432
+        key: B-
+        startBeat: 96
+        startLine: 329
+gonzaga-linda-morena:
+    -
+        deg: I
+        endBeat: 44
+        endLine: 164
+        key: D
+        startBeat: 0
+        startLine: 16
+    -
+        deg: IV
+        endBeat: 80
+        endLine: 277
+        key: G
+        startBeat: 44
+        startLine: 164
+gonzaga-o-diabinho:
+    -
+        deg: I
+        endBeat: 36
+        endLine: 143
+        key: B-
+        startBeat: 0
+        startLine: 13
+    -
+        deg: IV
+        endBeat: 68
+        endLine: 251
+        key: E-
+        startBeat: 36
+        startLine: 143
+    -
+        deg: I
+        endBeat: 104
+        endLine: 379
+        key: B-
+        startBeat: 68
+        startLine: 251
+    -
+        deg: IV
+        endBeat: 136
+        endLine: 497
+        key: E-
+        startBeat: 104
+        startLine: 379
+gonzaga-o-jagunco:
+    -
+        deg: I
+        endBeat: 48
+        endLine: 213
+        key: F
+        startBeat: 0
+        startLine: 17
+    -
+        deg: V
+        endBeat: 88
+        endLine: 365
+        key: C
+        startBeat: 48
+        startLine: 213
+gonzaga-saci-perere:
+    -
+        deg: I
+        endBeat: 72
+        endLine: 340
+        key: C
+        startBeat: 0
+        startLine: 15
+    -
+        deg: V
+        endBeat: 88
+        endLine: 417
+        key: G
+        startBeat: 72
+        startLine: 340
+    -
+        deg: IV
+        endBeat: 120
+        endLine: 556
+        key: F
+        startBeat: 88
+        startLine: 417
+gonzaga-sao-paolo:
+    -
+        deg: I
+        endBeat: 50
+        endLine: 194
+        key: F
+        startBeat: 0
+        startLine: 15
+    -
+        deg: V
+        endBeat: 84
+        endLine: 314
+        key: C
+        startBeat: 50
+        startLine: 194
+    -
+        deg: I
+        endBeat: 134
+        endLine: 491
+        key: F
+        startBeat: 84
+        startLine: 314
+    -
+        deg: IV
+        endBeat: 168
+        endLine: 616
+        key: B-
+        startBeat: 134
+        startLine: 491
+gonzaga-sedutor:
+    -
+        deg: I
+        endBeat: 44.25
+        endLine: 187
+        key: F
+        startBeat: 0
+        startLine: 16
+    -
+        deg: vi
+        endBeat: 54.25
+        endLine: 225
+        key: d
+        startBeat: 44.25
+        startLine: 187
+    -
+        deg: ii
+        endBeat: 63.25
+        endLine: 261
+        key: g
+        startBeat: 54.25
+        startLine: 225
+    -
+        deg: I
+        endBeat: 78.25
+        endLine: 312
+        key: F
+        startBeat: 63.25
+        startLine: 261
+    -
+        deg: vi
+        endBeat: 87.75
+        endLine: 348
+        key: d
+        startBeat: 78.25
+        startLine: 312
+    -
+        deg: ii
+        endBeat: 96
+        endLine: 384
+        key: g
+        startBeat: 87.75
+        startLine: 348
+    -
+        deg: I
+        endBeat: 114.25
+        endLine: 449
+        key: F
+        startBeat: 96
+        startLine: 384
+gonzaga-so-na-flauta:
+    -
+        deg: I
+        endBeat: 40
+        endLine: 173
+        key: F
+        startBeat: 0
+        startLine: 16
+    -
+        deg: IV
+        endBeat: 72
+        endLine: 284
+        key: B-
+        startBeat: 40
+        startLine: 173
+gonzaga-so-no-choro:
+    -
+        deg: I
+        endBeat: 28.75
+        endLine: 129
+        key: G
+        startBeat: 0
+        startLine: 15
+    -
+        deg: I
+        endBeat: 50
+        endLine: 201
+        key: G
+        startBeat: 28.75
+        startLine: 129
+    -
+        deg: V
+        endBeat: 68.5
+        endLine: 277
+        key: D
+        startBeat: 50
+        startLine: 201
+    -
+        deg: I
+        endBeat: 102.25
+        endLine: 387
+        key: G
+        startBeat: 68.5
+        startLine: 277
+    -
+        deg: V
+        endBeat: 120.75
+        endLine: 458
+        key: D
+        startBeat: 102.25
+        startLine: 387
+gonzaga-suspiro:
+    -
+        deg: i
+        endBeat: 40
+        endLine: 145
+        key: f
+        startBeat: 0
+        startLine: 13
+    -
+        deg: iv
+        endBeat: 64
+        endLine: 208
+        key: b-
+        startBeat: 40
+        startLine: 145
+    -
+        deg: VI
+        endBeat: 72
+        endLine: 232
+        key: D-
+        startBeat: 64
+        startLine: 208
+    -
+        deg: iv
+        endBeat: 84
+        endLine: 266
+        key: b-
+        startBeat: 72
+        startLine: 232
+    -
+        deg: I
+        endBeat: 88
+        endLine: 278
+        key: F
+        startBeat: 84
+        startLine: 266
+    -
+        deg: iv
+        endBeat: 120
+        endLine: 361
+        key: b-
+        startBeat: 88
+        startLine: 278
+    -
+        deg: i
+        endBeat: 152
+        endLine: 476
+        key: f
+        startBeat: 120
+        startLine: 361
+gonzaga-tambyquerere:
+    -
+        deg: I
+        endBeat: 31
+        endLine: 134
+        key: F
+        startBeat: 0
+        startLine: 15
+    -
+        deg: V
+        endBeat: 64
+        endLine: 270
+        key: C
+        startBeat: 31
+        startLine: 134
+    -
+        deg: I
+        endBeat: 99
+        endLine: 397
+        key: F
+        startBeat: 64
+        startLine: 270
+    -
+        deg: IV
+        endBeat: 163.5
+        endLine: 628
+        key: B-
+        startBeat: 99
+        startLine: 397
+    -
+        deg: I
+        endBeat: 168
+        endLine: 638
+        key: F
+        startBeat: 163.5
+        startLine: 628
+gonzaga-tango:
+    -
+        deg: I
+        endBeat: 64
+        endLine: 242
+        key: F
+        startBeat: 0
+        startLine: 14
+gonzaga-tango-alguma:
+    -
+        deg: I
+        endBeat: 18
+        endLine: 92
+        key: F
+        startBeat: 0
+        startLine: 16
+    -
+        deg: i
+        endBeat: 50
+        endLine: 210
+        key: f
+        startBeat: 18
+        startLine: 92
+    -
+        deg: I
+        endBeat: 68
+        endLine: 281
+        key: F
+        startBeat: 50
+        startLine: 210
+gonzaga-tango-brasileiro:
+    -
+        deg: i
+        endBeat: 48
+        endLine: 175
+        key: c
+        startBeat: 0
+        startLine: 13
+    -
+        deg: III
+        endBeat: 80
+        endLine: 277
+        key: E-
+        startBeat: 48
+        startLine: 175
+gonzaga-tango-caracteristico:
+    -
+        deg: I
+        endBeat: 36
+        endLine: 147
+        key: D
+        startBeat: 0
+        startLine: 14
+    -
+        deg: IV
+        endBeat: 68
+        endLine: 258
+        key: G
+        startBeat: 36
+        startLine: 147
+    -
+        deg: I
+        endBeat: 104
+        endLine: 389
+        key: D
+        startBeat: 68
+        startLine: 258
+    -
+        deg: IV
+        endBeat: 136
+        endLine: 496
+        key: G
+        startBeat: 104
+        startLine: 389
+gonzaga-tim-tim:
+    -
+        deg: I
+        endBeat: 63.25
+        endLine: 208
+        key: F
+        startBeat: 0
+        startLine: 16
+    -
+        deg: vi
+        endBeat: 81.5
+        endLine: 277
+        key: d
+        startBeat: 63.25
+        startLine: 208
+    -
+        deg: I
+        endBeat: 114
+        endLine: 379
+        key: F
+        startBeat: 81.5
+        startLine: 277
+gonzaga-tupa:
+    -
+        deg: I
+        endBeat: 32
+        endLine: 142
+        key: G
+        startBeat: 0
+        startLine: 15
+    -
+        deg: IV
+        endBeat: 64.5
+        endLine: 276
+        key: C
+        startBeat: 32
+        startLine: 142
+    -
+        deg: I
+        endBeat: 97
+        endLine: 406
+        key: G
+        startBeat: 64.5
+        startLine: 276
+    -
+        deg: IV
+        endBeat: 130
+        endLine: 524
+        key: C
+        startBeat: 97
+        startLine: 406
+gonzaga-xi:
+    -
+        deg: I
+        endBeat: 50
+        endLine: 187
+        key: C
+        startBeat: 0
+        startLine: 14
+    -
+        deg: IV
+        endBeat: 114
+        endLine: 404
+        key: F
+        startBeat: 50
+        startLine: 187
+gonzaga-yo-te-adoro:
+    -
+        deg: I
+        endBeat: 50
+        endLine: 152
+        key: F
+        startBeat: 0
+        startLine: 14
+    -
+        deg: vi
+        endBeat: 82
+        endLine: 247
+        key: d
+        startBeat: 50
+        startLine: 152
+    -
+        deg: I
+        endBeat: 114
+        endLine: 340
+        key: F
+        startBeat: 82
+        startLine: 247
 schubert-128-04:
     -
         deg: I
