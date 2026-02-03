@@ -1947,6 +1947,239 @@ schubert-969-03:
         endKey: C
         startBeat: 127
         endBeat: 172
+schubert-969-04:
+    -
+        name: A
+        start: 1/1
+        end: 4/2
+        startLine: 17
+        endLine: 33
+        startKey: G
+        endKey: G
+        startBeat: 0
+        endBeat: 10
+    -
+        name: A'
+        start: 4/3
+        end: 9/2
+        startLine: 34
+        endLine: 60
+        startKey: G
+        endKey: G
+        startBeat: 11
+        endBeat: 25
+    -
+        name: 'Sequence: Fonte'
+        start: 9/3
+        end: 17/2
+        startLine: 63
+        endLine: 107
+        startKey: G
+        endKey: G
+        startBeat: 26
+        endBeat: 49
+    -
+        name: A
+        start: 17/3
+        end: 21/2
+        startLine: 108
+        endLine: 127
+        startKey: G
+        endKey: G
+        startBeat: 50
+        endBeat: 61
+    -
+        name: A''
+        start: 21/3
+        end: 25/2
+        startLine: 128
+        endLine: 150
+        startKey: G
+        endKey: G
+        startBeat: 62
+        endBeat: 73
+schubert-969-05:
+    -
+        name: A
+        start: 0/3
+        end: 8/2
+        startLine: 17
+        endLine: 56
+        startKey: a
+        endKey: e
+        startBeat: 0
+        endBeat: 23
+    -
+        name: B
+        start: 8/3
+        end: 16/2
+        startLine: 59
+        endLine: 98
+        startKey: C
+        endKey: C
+        startBeat: 24
+        endBeat: 47
+    -
+        name: C
+        start: 16/3
+        end: 24/1
+        startLine: 102
+        endLine: 139
+        startKey: d
+        endKey: C
+        startBeat: 48
+        endBeat: 70
+    -
+        name: B'
+        start: 24/3
+        end: 32/2
+        startLine: 141
+        endLine: 180
+        startKey: C
+        endKey: C
+        startBeat: 72
+        endBeat: 95
+schubert-969-06:
+    -
+        name: A
+        start: 0/3
+        end: 4/3.5
+        startLine: 16
+        endLine: 42
+        startKey: C
+        endKey: C
+        startBeat: 0
+        endBeat: 12.5
+    -
+        name: A'
+        start: 5/1
+        end: 8/1
+        startLine: 45
+        endLine: 65
+        startKey: C
+        endKey: C
+        startBeat: 13
+        endBeat: 22
+    -
+        name: 'Sequence: Fonte'
+        start: 8/3
+        end: 12/3.5
+        startLine: 69
+        endLine: 99
+        startKey: d
+        endKey: C
+        startBeat: 24
+        endBeat: 36.5
+    -
+        name: A''
+        start: 13/1
+        end: 16/1
+        startLine: 102
+        endLine: 123
+        startKey: C
+        endKey: C
+        startBeat: 37
+        endBeat: 46
+schubert-969-07:
+    -
+        name: A'
+        start: 0/3
+        end: 8/2
+        startLine: 16
+        endLine: 71
+        startKey: E
+        endKey: E
+        startBeat: 0
+        endBeat: 23
+    -
+        name: A'' in Medianttonart
+        start: 8/3
+        end: 16/1
+        startLine: 74
+        endLine: 122
+        startKey: C
+        endKey: e
+        startBeat: 24
+        endBeat: 46
+    -
+        name: A'''
+        start: 16/3
+        end: 24/2
+        startLine: 124
+        endLine: 182
+        startKey: E
+        endKey: E
+        startBeat: 48
+        endBeat: 71
+schubert-969-09:
+    -
+        name: A
+        start: 0/3
+        end: 4/2
+        startLine: 17
+        endLine: null
+        startKey: a
+        endKey: null
+        startBeat: 0
+    -
+        name: B
+        start: 4/3
+        end: 8/2
+        startLine: 35
+        endLine: null
+        startKey: C
+        endKey: null
+        startBeat: 12
+    -
+        name: A'
+        start: 8/3
+        end: 12/1
+        startLine: 55
+        endLine: 71
+        startKey: a
+        endKey: C
+        startBeat: 24
+        endBeat: 34
+    -
+        name: B'
+        start: 12/3
+        end: 16/2
+        startLine: 73
+        endLine: 92
+        startKey: C
+        endKey: a
+        startBeat: 36
+        endBeat: 47
+    -
+        name: Sequenz mit chromatischem Bass
+        start: 16/3
+        end: 24/1
+        startLine: 95
+        endLine: 133
+        startKey: a
+        endKey: a
+        startBeat: 48
+        endBeat: 70
+    -
+        name: C
+        start: 24/3
+        end: 28/1
+        startLine: 135
+        endLine: 150
+        startKey: a
+        endKey: a
+        startBeat: 72
+        endBeat: 82
+    -
+        name: Coda
+        start: 28/3
+        end: 36/1
+        startLine: 151
+        endLine: 194
+        startKey: a
+        endKey: a
+        startBeat: 84
+        endBeat: 106
 gonzaga-agua-do-vintem:
     -
         name: A
