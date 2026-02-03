@@ -1692,6 +1692,88 @@ schubert-365-36:
         endKey: F
         startBeat: 36
         endBeat: 45
+schubert-779-01:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+        startLine: 16
+        endLine: 38
+        startKey: C
+        endKey: C
+        startBeat: 0
+        endBeat: 11.25
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+        startLine: 39
+        endLine: 62
+        startKey: C
+        endKey: C
+        startBeat: 12
+        endBeat: 23.25
+    -
+        name: 'Sequence: Terzversetzter Quintstieg'
+        start: 8/3
+        end: 12/3
+        startLine: 67
+        endLine: 90
+        startKey: a
+        endKey: F
+        startBeat: 24.25
+        endBeat: 36.25
+    -
+        name: C
+        start: 13/1
+        end: 16/2
+        startLine: 94
+        endLine: 111
+        startKey: C
+        endKey: C
+        startBeat: 37.25
+        endBeat: 47.25
+schubert-779-02:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+        startLine: 17
+        endLine: 42
+        startKey: C
+        endKey: G
+        startBeat: 0
+        endBeat: 11.25
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+        startLine: 43
+        endLine: 69
+        startKey: G
+        endKey: C
+        startBeat: 12
+        endBeat: 23.25
+    -
+        name: verwandt mit A
+        start: 8/2.75
+        end: 16/2
+        startLine: 72
+        endLine: 129
+        startKey: E-
+        endKey: E-
+        startBeat: 24
+        endBeat: 47.25
+    -
+        name: C
+        start: 16/2.75
+        end: 24/2
+        startLine: 130
+        endLine: 184
+        startKey: E-
+        endKey: G
+        startBeat: 48
+        endBeat: 71.25
 gonzaga-agua-do-vintem:
     -
         name: A
@@ -1980,7 +2062,7 @@ gonzaga-anga:
         start: 49/1
         end: 64/2
         startLine: 355
-        endLine: 449
+        endLine: 448
         startKey: F
         endKey: F
         startBeat: 97

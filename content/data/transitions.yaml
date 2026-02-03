@@ -946,17 +946,13 @@ transitions:
                 lineNumber: 81
         nextDeg: iii
     -
-        count: 2
+        count: 1
         currentDeg: IV
         items:
             -
                 beat: 98.5
                 id: gonzaga-alegre-se-viuva
                 lineNumber: 345
-            -
-                beat: 109
-                id: gonzaga-anga
-                lineNumber: 392
         nextDeg: IV
     -
         count: 6

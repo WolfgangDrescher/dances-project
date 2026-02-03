@@ -33,6 +33,44 @@
 #         start: 17/1
 #         end: 25/1
 
+schubert-779-01:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+    -
+        name: "Sequence: Terzversetzter Quintstieg"
+        start: 8/3
+        end: 12/3
+
+    -   name: C
+        start: 13/1
+        end: 16/2
+
+schubert-779-02:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+    -
+        name: verwandt mit A
+        start: 8/2.75
+        end: 16/2
+
+    -   name: C
+        start: 16/2.75
+        end: 24/2
+
+-
+
 schubert-128-04:
     -
         name: A
