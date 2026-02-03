@@ -33,73 +33,7 @@
 #         start: 17/1
 #         end: 25/1
 
-schubert-779-01:
-    -
-        name: A
-        start: 0/2.75
-        end: 4/2
-    -
-        name: A'
-        start: 4/2.75
-        end: 8/2
-    -
-        name: "Sequence: Terzversetzter Quintstieg"
-        start: 8/3
-        end: 12/3
 
-    -   name: C
-        start: 13/1
-        end: 16/2
-
-schubert-779-02:
-    -
-        name: A
-        start: 0/2.75
-        end: 4/2
-    -
-        name: A'
-        start: 4/2.75
-        end: 8/2
-    -
-        name: verwandt mit A
-        start: 8/2.75
-        end: 16/2
-
-    -   name: C
-        start: 16/2.75
-        end: 24/2
-
-schubert-779-04:
-    -
-        name: A
-        start: 0/2.75
-        end: 4/2
-    -
-        name: A'
-        start: 4/2.75
-        end: 8/2
-    -
-        name: B
-        start: 8/2.75
-        end: 17/2
-
-schubert-779-13:
-    -
-        name: A
-        start: 1/1
-        end: 9/3
-    -
-        name: B
-        start: 10/1
-        end: 18/1
-    -
-        name: A' in Medianttonart
-        start: 18/2
-        end: 28/1
-
-    -   name: C
-        start: 28/2
-        end: 40/1
 
 schubert-128-04:
     -
@@ -844,6 +778,92 @@ schubert-365-36:
 
     -   name: D
         start: 13/1  
+        end: 16/1
+
+schubert-779-01:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+    -
+        name: "Sequence: Terzversetzter Quintstieg"
+        start: 8/3
+        end: 12/3
+
+    -   name: C
+        start: 13/1
+        end: 16/2
+
+schubert-779-02:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+    -
+        name: verwandt mit A
+        start: 8/2.75
+        end: 16/2
+
+    -   name: C
+        start: 16/2.75
+        end: 24/2
+
+schubert-779-04:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+    -
+        name: B
+        start: 8/2.75
+        end: 17/2
+
+schubert-779-13:
+    -
+        name: A
+        start: 1/1
+        end: 9/3
+    -
+        name: B
+        start: 10/1
+        end: 18/1
+    -
+        name: A' in Medianttonart
+        start: 18/2
+        end: 28/1
+
+    -   name: C
+        start: 28/2
+        end: 40/1
+
+schubert-969-01:
+    -
+        name: A
+        start: 0/3
+        end: 4/1
+    -
+        name: A'
+        start: 4/3
+        end: 8/1
+    -
+        name: Fonte
+        start: 8/3
+        end: 12/2
+
+    -   name: C
+        start: 12/3
         end: 16/1
 
 gonzaga-agua-do-vintem:
