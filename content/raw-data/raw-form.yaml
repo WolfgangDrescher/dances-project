@@ -69,7 +69,19 @@ schubert-779-02:
         start: 16/2.75
         end: 24/2
 
--
+schubert-779-04:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+    -
+        name: B
+        start: 8/2.75
+        end: 17/2
 
 schubert-128-04:
     -

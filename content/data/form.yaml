@@ -1774,6 +1774,36 @@ schubert-779-02:
         endKey: G
         startBeat: 48
         endBeat: 71.25
+schubert-779-04:
+    -
+        name: A
+        start: 0/2.75
+        end: 4/2
+        startLine: 19
+        endLine: 42
+        startKey: D
+        endKey: D
+        startBeat: 0
+        endBeat: 11.25
+    -
+        name: A'
+        start: 4/2.75
+        end: 8/2
+        startLine: 44
+        endLine: 71
+        startKey: G
+        endKey: G
+        startBeat: 12
+        endBeat: 23.25
+    -
+        name: B
+        start: 8/2.75
+        end: 17/2
+        startLine: 74
+        endLine: null
+        startKey: G
+        endKey: null
+        startBeat: 24
 gonzaga-agua-do-vintem:
     -
         name: A
