@@ -21,13 +21,16 @@ const modulationsGroupedByKey = computed(() => {
 	}, {}));
 });
 
-const maxBeat = mods[mods.length - 1]?.endBeat ?? 0;
+const maxBeat = (mods[mods.length - 1]?.endBeat ?? 0) + (mods[mods.length - 1]?.barnumShift ?? 0);
 
+//startbeat=startbeat+barnumShift
 function getWidth(startBeat, endBeat) {
     return (endBeat - startBeat) / maxBeat * 100;
 }
-function getLeft(startBeat) {
-    return startBeat / maxBeat * 100;
+
+//left=startbeat+barnumShift
+function getLeft(startBeat, barnumShift) {
+    return (startBeat + (barnumShift ?? 0)) / maxBeat * 100;
 }
 </script>
 
