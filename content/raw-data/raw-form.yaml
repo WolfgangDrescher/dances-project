@@ -791,6 +791,21 @@ gonzaga-agua-do-vintem:
         start: 24/2.25
         end: 32/2
 
+    -   name: A
+        start: 0/2.25
+        end: 8/1.5
+        barnumShift: 104
+
+    -   name: B
+        start: 8/2.25
+        end: 24/1.75
+        barnumShift: 104
+    
+    -   name: A
+        start: 24/2.25
+        end: 32/2        
+        barnumShift: 104
+
     -   name: Trio
         start: 33/1
         end: 52/1.5

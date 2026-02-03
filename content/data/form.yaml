@@ -1724,6 +1724,39 @@ gonzaga-agua-do-vintem:
         startBeat: 48
         endBeat: 63.75
     -
+        name: A
+        start: 0/2.25
+        end: 8/1.5
+        barnumShift: 104
+        startLine: 17
+        endLine: 86
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 15.25
+    -
+        name: B
+        start: 8/2.25
+        end: 24/1.75
+        barnumShift: 104
+        startLine: 88
+        endLine: 221
+        startKey: F
+        endKey: d
+        startBeat: 16
+        endBeat: 47.5
+    -
+        name: A
+        start: 24/2.25
+        end: 32/2
+        barnumShift: 104
+        startLine: 224
+        endLine: 292
+        startKey: F
+        endKey: F
+        startBeat: 48
+        endBeat: 63.75
+    -
         name: Trio
         start: 33/1
         end: 52/1.5
