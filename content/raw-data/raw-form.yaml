@@ -80,6 +80,31 @@ schubert-365-01:
         start: 12/3
         end: 16/1
 
+schubert-790-01:
+    -
+        name: A
+        start: 1/1
+        end: 8/3
+    -
+        name: A'
+        start: 9/1
+        end: 16/3.5
+    -
+        name: 
+        start: 17/1
+        end: 26/3
+
+    -   name: B' (Überleitung)
+        start: 27/1
+        end: 32/3
+
+    -   name: C
+        start: 33/1
+        end: 42/3.5
+
+    -   name: Coda
+        start: 43/1
+        end: 52/1
 
 schubert-365-02:
     -

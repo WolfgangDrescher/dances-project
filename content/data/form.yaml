@@ -1845,6 +1845,67 @@ schubert-779-13:
         endKey: A
         startBeat: 82
         endBeat: 117
+schubert-790-01:
+    -
+        name: A
+        start: 1/1
+        end: 8/3
+        startLine: 20
+        endLine: 63
+        startKey: D
+        endKey: D
+        startBeat: 0
+        endBeat: 23
+    -
+        name: A'
+        start: 9/1
+        end: 16/3.5
+        startLine: 66
+        endLine: 110
+        startKey: D
+        endKey: D
+        startBeat: 24
+        endBeat: 47.5
+    -
+        name: null
+        start: 17/1
+        end: 26/3
+        startLine: 113
+        endLine: 168
+        startKey: D
+        endKey: b
+        startBeat: 48
+        endBeat: 77
+    -
+        name: B' (Überleitung)
+        start: 27/1
+        end: 32/3
+        startLine: 172
+        endLine: 201
+        startKey: b
+        endKey: F
+        startBeat: 78
+        endBeat: 95
+    -
+        name: C
+        start: 33/1
+        end: 42/3.5
+        startLine: 205
+        endLine: 252
+        startKey: F
+        endKey: F
+        startBeat: 96
+        endBeat: 125.5
+    -
+        name: Coda
+        start: 43/1
+        end: 52/1
+        startLine: 255
+        endLine: 315
+        startKey: D
+        endKey: D
+        startBeat: 126
+        endBeat: 153
 schubert-969-01:
     -
         name: A
