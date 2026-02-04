@@ -9,7 +9,7 @@ const props = defineProps({
 const form = props.form || [];
 
 //maxbeat: barnumShift + endBeat of last form part
-const maxBeat = (form[form.length - 1]?.endBeat ?? 0) + (form[form.length - 1]?.barnumShift ?? 0);
+const maxBeat = Math.max(...form.map(piece => (piece.endBeat ?? 0) + (piece.barnumShift ?? 0)));
 
 //startbeat=startbeat+barnumShift
 function getWidth(startBeat, endBeat) {
