@@ -33,7 +33,7 @@ const transitionsConfig = computed(() => ({
     type: 'bar',
     data: {
         datasets: [{
-            data: transitionsData.value.body.transitions.sort((a, b) => b.count > a.count ? 1 : -1).map(i => ({ x: `${i.currentDeg}${separator}${i.nextDeg}`, y: i.count })),
+            data: transitionsData.value.meta.transitions.sort((a, b) => b.count > a.count ? 1 : -1).map(i => ({ x: `${i.currentDeg}${separator}${i.nextDeg}`, y: i.count })),
         }],
     },
     options: {
@@ -102,7 +102,7 @@ const transitionsConfig = computed(() => ({
                                     <VerovioCanvas v-if="openScore === piece.slug" view-mode="horizontal" :url="piece.localRawFile" :scale="35" :page-margin="20" />
                                 </div>
                             </div>
-                            <PieceMap :modulations="modulationsData.body[piece.slug]" :show-keys="options.showKeys" />
+                            <PieceMap :modulations="modulationsData.meta[piece.slug]" :show-keys="options.showKeys" />
                         </div>
                     </UCard>
                 </div>

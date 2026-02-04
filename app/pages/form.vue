@@ -21,7 +21,7 @@ function toggleScore(value) {
     openScore.value = openScore.value === value ? null : value;
 }
 
-const forms = formData.value.body;
+const forms = formData.value?.meta || [];
 
 const defaultFilters = {
     deg: null,
