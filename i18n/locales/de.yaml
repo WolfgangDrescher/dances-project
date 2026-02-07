@@ -26,6 +26,7 @@ searchCommandsAndScoreOptions: Suche nach Befehlen und Partituroptionen
 highlights: Hervorhebungen
 humdrumFilters: Humdrum Filter
 verovioOptions: Verovio Optionen
+showMoment: Special-Moment anzeigen
 showModulations: Modulationen anzeigen
 showModulationsDegLabel: Modulationen als Stufe anzeigen
 showMeter: Schläge anzeigen
@@ -46,3 +47,4 @@ form: Form
 statistics: Statistiken
 deg: Stufe
 genre: Genre
+hideInstrumentNames: Instrumentennamen ausblenden
