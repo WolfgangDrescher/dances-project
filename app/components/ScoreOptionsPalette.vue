@@ -1,4 +1,6 @@
 <script setup>
+import { kbd } from '#build/ui';
+
 const open = defineModel('open', { type: Boolean });
 
 onMounted(() => {
@@ -42,6 +44,7 @@ const groups = computed(() => {
                     label: t('showMoment'),
                     onSelect: () => (scoreOptions.showMoment = !scoreOptions.showMoment),
                     active: scoreOptions.showMoment,
+                    kbd: 'S'
                 }
             ],
         },
