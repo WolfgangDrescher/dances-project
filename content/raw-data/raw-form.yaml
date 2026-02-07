@@ -974,6 +974,40 @@ schubert-790-07:
         start: 28/3
         end: 32/2
 
+schubert-790-08:
+    -
+        name: A
+        start: 0/3
+        end: 4/2
+    -
+        name: A'
+        start: 4/3
+        end: 8/1
+    -
+        name: A
+        start: 8/3
+        end: 12/2
+
+    -   name: A'
+        start: 12/3
+        end: 16/1
+
+    -   name: B
+        start: 16/3
+        end: 24/2
+
+    -   name: C
+        start: 24/3
+        end: 32/2
+
+    -   name: B
+        start: 32/3
+        end: 40/2
+
+    -   name: C
+        start: 40/3
+        end: 48/2
+
 schubert-969-01:
     -
         name: A
