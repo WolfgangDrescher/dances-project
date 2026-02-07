@@ -5,8 +5,9 @@ const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryCollection
 const { data: modulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
 const { data: formData } = await useAsyncData(`form`, () => queryCollection('data').path('/data/form').first(), {deep: false });
 
-const modulations = modulationsData.value.body[id] ?? [];
-const form = formData.value.body[id] ?? [];
+
+const modulations = modulationsData.value.meta[id] ?? [];
+const form = formData.value?.meta[id] ?? [];
 
 if (!piece.value) {
     throw createError({
@@ -46,16 +47,16 @@ form.forEach(formPart => {
 function getPieceTitle() {
     // use piece.value.body.title instead of piece.value.title
     // nuxt content will fill title with a default value
-    let title = `${piece.value.body.largerWorkTitle}`;
+    let title = `${piece.value.meta.largerWorkTitle}`;
 
-    if (piece.value.body.nr || piece.value.body.title) {
+    if (piece.value.meta.nr || piece.value.meta.title) {
         title = `${title},`;
     }
-    if (piece.value.body.nr) {
-        title = `${title} №${piece.value.body.nr}`;
+    if (piece.value.meta.nr) {
+        title = `${title} №${piece.value.meta.nr}`;
     }
-    if (piece.value.body.title) {
-        title = `${title} ${piece.value.body.title}`;
+    if (piece.value.meta.title) {
+        title = `${title} ${piece.value.meta.title}`;
     }
     return title;  
 }

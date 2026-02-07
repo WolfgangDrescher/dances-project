@@ -2,7 +2,9 @@
 const UButton = resolveComponent('UButton');
 
 const { data } = await useAsyncData('pieces', () => queryCollection('pieces').all())
-const { data: modulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
+const { data: rawModulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
+
+const modulationsData = rawModulationsData.value.meta;
 
 const { t } = useI18n();
 const localePath = useLocalePath();
@@ -81,7 +83,7 @@ const filteredPieces = computed(() => {
         let matchGenre = true;
 
         if (filters.deg) {
-            const mods = modulationsData.value?.body?.[item.body?.slug] ?? [];
+            const mods = modulationsData?.[item?.slug] ?? [];
             matchDeg = mods.some(i => i.deg === filters.deg);
         }
         if (filters.composer) {
@@ -94,7 +96,7 @@ const filteredPieces = computed(() => {
     });
 });
 
-const degItems = [...Object.values(modulationsData.value.body).reduce((acc, modulations) => {
+const degItems = [...Object.values(modulationsData).reduce((acc, modulations) => {
 	modulations.forEach(mod => acc.add(mod.deg));
 	return acc;
 }, new Set())];

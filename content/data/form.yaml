@@ -1800,10 +1800,11 @@ schubert-779-04:
         start: 8/2.75
         end: 17/2
         startLine: 74
-        endLine: null
+        endLine: 142
         startKey: G
-        endKey: null
+        endKey: G
         startBeat: 24
+        endBeat: 48
 schubert-779-13:
     -
         name: A
