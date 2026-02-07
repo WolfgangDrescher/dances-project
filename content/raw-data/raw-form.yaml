@@ -1220,11 +1220,11 @@ schubert-969-09:
     -
         name: A
         start: 0/3
-        end: 4/2
+        end: 4/1
     -
         name: B
         start: 4/3
-        end: 8/2
+        end: 8/1
     -
         name: A'
         start: 8/3
@@ -1245,6 +1245,24 @@ schubert-969-09:
     -   name: Coda
         start: 28/3
         end: 36/1
+
+schubert-969-10:
+    -
+        name: A
+        start: 0/3
+        end: 4/2
+    -
+        name: A'
+        start: 4/3
+        end: 8/1
+    -
+        name: "Sequence: Fonte"
+        start: 8/3
+        end: 12/3
+
+    -   name: Coda
+        start: 13/1
+        end: 16/1
 
 gonzaga-agua-do-vintem:
     -   name: A
