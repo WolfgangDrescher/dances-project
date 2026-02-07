@@ -124,19 +124,17 @@ function getPieceTitle() {
                     pageMarginTop: 10,
                     pageMarginBottom: 10,
                 }"
-                :specials="[
-                    {
-                        items: moment.map(formPart => {
-                            return {
-                                startLine: moment.startLine,
-                                endLine: moment.endLine,
-                                label: `${moment.name}`,
+                :moments="scoreOptions.showMoment ? [{
+                    items: moment.map(moment => ({
+                        lineNumber: moment.startLine,
+                        label: {
+                        value: scoreOptions.showMoment `${moment.name}`,
+                            position: 'bottom',
                             }
                         
-                        }),
-                        color: 'rgb(34 197 94 / 0.4)',
-                    },
-                    ]"
+                        })),
+                        color: 'rgb(200 233 233 / 0.8)',
+                    }] : []"
                 :sections="[
                     {
                         items: form.map(formPart => {
