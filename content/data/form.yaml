@@ -2071,6 +2071,77 @@ schubert-790-06:
         endKey: g#
         startBeat: 52
         endBeat: 73
+schubert-790-07:
+    -
+        name: A
+        start: 0/3
+        end: 4/2
+        startLine: 17
+        endLine: 36
+        startKey: A-
+        endKey: A-
+        startBeat: 0
+        endBeat: 11
+    -
+        name: B
+        start: 4/3
+        end: 8/2
+        startLine: 37
+        endLine: 56
+        startKey: A-
+        endKey: A-
+        startBeat: 12
+        endBeat: 23
+    -
+        name: A'
+        start: 8/3
+        end: 12/2
+        startLine: 57
+        endLine: 81
+        startKey: A-
+        endKey: A-
+        startBeat: 24
+        endBeat: 35
+    -
+        name: B'
+        start: 12/3
+        end: 16/2
+        startLine: 83
+        endLine: 99
+        startKey: A-
+        endKey: F
+        startBeat: 36
+        endBeat: 47
+    -
+        name: Mittelteil
+        start: 16/3
+        end: 24/2
+        startLine: 103
+        endLine: 142
+        startKey: F
+        endKey: A-
+        startBeat: 48
+        endBeat: 71
+    -
+        name: A
+        start: 24/3
+        end: 28/2
+        startLine: 143
+        endLine: 162
+        startKey: A-
+        endKey: A-
+        startBeat: 72
+        endBeat: 83
+    -
+        name: B
+        start: 28/3
+        end: 32/2
+        startLine: 164
+        endLine: 182
+        startKey: A-
+        endKey: A-
+        startBeat: 84
+        endBeat: 95
 schubert-969-01:
     -
         name: A
