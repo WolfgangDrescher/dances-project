@@ -2030,6 +2030,47 @@ schubert-790-05:
         endKey: b
         startBeat: 48
         endBeat: 70
+schubert-790-06:
+    -
+        name: A
+        start: 0/3
+        end: 4/3
+        startLine: 17
+        endLine: 33
+        startKey: g#
+        endKey: c#
+        startBeat: 0
+        endBeat: 12
+    -
+        name: B
+        start: 5/1
+        end: 8/1
+        startLine: 37
+        endLine: 60
+        startKey: g#
+        endKey: g#
+        startBeat: 13
+        endBeat: 22
+    -
+        name: 'Sequence: Quintfall'
+        start: 8/3
+        end: 17/3
+        startLine: 61
+        endLine: 102
+        startKey: g#
+        endKey: g#
+        startBeat: 24
+        endBeat: 51
+    -
+        name: C
+        start: 18/1
+        end: 25/1
+        startLine: 104
+        endLine: 154
+        startKey: g#
+        endKey: g#
+        startBeat: 52
+        endBeat: 73
 schubert-969-01:
     -
         name: A

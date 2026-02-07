@@ -926,6 +926,24 @@ schubert-790-05:
         start: 16/3
         end: 24/1
 
+schubert-790-06:
+    -
+        name: A
+        start: 0/3
+        end: 4/3
+    -
+        name: B
+        start: 5/1
+        end: 8/1
+    -
+        name: "Sequence: Quintfall"
+        start: 8/3
+        end: 17/3
+
+    -   name: C
+        start: 18/1
+        end: 25/1
+
 schubert-969-01:
     -
         name: A
