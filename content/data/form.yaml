@@ -2325,6 +2325,118 @@ schubert-790-10:
         endKey: B
         startBeat: 50
         endBeat: 73
+schubert-790-11:
+    -
+        name: A
+        start: 0/3
+        end: 4/2.5
+        startLine: 15
+        endLine: 37
+        startKey: A-
+        endKey: A-
+        startBeat: 0
+        endBeat: 11.5
+    -
+        name: A'
+        start: 4/3
+        end: 8/1
+        startLine: 38
+        endLine: 62
+        startKey: A-
+        endKey: A-
+        startBeat: 12
+        endBeat: 24
+    -
+        name: Quintfall & Kadenz
+        start: 8/3
+        end: 16/2
+        startLine: 64
+        endLine: 116
+        startKey: A-
+        endKey: A-
+        startBeat: 26
+        endBeat: 49
+schubert-790-12:
+    -
+        name: A
+        start: 0/3
+        end: 4/2
+        startLine: 15
+        endLine: 44
+        startKey: null
+        endKey: E
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/1
+        startLine: 47
+        endLine: 75
+        startKey: E
+        endKey: E
+        startBeat: 12
+        endBeat: 24
+    -
+        name: B
+        start: 8/3
+        end: 12/2.5
+        startLine: 76
+        endLine: 104
+        startKey: E
+        endKey: E
+        startBeat: 26
+        endBeat: 37.5
+    -
+        name: B'
+        start: 12/3
+        end: 16/2.5
+        startLine: 105
+        endLine: 130
+        startKey: E
+        endKey: F#
+        startBeat: 38
+        endBeat: 49.5
+    -
+        name: Coda
+        start: 16/3
+        end: 22/1
+        startLine: 132
+        endLine: 168
+        startKey: E
+        endKey: E
+        startBeat: 50
+        endBeat: 66
+    -
+        name: B
+        start: 22/3
+        end: 26/2.5
+        startLine: 169
+        endLine: 197
+        startKey: E
+        endKey: E
+        startBeat: 68
+        endBeat: 79.5
+    -
+        name: B'
+        start: 26/3
+        end: 30/2.5
+        startLine: 198
+        endLine: 223
+        startKey: E
+        endKey: F#
+        startBeat: 80
+        endBeat: 91.5
+    -
+        name: Coda
+        start: 30/3
+        end: 36/1
+        startLine: 225
+        endLine: 261
+        startKey: E
+        endKey: E
+        startBeat: 92
+        endBeat: 108
 schubert-969-01:
     -
         name: A
