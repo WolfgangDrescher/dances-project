@@ -1264,6 +1264,58 @@ schubert-969-10:
         start: 13/1
         end: 16/1
 
+schubert-969-11:
+    -
+        name: A
+        start: 0/3
+        end: 4/2
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+    -
+        name: B
+        start: 8/3
+        end: 12/3
+
+    -   name: Coda
+        start: 13/1
+        end: 16/2
+
+schubert-969-12:
+    -
+        name: A
+        start: 0/3
+        end: 4/3
+    -
+        name: A'
+        start: 5/1
+        end: 8/2
+    -
+        name: Zwischenspiel
+        start: 8/3
+        end: 12/3
+
+    -   name: B
+        start: 13/1
+        end: 16/3
+
+    -   name: B'
+        start: 17/1
+        end: 20/3
+
+    -   name: A''
+        start: 21/1
+        end: 24/3
+
+    -   name: A'''
+        start: 25/1
+        end: 28/3
+
+    -   name: Coda
+        start: 29/1
+        end: 36/1
+
 gonzaga-agua-do-vintem:
     -   name: A
         start: 0/2.25

@@ -2815,6 +2815,128 @@ schubert-969-10:
         endKey: F
         startBeat: 37
         endBeat: 46
+schubert-969-11:
+    -
+        name: A
+        start: 0/3
+        end: 4/2
+        startLine: 17
+        endLine: 37
+        startKey: C
+        endKey: d
+        startBeat: 0
+        endBeat: 11
+    -
+        name: A'
+        start: 4/3
+        end: 8/2
+        startLine: 38
+        endLine: 57
+        startKey: d
+        endKey: C
+        startBeat: 12
+        endBeat: 23
+    -
+        name: B
+        start: 8/3
+        end: 12/3
+        startLine: 60
+        endLine: 78
+        startKey: C
+        endKey: C
+        startBeat: 24
+        endBeat: 36
+    -
+        name: Coda
+        start: 13/1
+        end: 16/2
+        startLine: 81
+        endLine: 96
+        startKey: C
+        endKey: C
+        startBeat: 37
+        endBeat: 47
+schubert-969-12:
+    -
+        name: A
+        start: 0/3
+        end: 4/3
+        startLine: 17
+        endLine: 37
+        startKey: C
+        endKey: C
+        startBeat: 0
+        endBeat: 12
+    -
+        name: A'
+        start: 5/1
+        end: 8/2
+        startLine: 39
+        endLine: 57
+        startKey: C
+        endKey: C
+        startBeat: 13
+        endBeat: 23
+    -
+        name: Zwischenspiel
+        start: 8/3
+        end: 12/3
+        startLine: 62
+        endLine: 82
+        startKey: d
+        endKey: d
+        startBeat: 24
+        endBeat: 36
+    -
+        name: B
+        start: 13/1
+        end: 16/3
+        startLine: 86
+        endLine: 104
+        startKey: B-
+        endKey: B-
+        startBeat: 37
+        endBeat: 48
+    -
+        name: B'
+        start: 17/1
+        end: 20/3
+        startLine: 107
+        endLine: 125
+        startKey: B-
+        endKey: B-
+        startBeat: 49
+        endBeat: 60
+    -
+        name: A''
+        start: 21/1
+        end: 24/3
+        startLine: 131
+        endLine: 149
+        startKey: C
+        endKey: C
+        startBeat: 61
+        endBeat: 72
+    -
+        name: A'''
+        start: 25/1
+        end: 28/3
+        startLine: 152
+        endLine: 170
+        startKey: C
+        endKey: C
+        startBeat: 73
+        endBeat: 84
+    -
+        name: Coda
+        start: 29/1
+        end: 36/1
+        startLine: 173
+        endLine: 207
+        startKey: C
+        endKey: C
+        startBeat: 85
+        endBeat: 106
 gonzaga-agua-do-vintem:
     -
         name: A
