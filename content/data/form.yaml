@@ -1907,6 +1907,88 @@ schubert-790-01:
         endKey: D
         startBeat: 126
         endBeat: 153
+schubert-790-02:
+    -
+        name: A
+        start: 1/1
+        end: 4/1
+        startLine: 18
+        endLine: 30
+        startKey: A
+        endKey: A
+        startBeat: 0
+        endBeat: 9
+    -
+        name: A'
+        start: 5/1
+        end: 8/1
+        startLine: 33
+        endLine: 46
+        startKey: f#
+        endKey: f#
+        startBeat: 12
+        endBeat: 21
+    -
+        name: Fonte
+        start: 9/1
+        end: 16/3
+        startLine: 50
+        endLine: 92
+        startKey: c#
+        endKey: B
+        startBeat: 24
+        endBeat: 47
+    -
+        name: C
+        start: 17/1
+        end: 25/3
+        startLine: 96
+        endLine: 151
+        startKey: f#
+        endKey: A
+        startBeat: 48
+        endBeat: 74
+schubert-790-03:
+    -
+        name: A
+        start: 0/3.75
+        end: 4/3
+        startLine: 17
+        endLine: 42
+        startKey: e
+        endKey: D
+        startBeat: 0
+        endBeat: 11.25
+    -
+        name: A'
+        start: 4/3.75
+        end: 8/2
+        startLine: 43
+        endLine: 69
+        startKey: D
+        endKey: D
+        startBeat: 12
+        endBeat: 22.25
+    -
+        name: 'Sequence: Fonte'
+        start: 8/3.75
+        end: 12/3.5
+        startLine: 74
+        endLine: 106
+        startKey: B
+        endKey: D
+        startBeat: 24
+        endBeat: 35.75
+    -
+        name: C
+        start: 13/1
+        end: 16/1
+        startLine: 109
+        endLine: 132
+        startKey: D
+        endKey: D
+        startBeat: 36.25
+        endBeat: 45.25
 schubert-969-01:
     -
         name: A

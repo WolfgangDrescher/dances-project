@@ -872,6 +872,41 @@ schubert-790-01:
         start: 43/1
         end: 52/1
 
+schubert-790-02:
+    -
+        name: A
+        start: 1/1
+        end: 4/1
+    -
+        name: A'
+        start: 5/1
+        end: 8/1
+    -
+        name: Fonte
+        start: 9/1
+        end: 16/3
+
+    -   name: C
+        start: 17/1
+        end: 25/3
+
+schubert-790-03:
+    -
+        name: A
+        start: 0/3.75
+        end: 4/3
+    -
+        name: A'
+        start: 4/3.75
+        end: 8/2
+    -
+        name: "Sequence: Fonte"
+        start: 8/3.75
+        end: 12/3.5
+
+    -   name: C
+        start: 13/1
+        end: 16/1
 
 schubert-969-01:
     -
