@@ -16,14 +16,6 @@ const items = [
         to: localePath({name: 'modulations'}),
     },
     {
-        label: t('specialChords'),
-        to: localePath({name: 'special-chords'}),
-    },
-    {
-        label: t('cadences'),
-        to: localePath({name: 'cadences'}),
-    },
-    {
         label: t('form'),
         to: localePath({name: 'form'}),
     },
