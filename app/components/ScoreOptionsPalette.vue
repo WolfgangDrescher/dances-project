@@ -38,6 +38,11 @@ const groups = computed(() => {
                     onSelect: () => (scoreOptions.showModulationsDegLabel = !scoreOptions.showModulationsDegLabel),
                     active: scoreOptions.showModulationsDegLabel,
                 },
+                {
+                    label: t('showMoment'),
+                    onSelect: () => (scoreOptions.showMoment = !scoreOptions.showMoment),
+                    active: scoreOptions.showMoment,
+                }
             ],
         },
         {
