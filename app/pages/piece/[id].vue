@@ -4,10 +4,12 @@ const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryCollection('pieces').where('stem', '=', `pieces/${id}`).first());
 const { data: modulationsData } = await useAsyncData(`modulations`, () => queryCollection('data').path('/data/modulations').first(), {deep: false });
 const { data: formData } = await useAsyncData(`form`, () => queryCollection('data').path('/data/form').first(), {deep: false });
+const { data: momentData } = await useAsyncData(`moment`, () => queryCollection('data').path('/data/moment').first(), {deep: false });
 
 
 const modulations = modulationsData.value.meta[id] ?? [];
 const form = formData.value?.meta[id] ?? [];
+const moment = momentData.value?.meta[id] ?? [];
 
 if (!piece.value) {
     throw createError({
@@ -40,6 +42,14 @@ form.forEach(formPart => {
     if (formPart.children && formPart.children.length) {
         formPart.children.forEach(childPart => {
             ebene2.push(childPart);
+        });
+    }
+});
+
+moment.forEach(moment => {
+    if (moment.children && moment.children.length) {
+        moment.children.forEach(childMoment => {
+            ebene2.push(childMoment);
         });
     }
 });
@@ -114,6 +124,19 @@ function getPieceTitle() {
                     pageMarginTop: 10,
                     pageMarginBottom: 10,
                 }"
+                :specials="[
+                    {
+                        items: moment.map(formPart => {
+                            return {
+                                startLine: moment.startLine,
+                                endLine: moment.endLine,
+                                label: `${moment.name}`,
+                            }
+                        
+                        }),
+                        color: 'rgb(34 197 94 / 0.4)',
+                    },
+                    ]"
                 :sections="[
                     {
                         items: form.map(formPart => {
@@ -124,19 +147,8 @@ function getPieceTitle() {
                             }
                         
                         }),
-                        // color: '#ff0077',
                     },
-                    // {
-                    //     items: ebene2.map(formPart => {
-                    //         return {
-                    //             startLine: formPart.startLine,
-                    //             endLine: formPart.endLine,
-                    //             label: `${formPart.name} ${formPart.sequence ?? ''}`,
-                    //         }
-                    //     }),
-                    //     color: 'rgba(255 0 0 / 0.4)',
-                    // }
-                ]"
+                    ]"
                 :lines="scoreOptions.showModulations ? [{
                     items: modulations.map(m => ({
                         lineNumber: m.startLine,
