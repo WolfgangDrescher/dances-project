@@ -46,10 +46,10 @@ form.forEach(formPart => {
     }
 });
 
-moment.forEach(moment => {
-    if (moment.children && moment.children.length) {
-        moment.children.forEach(childMoment => {
-            ebene2.push(childMoment);
+moment.forEach(momentPart => {
+    if (momentPart.children && momentPart.children.length) {
+        momentPart.children.forEach(childPart => {
+            ebene2.push(childPart);
         });
     }
 });
@@ -124,28 +124,26 @@ function getPieceTitle() {
                     pageMarginTop: 10,
                     pageMarginBottom: 10,
                 }"
-                :moments="scoreOptions.showMoment ? [{
-                    items: moment.map(moment => ({
-                        lineNumber: moment.startLine,
-                        label: {
-                        value: scoreOptions.showMoment `${moment.name}`,
-                            position: 'bottom',
-                            }
-                        
-                        })),
-                        color: 'rgb(200 233 233 / 0.8)',
-                    }] : []"
                 :sections="[
                     {
                         items: form.map(formPart => {
                             return {
                                 startLine: formPart.startLine,
                                 endLine: formPart.endLine,
-                                label: `${formPart.name} ${formPart.sequence ?? ''}`,
-                            }
-                        
-                        }),
-                    },
+                                label: `${formPart.name} ${formPart.sequence ?? ''}`
+                            }   }),
+                        },
+                    ]"
+                :specials="[
+                    {
+                        items: moment.map(momentPart => {
+                            return {
+                                startLine: momentPart.startLine,
+                                endLine: momentPart.endLine,
+                                label: `${momentPart.name}`
+                            }   }),           
+                            color: 'rgb(304 0 0 / 0.7)',
+                        },
                     ]"
                 :lines="scoreOptions.showModulations ? [{
                     items: modulations.map(m => ({
@@ -162,6 +160,7 @@ function getPieceTitle() {
             <!-- <pre v-text="ebene2"></pre>
             <pre v-text="form"></pre> -->
             <PieceForm :form="form" />
+
 
         </div>
     </UContainer>

@@ -1,6 +1,6 @@
 schubert-790-08:
     -
-        name: sounds like a Neapolitan chord in root position, enharmonically its a A7
+        name: 'sounds like a Neapolitan chord in root position, enharmonically its a A7'
         start: 37/1
         end: 37/3
         startLine: 212
