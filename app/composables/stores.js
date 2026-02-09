@@ -8,7 +8,7 @@ function createDefaultScoreOptions() {
         showFiguredbassAbove: false,
         showCadences: false,
         showModulations: false,
-        showModulationsDegLabel: false,
+        showMoment: false,
         verovioScale: 40,
     };
 }
@@ -41,6 +41,7 @@ export const useScoreOptions = defineStore('score_options', {
                 state.showCadences,
                 state.showModulations,
                 state.showModulationsDegLabel,
+                state.showMoment,
             ].filter(Boolean).length;
         },
         countTotal() {
@@ -77,6 +78,7 @@ export const useScoreOptions = defineStore('score_options', {
             this.showCadences = defaults.showCadences;
             this.showModulations = defaults.showModulations;
             this.showModulationsDegLabel = defaults.showModulationsDegLabel;
+            this.showMoment = defaults.showMoment;
         },
     },
 });
